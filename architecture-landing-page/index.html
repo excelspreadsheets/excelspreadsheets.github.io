@@ -79,8 +79,29 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     height: 95vh; /* Adjust as needed */
     width: 95vw;
 }
+
+.hover-effect-container {
+    display: inline-block;
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.hover-effect-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the image */
+}
+
+.hover-effect-container:hover {
+    transform: scale(1.05); /* Slightly expand the container */
+}
+
+.hover-effect-container:hover img {
+    transform: scale(1.1); /* Slightly expand the image */
+}
 .wp-block-calendar.wp-block-calendar table:where(:not(.has-text-color)) th{background-color:var(--wp--preset--color--contrast-2);color:var(--wp--preset--color--base);border-color:var(--wp--preset--color--contrast-2)}.wp-block-calendar table:where(:not(.has-text-color)) td{border-color:var(--wp--preset--color--contrast-2)}.wp-block-categories{}.wp-block-categories{list-style-type:none;}.wp-block-categories li{margin-bottom: 0.5rem;}.wp-block-post-comments-form{}.wp-block-post-comments-form textarea, .wp-block-post-comments-form input{border-radius:.33rem}.wp-block-loginout{}.wp-block-loginout input{border-radius:.33rem;padding:calc(0.667em + 2px);border:1px solid #949494;}.wp-block-post-terms{}.wp-block-post-terms .wp-block-post-terms__prefix{color: var(--wp--preset--color--contrast-2);}.wp-block-query-title{}.wp-block-query-title span{font-style: italic;}.wp-block-quote{}.wp-block-quote :where(p){margin-block-start:0;margin-block-end:calc(var(--wp--preset--spacing--10) + 0.5rem);}.wp-block-quote :where(:last-child){margin-block-end:0;}.wp-block-quote.has-text-align-right.is-style-plain, .rtl .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-left){border-width: 0 2px 0 0;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem);}.wp-block-quote.has-text-align-left.is-style-plain, body:not(.rtl) .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-right){border-width: 0 0 0 2px;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem)}.wp-block-search{}.wp-block-search .wp-block-search__input{border-radius:.33rem}.wp-block-separator{}.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: var(--wp--preset--spacing--60)}</style>
-<style id="core-block-supports-inline-css">.wp-elements-52fd92c7078a99cf1ff8c3ac697abd36 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-6a4051a86fdbc5d5d8620db4f26f9a92 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}.wp-container-1{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-container-content-2{flex-basis:min(2.5rem, 3vw);}.wp-container-content-3{flex-basis:min(2.5rem, 3vw);}.wp-container-content-4{flex-basis:min(2.5rem, 3vw);}.wp-container-core-post-template-is-layout-1.wp-container-core-post-template-is-layout-1{grid-template-columns:repeat(1, minmax(0, 1fr));gap:var(--wp--preset--spacing--10);}.wp-container-content-5{flex-basis:min(2.5rem, 3vw);}.wp-container-content-6{flex-basis:min(2.5rem, 3vw);}.wp-container-content-7{flex-basis:min(2.5rem, 3vw);}.wp-container-core-post-template-is-layout-2.wp-container-core-post-template-is-layout-2{grid-template-columns:repeat(1, minmax(0, 1fr));gap:var(--wp--preset--spacing--10);}.wp-container-core-columns-is-layout-2.wp-container-core-columns-is-layout-2{flex-wrap:nowrap;}</style>
+<style id="core-block-supports-inline-css">.wp-elements-52fd92c7078a99cf1ff8c3ac697abd36 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-6a4051a86fdbc5d5d8620db4f26f9a92 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}.wp-container-1{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-container-content-2{flex-basis:min(2.5rem, 3vw);}.wp-container-content-3{flex-basis:min(2.5rem, 3vw);}.wp-container-content-4{flex-basis:min(2.5rem, 3vw);}.wp-container-content-5{flex-basis:min(2.5rem, 3vw);}.wp-container-content-6{flex-basis:min(2.5rem, 3vw);}.wp-container-content-7{flex-basis:min(2.5rem, 3vw);}.wp-container-core-post-template-is-layout-1.wp-container-core-post-template-is-layout-1{grid-template-columns:repeat(1, minmax(0, 1fr));gap:var(--wp--preset--spacing--10);}.wp-container-content-8{flex-basis:min(2.5rem, 3vw);}.wp-container-content-9{flex-basis:min(2.5rem, 3vw);}.wp-container-content-10{flex-basis:min(2.5rem, 3vw);}.wp-container-content-11{flex-basis:min(2.5rem, 3vw);}.wp-container-content-12{flex-basis:min(2.5rem, 3vw);}.wp-container-content-13{flex-basis:min(2.5rem, 3vw);}.wp-container-core-post-template-is-layout-2.wp-container-core-post-template-is-layout-2{grid-template-columns:repeat(1, minmax(0, 1fr));gap:var(--wp--preset--spacing--10);}.wp-container-core-columns-is-layout-2.wp-container-core-columns-is-layout-2{flex-wrap:nowrap;}</style>
 <style id="wp-block-template-skip-link-inline-css">.skip-link.screen-reader-text {
 			border: 0;
 			clip: rect(1px,1px,1px,1px);
@@ -116,7 +137,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <link rel="stylesheet" id="wpim-style-css-css" href="/wp-content/plugins/wp-image-mask/dist/blocks.style.build.css" media="all">
 <link rel="stylesheet" id="uagb-aos-css-css" href="/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/aos.min.css?ver=2.13.3" media="all">
 <link rel="stylesheet" id="uagb-block-positioning-css-css" href="/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?ver=2.13.3" media="all">
-<link rel="stylesheet" id="uag-style-286-css" href="/wp-content/uploads/uag-plugin/assets/0/uag-css-286.css?ver=1716837283" media="all">
+<link rel="stylesheet" id="uag-style-286-css" href="/wp-content/uploads/uag-plugin/assets/0/uag-css-286.css?ver=1716925275" media="all">
 <script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
@@ -253,24 +274,75 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="entry-content wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
 <div class="wp-block-query alignwide is-layout-flow wp-block-query-is-layout-flow">
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><ul class="columns-1 alignfull wp-block-post-template is-layout-grid wp-container-core-post-template-is-layout-2 wp-block-post-template-is-layout-grid">
-<li class="wp-block-post post-388 post type-post status-publish format-standard has-post-thumbnail hentry category-architecture">
+<li class="wp-block-post post-542 post type-post status-publish format-standard hentry category-uncategorized">
 
 <div class="wp-block-uagb-container uagb-layout-flex uagb-block-db2b344b alignwide uagb-is-root-container">
 <div class="wp-block-uagb-container uagb-layout-flex uagb-block-5241f244">
 <div class="wp-block-uagb-container uagb-block-165fadf2 alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">
 <div class="wp-block-uagb-container uagb-block-82259db5 default uagb-is-root-container">
-<div class="wp-block-uagb-container uagb-block-03f3995f"><figure style="aspect-ratio:1;width:350px;height:350px; padding-bottom:0;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/388/" target="_self" style="height:350px"><img fetchpriority="high" decoding="async" width="1280" height="960" src="/wp-content/uploads/2024/05/IMG_3082.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Float architecture studio" style="border-radius:0px;border-width:10px;width:100%;height:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/05/IMG_3082.jpg 1280w, /wp-content/uploads/2024/05/IMG_3082-300x225.jpg 300w, /wp-content/uploads/2024/05/IMG_3082-1024x768.jpg 1024w, /wp-content/uploads/2024/05/IMG_3082-768x576.jpg 768w, /wp-content/uploads/2024/05/IMG_3082-500x375.jpg 500w, /wp-content/uploads/2024/05/IMG_3082-800x600.jpg 800w, /wp-content/uploads/2024/05/IMG_3082-320x240.jpg 320w, /wp-content/uploads/2024/05/IMG_3082-480x360.jpg 480w" sizes="(max-width: 1280px) 100vw, 1280px"></a></figure></div>
+<div class="wp-block-uagb-container uagb-block-03f3995f"></div>
 </div>
 </div></div>
 </div>
 
 
 
-<div class="wp-block-uagb-container uagb-block-e22150ec"><h2 class="wp-block-post-title has-large-font-size wp-container-content-5"><a href="/388/" target="_self">Float architecture studio</a></h2></div>
+<div class="wp-block-uagb-container uagb-block-e22150ec"><h2 class="wp-block-post-title has-large-font-size wp-container-content-8"><a href="/axis-a/" target="_self">Axis A</a></h2></div>
 </div>
 
 </li>
-<li class="wp-block-post post-463 post type-post status-publish format-standard has-post-thumbnail hentry category-architecture category-rendering">
+<li class="wp-block-post post-518 post type-post status-publish format-standard hentry category-uncategorized">
+
+<div class="wp-block-uagb-container uagb-layout-flex uagb-block-db2b344b alignwide uagb-is-root-container">
+<div class="wp-block-uagb-container uagb-layout-flex uagb-block-5241f244">
+<div class="wp-block-uagb-container uagb-block-165fadf2 alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">
+<div class="wp-block-uagb-container uagb-block-82259db5 default uagb-is-root-container">
+<div class="wp-block-uagb-container uagb-block-03f3995f"></div>
+</div>
+</div></div>
+</div>
+
+
+
+<div class="wp-block-uagb-container uagb-block-e22150ec"><h2 class="wp-block-post-title has-large-font-size wp-container-content-9"><a href="/clairvaux-faire-converger-clairvaux-to-converge-and-align/" target="_self">Clairvaux ; To converge and align</a></h2></div>
+</div>
+
+</li>
+<li class="wp-block-post post-507 post type-post status-publish format-standard has-post-thumbnail hentry category-architecture tag-bachelor tag-school">
+
+<div class="wp-block-uagb-container uagb-layout-flex uagb-block-db2b344b alignwide uagb-is-root-container">
+<div class="wp-block-uagb-container uagb-layout-flex uagb-block-5241f244">
+<div class="wp-block-uagb-container uagb-block-165fadf2 alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">
+<div class="wp-block-uagb-container uagb-block-82259db5 default uagb-is-root-container">
+<div class="wp-block-uagb-container uagb-block-03f3995f"><figure style="aspect-ratio:1;width:350px;height:350px; padding-bottom:0;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/desert-observatory/" target="_self" style="height:350px"><img fetchpriority="high" decoding="async" width="2560" height="1707" src="/wp-content/uploads/2024/05/Fini-scaled.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Desert Observatory" style="border-radius:0px;border-width:10px;width:100%;height:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/05/Fini-scaled.jpg 2560w, /wp-content/uploads/2024/05/Fini-300x200.jpg 300w, /wp-content/uploads/2024/05/Fini-1024x683.jpg 1024w, /wp-content/uploads/2024/05/Fini-768x512.jpg 768w, /wp-content/uploads/2024/05/Fini-1536x1024.jpg 1536w, /wp-content/uploads/2024/05/Fini-2048x1365.jpg 2048w, /wp-content/uploads/2024/05/Fini-500x333.jpg 500w, /wp-content/uploads/2024/05/Fini-800x533.jpg 800w, /wp-content/uploads/2024/05/Fini-1280x853.jpg 1280w, /wp-content/uploads/2024/05/Fini-1920x1280.jpg 1920w, /wp-content/uploads/2024/05/Fini-320x213.jpg 320w, /wp-content/uploads/2024/05/Fini-480x320.jpg 480w" sizes="(max-width: 2560px) 100vw, 2560px"></a></figure></div>
+</div>
+</div></div>
+</div>
+
+
+
+<div class="wp-block-uagb-container uagb-block-e22150ec"><h2 class="wp-block-post-title has-large-font-size wp-container-content-10"><a href="/desert-observatory/" target="_self">Desert Observatory</a></h2></div>
+</div>
+
+</li>
+<li class="wp-block-post post-388 post type-post status-publish format-standard has-post-thumbnail hentry category-architecture tag-bachelor tag-school">
+
+<div class="wp-block-uagb-container uagb-layout-flex uagb-block-db2b344b alignwide uagb-is-root-container">
+<div class="wp-block-uagb-container uagb-layout-flex uagb-block-5241f244">
+<div class="wp-block-uagb-container uagb-block-165fadf2 alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">
+<div class="wp-block-uagb-container uagb-block-82259db5 default uagb-is-root-container">
+<div class="wp-block-uagb-container uagb-block-03f3995f"><figure style="aspect-ratio:1;width:350px;height:350px; padding-bottom:0;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/388/" target="_self" style="height:350px"><img decoding="async" width="1280" height="960" src="/wp-content/uploads/2024/05/IMG_3082.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Float architecture studio" style="border-radius:0px;border-width:10px;width:100%;height:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/05/IMG_3082.jpg 1280w, /wp-content/uploads/2024/05/IMG_3082-300x225.jpg 300w, /wp-content/uploads/2024/05/IMG_3082-1024x768.jpg 1024w, /wp-content/uploads/2024/05/IMG_3082-768x576.jpg 768w, /wp-content/uploads/2024/05/IMG_3082-500x375.jpg 500w, /wp-content/uploads/2024/05/IMG_3082-800x600.jpg 800w, /wp-content/uploads/2024/05/IMG_3082-320x240.jpg 320w, /wp-content/uploads/2024/05/IMG_3082-480x360.jpg 480w" sizes="(max-width: 1280px) 100vw, 1280px"></a></figure></div>
+</div>
+</div></div>
+</div>
+
+
+
+<div class="wp-block-uagb-container uagb-block-e22150ec"><h2 class="wp-block-post-title has-large-font-size wp-container-content-11"><a href="/388/" target="_self">Float architecture studio</a></h2></div>
+</div>
+
+</li>
+<li class="wp-block-post post-463 post type-post status-publish format-standard has-post-thumbnail hentry category-architecture category-rendering tag-bachelor tag-school">
 
 <div class="wp-block-uagb-container uagb-layout-flex uagb-block-db2b344b alignwide uagb-is-root-container">
 <div class="wp-block-uagb-container uagb-layout-flex uagb-block-5241f244">
@@ -283,24 +355,24 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 
 
 
-<div class="wp-block-uagb-container uagb-block-e22150ec"><h2 class="wp-block-post-title has-large-font-size wp-container-content-6"><a href="/study-of-the-gerrit-rietveld-academy-and-sandberg-institute/" target="_self">Study of the Gerrit Rietveld Academy and Sandberg Institute</a></h2></div>
+<div class="wp-block-uagb-container uagb-block-e22150ec"><h2 class="wp-block-post-title has-large-font-size wp-container-content-12"><a href="/study-of-the-gerrit-rietveld-academy-and-sandberg-institute/" target="_self">Study of the Gerrit Rietveld Academy and Sandberg Institute</a></h2></div>
 </div>
 
 </li>
-<li class="wp-block-post post-352 post type-post status-publish format-standard has-post-thumbnail hentry category-architecture tag-first-year-of-architecture-school tag-intensive-studio">
+<li class="wp-block-post post-352 post type-post status-publish format-standard has-post-thumbnail hentry category-architecture tag-bachelor tag-school">
 
 <div class="wp-block-uagb-container uagb-layout-flex uagb-block-db2b344b alignwide uagb-is-root-container">
 <div class="wp-block-uagb-container uagb-layout-flex uagb-block-5241f244">
 <div class="wp-block-uagb-container uagb-block-165fadf2 alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">
 <div class="wp-block-uagb-container uagb-block-82259db5 default uagb-is-root-container">
-<div class="wp-block-uagb-container uagb-block-03f3995f"><figure style="aspect-ratio:1;width:350px;height:350px; padding-bottom:0;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/cardboard-shelter-studio/" target="_self" style="height:350px"><img decoding="async" width="2560" height="1707" src="/wp-content/uploads/2024/05/SP11_whole-view-1-scaled.webp" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cardboard shelter studio" style="border-radius:0px;border-width:10px;width:100%;height:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/05/SP11_whole-view-1-scaled.webp 2560w, /wp-content/uploads/2024/05/SP11_whole-view-1-300x200.webp 300w, /wp-content/uploads/2024/05/SP11_whole-view-1-1024x683.webp 1024w, /wp-content/uploads/2024/05/SP11_whole-view-1-768x512.webp 768w, /wp-content/uploads/2024/05/SP11_whole-view-1-1536x1024.webp 1536w, /wp-content/uploads/2024/05/SP11_whole-view-1-2048x1365.webp 2048w, /wp-content/uploads/2024/05/SP11_whole-view-1-500x333.webp 500w, /wp-content/uploads/2024/05/SP11_whole-view-1-800x533.webp 800w, /wp-content/uploads/2024/05/SP11_whole-view-1-1280x853.webp 1280w, /wp-content/uploads/2024/05/SP11_whole-view-1-1920x1280.webp 1920w, /wp-content/uploads/2024/05/SP11_whole-view-1-320x213.webp 320w, /wp-content/uploads/2024/05/SP11_whole-view-1-480x320.webp 480w" sizes="(max-width: 2560px) 100vw, 2560px"></a></figure></div>
+<div class="wp-block-uagb-container uagb-block-03f3995f"><figure style="aspect-ratio:1;width:350px;height:350px; padding-bottom:0;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/cardboard-shelter-studio/" target="_self" style="height:350px"><img loading="lazy" decoding="async" width="2560" height="1707" src="/wp-content/uploads/2024/05/SP11_whole-view-1-scaled.webp" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cardboard shelter studio" style="border-radius:0px;border-width:10px;width:100%;height:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/05/SP11_whole-view-1-scaled.webp 2560w, /wp-content/uploads/2024/05/SP11_whole-view-1-300x200.webp 300w, /wp-content/uploads/2024/05/SP11_whole-view-1-1024x683.webp 1024w, /wp-content/uploads/2024/05/SP11_whole-view-1-768x512.webp 768w, /wp-content/uploads/2024/05/SP11_whole-view-1-1536x1024.webp 1536w, /wp-content/uploads/2024/05/SP11_whole-view-1-2048x1365.webp 2048w, /wp-content/uploads/2024/05/SP11_whole-view-1-500x333.webp 500w, /wp-content/uploads/2024/05/SP11_whole-view-1-800x533.webp 800w, /wp-content/uploads/2024/05/SP11_whole-view-1-1280x853.webp 1280w, /wp-content/uploads/2024/05/SP11_whole-view-1-1920x1280.webp 1920w, /wp-content/uploads/2024/05/SP11_whole-view-1-320x213.webp 320w, /wp-content/uploads/2024/05/SP11_whole-view-1-480x320.webp 480w" sizes="(max-width: 2560px) 100vw, 2560px"></a></figure></div>
 </div>
 </div></div>
 </div>
 
 
 
-<div class="wp-block-uagb-container uagb-block-e22150ec"><h2 class="wp-block-post-title has-large-font-size wp-container-content-7"><a href="/cardboard-shelter-studio/" target="_self">Cardboard shelter studio</a></h2></div>
+<div class="wp-block-uagb-container uagb-block-e22150ec"><h2 class="wp-block-post-title has-large-font-size wp-container-content-13"><a href="/cardboard-shelter-studio/" target="_self">Cardboard shelter studio</a></h2></div>
 </div>
 
 </li>
@@ -384,6 +456,6 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 <script src="/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-animations.min.js?ver=2.13.3" id="uagb-animation-js-js"></script>
 <script src="/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js?ver=2.13.3" id="uagb-button-child-js-js"></script>
 <script src="/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?ver=2.13.3" id="uagb-block-positioning-js-js"></script>
-<script src="/wp-content/uploads/uag-plugin/assets/0/uag-js-286.js?ver=1716837283" id="uag-script-286-js"></script>
+<script src="/wp-content/uploads/uag-plugin/assets/0/uag-js-286.js?ver=1716925275" id="uag-script-286-js"></script>
 </body>
 </html>

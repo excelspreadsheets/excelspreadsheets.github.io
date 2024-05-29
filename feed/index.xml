@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description></description>
-	<lastBuildDate>Mon, 27 May 2024 19:14:43 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 28 May 2024 19:41:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,13 +20,399 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 	<item>
+		<title>Axis A</title>
+		<link>/axis-a/</link>
+					<comments>/axis-a/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 28 May 2024 18:27:12 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=542</guid>
+
+					<description><![CDATA[Les confins du monde changent de personne à personne, d’époque à époque, de groupe à classe sociale. Pour une personne, il peut être impensable de rester toute sa vie à un endroit, de n’avoir comme limite du monde que 20 lieu à la ronde. Pour d’autres, il paraît inimaginable de ne pas connaître sur le [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/Axe-A1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-551&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img fetchpriority="high" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/Axe-A1-317x1024.png" alt="" class="wp-image-551" srcset="/wp-content/uploads/2024/05/Axe-A1-317x1024.png 317w, /wp-content/uploads/2024/05/Axe-A1-93x300.png 93w, /wp-content/uploads/2024/05/Axe-A1-768x2479.png 768w, /wp-content/uploads/2024/05/Axe-A1-476x1536.png 476w, /wp-content/uploads/2024/05/Axe-A1-500x1614.png 500w, /wp-content/uploads/2024/05/Axe-A1-800x2582.png 800w, /wp-content/uploads/2024/05/Axe-A1-320x1033.png 320w, /wp-content/uploads/2024/05/Axe-A1-480x1549.png 480w, /wp-content/uploads/2024/05/Axe-A1.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/A1-A2-Clairvaux.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-552&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:768,&quot;targetHeight&quot;:2481,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/A1-A2-Clairvaux-317x1024.png" alt="" class="wp-image-552" srcset="/wp-content/uploads/2024/05/A1-A2-Clairvaux-317x1024.png 317w, /wp-content/uploads/2024/05/A1-A2-Clairvaux-93x300.png 93w, /wp-content/uploads/2024/05/A1-A2-Clairvaux-475x1536.png 475w, /wp-content/uploads/2024/05/A1-A2-Clairvaux-634x2048.png 634w, /wp-content/uploads/2024/05/A1-A2-Clairvaux-500x1615.png 500w, /wp-content/uploads/2024/05/A1-A2-Clairvaux-320x1034.png 320w, /wp-content/uploads/2024/05/A1-A2-Clairvaux-480x1551.png 480w, /wp-content/uploads/2024/05/A1-A2-Clairvaux.png 768w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+</div>
+</div>
+
+
+
+<p>Les confins du monde changent de personne à personne, d’époque à époque, de groupe à classe sociale. Pour une personne, il peut être impensable de rester toute sa vie à un endroit, de n’avoir comme limite du monde que 20 lieu à la ronde. Pour d’autres, il paraît inimaginable de ne pas connaître sur le bout des doigts tous les recoins de l’environnement que l’on connaît, bien qu’il y ait toujours quelques recoins qui changent ne serait-ce que subrepticement.</p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/A1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-553&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:770,&quot;targetHeight&quot;:2481,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img decoding="async" width="318" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/A1-318x1024.png" alt="" class="wp-image-553" srcset="/wp-content/uploads/2024/05/A1-318x1024.png 318w, /wp-content/uploads/2024/05/A1-93x300.png 93w, /wp-content/uploads/2024/05/A1-768x2475.png 768w, /wp-content/uploads/2024/05/A1-477x1536.png 477w, /wp-content/uploads/2024/05/A1-636x2048.png 636w, /wp-content/uploads/2024/05/A1-500x1611.png 500w, /wp-content/uploads/2024/05/A1-320x1031.png 320w, /wp-content/uploads/2024/05/A1-480x1547.png 480w, /wp-content/uploads/2024/05/A1.png 770w" sizes="(max-width: 318px) 100vw, 318px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/A2.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-554&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:770,&quot;targetHeight&quot;:2481,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="318" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/A2-318x1024.png" alt="" class="wp-image-554" srcset="/wp-content/uploads/2024/05/A2-318x1024.png 318w, /wp-content/uploads/2024/05/A2-93x300.png 93w, /wp-content/uploads/2024/05/A2-768x2475.png 768w, /wp-content/uploads/2024/05/A2-477x1536.png 477w, /wp-content/uploads/2024/05/A2-636x2048.png 636w, /wp-content/uploads/2024/05/A2-500x1611.png 500w, /wp-content/uploads/2024/05/A2-320x1031.png 320w, /wp-content/uploads/2024/05/A2-480x1547.png 480w, /wp-content/uploads/2024/05/A2.png 770w" sizes="(max-width: 318px) 100vw, 318px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+</div>
+</div>
+
+
+
+<p>Pourtant il se peut que l’on appartienne à aucune des deux catégories susnommées. Il fut une personne qui vivait dans un privilège certain pour l’époque. Avec un emploi du temps d’une rigidité terrible, mais une sécurité remarquable. Il s’était retrouvé là jeune, persuadé de le vouloir, interdit à la parole pendant une majeure partie de son temps. Quand il le pouvait, il était impensable de ne parler d’autre chose que de la raison de son séjour, l’adoration sans limite, remplie de sacrifices, solitaire, d’un être divin, qui écrasait alors l’entièreté du monde connu.</p>
+
+
+
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/Dunkerke.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image alignfull size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-557&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:3544,&quot;targetHeight&quot;:1100,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image alignfull size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="1024" height="318" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/Dunkerke-1024x318.png" alt="" class="wp-image-557" srcset="/wp-content/uploads/2024/05/Dunkerke-1024x318.png 1024w, /wp-content/uploads/2024/05/Dunkerke-300x93.png 300w, /wp-content/uploads/2024/05/Dunkerke-768x238.png 768w, /wp-content/uploads/2024/05/Dunkerke-1536x477.png 1536w, /wp-content/uploads/2024/05/Dunkerke-2048x636.png 2048w, /wp-content/uploads/2024/05/Dunkerke-500x155.png 500w, /wp-content/uploads/2024/05/Dunkerke-800x248.png 800w, /wp-content/uploads/2024/05/Dunkerke-1280x397.png 1280w, /wp-content/uploads/2024/05/Dunkerke-1920x596.png 1920w, /wp-content/uploads/2024/05/Dunkerke-320x99.png 320w, /wp-content/uploads/2024/05/Dunkerke-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sicile-phare-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image alignfull size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-559&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:3544,&quot;targetHeight&quot;:1100,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image alignfull size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="1024" height="318" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sicile-phare-1-1024x318.png" alt="" class="wp-image-559" srcset="/wp-content/uploads/2024/05/sicile-phare-1-1024x318.png 1024w, /wp-content/uploads/2024/05/sicile-phare-1-300x93.png 300w, /wp-content/uploads/2024/05/sicile-phare-1-768x238.png 768w, /wp-content/uploads/2024/05/sicile-phare-1-1536x477.png 1536w, /wp-content/uploads/2024/05/sicile-phare-1-2048x636.png 2048w, /wp-content/uploads/2024/05/sicile-phare-1-500x155.png 500w, /wp-content/uploads/2024/05/sicile-phare-1-800x248.png 800w, /wp-content/uploads/2024/05/sicile-phare-1-1280x397.png 1280w, /wp-content/uploads/2024/05/sicile-phare-1-1920x596.png 1920w, /wp-content/uploads/2024/05/sicile-phare-1-320x99.png 320w, /wp-content/uploads/2024/05/sicile-phare-1-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+</div>
+
+
+
+<p>Il ne détestait pas la seule vie qu’il ait connu, n’en était pas mécontent non plus, mais venu le temps de la copie, il ne pouvait s’en empêcher, il était rempli de désir. Impossible alors de se séparer des contes, des visions, de l’imagination que provoquait le don du récit qu’il était tenu de lire, malgré lui.</p>
+
+
+
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/plan-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-vp_xl wp-duotone-unset-1&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-573&quot;,&quot;imgStyles&quot;:&quot;aspect-ratio:1;object-fit:cover&quot;,&quot;targetWidth&quot;:3248,&quot;targetHeight&quot;:3247,&quot;scaleAttr&quot;:&quot;cover&quot;,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-vp_xl wp-duotone-unset-1 wp-lightbox-container"><img loading="lazy" decoding="async" width="1920" height="1919" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/plan-1-1920x1919.png" alt="" class="wp-image-573" style="aspect-ratio:1;object-fit:cover" srcset="/wp-content/uploads/2024/05/plan-1-1920x1919.png 1920w, /wp-content/uploads/2024/05/plan-1-300x300.png 300w, /wp-content/uploads/2024/05/plan-1-1024x1024.png 1024w, /wp-content/uploads/2024/05/plan-1-150x150.png 150w, /wp-content/uploads/2024/05/plan-1-768x768.png 768w, /wp-content/uploads/2024/05/plan-1-1536x1536.png 1536w, /wp-content/uploads/2024/05/plan-1-2048x2048.png 2048w, /wp-content/uploads/2024/05/plan-1-500x500.png 500w, /wp-content/uploads/2024/05/plan-1-800x800.png 800w, /wp-content/uploads/2024/05/plan-1-1280x1280.png 1280w, /wp-content/uploads/2024/05/plan-1-320x320.png 320w, /wp-content/uploads/2024/05/plan-1-480x480.png 480w" sizes="(max-width: 1920px) 100vw, 1920px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Alors qu’il arpentait les rues, allées, recoins, cellules, salles, cours, il ne pouvait s’empêcher de penser. Il s’imaginait routes par les sillons, murs par des murets, murailles par les murs, brèches par les fissures, tigres par les chats, forêts par les bosquets, scorpions par les fourmis, pythons par les couleuvres, monolithes par les pierres, phares par les tourelles, voiles par les linges, aqueducs par les ruisseaux, champs de batailles par le cimetière, cathédrales par la basilique, ornements par les défauts, villes par la proximité de deux cabanes, carpaccio par le gruau, plage par une berge, nobles par les silhouettes lointaines, humour par une fugace satisfaction, sexe par un frôlement, intimité par un regard, égouts par des tuyaux, suite par une chambre, chambre par une cellule, jeux par un trébuchement, vague par une vaguelette, lac par un verre d’eau, étendue infinie par étendue finie, trébuchet par une roue à eau, troupeau par une bête, bête par un homme détestable.</p>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Ce jour il réveilla dans sa chambre, la tête tellement pleine des miracles que sa crane bouillait et crépitait. Avec la migraine déchirante, il prit la pelle pour libérer les images qui priaient la réalité. Quand au fils des années il sentit sa fin s’approcher, il creusat un petit lac, demanda à son apprenti de lui préparer son dîner préféré et monta le mirador en face avec un seau de peinture blanche. Quand il finit de peindre toutes les fenêtres qui le distraient de la vue de l’eau, le dîner était prêt et monté au mirador par un petit ascenseur. Il s’installa devant la table, la migraine oubliée, pour profiter des réflexions du coucher du soleil dans sa petite mer à lui.</p>
+
+
+
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/VACANCES-AXO-150.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-567&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:3544,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="1024" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/VACANCES-AXO-150-1024x1024.png" alt="" class="wp-image-567" srcset="/wp-content/uploads/2024/05/VACANCES-AXO-150-1024x1024.png 1024w, /wp-content/uploads/2024/05/VACANCES-AXO-150-300x300.png 300w, /wp-content/uploads/2024/05/VACANCES-AXO-150-150x150.png 150w, /wp-content/uploads/2024/05/VACANCES-AXO-150-768x768.png 768w, /wp-content/uploads/2024/05/VACANCES-AXO-150-1536x1536.png 1536w, /wp-content/uploads/2024/05/VACANCES-AXO-150-2048x2048.png 2048w, /wp-content/uploads/2024/05/VACANCES-AXO-150-500x500.png 500w, /wp-content/uploads/2024/05/VACANCES-AXO-150-800x800.png 800w, /wp-content/uploads/2024/05/VACANCES-AXO-150-1280x1280.png 1280w, /wp-content/uploads/2024/05/VACANCES-AXO-150-1920x1920.png 1920w, /wp-content/uploads/2024/05/VACANCES-AXO-150-320x320.png 320w, /wp-content/uploads/2024/05/VACANCES-AXO-150-480x480.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Alors qu’il arpentait les rues, allées, recoins, cellules, salles, cours, il ne pouvait s’empêcher de penser. Il s’imaginait routes par les sillons, murs par des murets, murailles par les murs, brèches par les fissures, tigres par les chats, forêts par les bosquets, scorpions par les fourmis, pythons par les couleuvres, monolithes par les pierres, phares par les tourelles, voiles par les linges, aqueducs par les ruisseaux, champs de batailles par le cimetière, cathédrales par la basilique, ornements par les défauts, villes par la proximité de deux cabanes, carpaccio par le gruau, plage par une berge, nobles par les silhouettes lointaines, humour par une fugace satisfaction, sexe par un frôlement, intimité par un regard, égouts par des tuyaux, suite par une chambre, chambre par une cellule, jeux par un trébuchement, vague par une vaguelette, lac par un verre d’eau, étendue infinie par étendue finie, trébuchet par une roue à eau, troupeau par une bête, bête par un homme détestable.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="576" height="1024" src="/wp-content/uploads/2024/05/VACANCES-576x1024.jpg" alt="" class="wp-image-568" srcset="/wp-content/uploads/2024/05/VACANCES-576x1024.jpg 576w, /wp-content/uploads/2024/05/VACANCES-169x300.jpg 169w, /wp-content/uploads/2024/05/VACANCES-768x1365.jpg 768w, /wp-content/uploads/2024/05/VACANCES-864x1536.jpg 864w, /wp-content/uploads/2024/05/VACANCES-500x889.jpg 500w, /wp-content/uploads/2024/05/VACANCES-800x1422.jpg 800w, /wp-content/uploads/2024/05/VACANCES-320x569.jpg 320w, /wp-content/uploads/2024/05/VACANCES-480x853.jpg 480w, /wp-content/uploads/2024/05/VACANCES.jpg 1080w" sizes="(max-width: 576px) 100vw, 576px" /></figure>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Ce jour il réveilla dans sa chambre, la tête tellement pleine des miracles que sa crane bouillait et crépitait. Avec la migraine déchirante, il prit la pelle pour libérer les images qui priaient la réalité. Quand au fils des années il sentit sa fin s’approcher, il creusat un petit lac, demanda à son apprenti de lui préparer son dîner préféré et monta le mirador en face avec un seau de peinture blanche. Quand il finit de peindre toutes les fenêtres qui le distraient de la vue de l’eau, le dîner était prêt et monté au mirador par un petit ascenseur. Il s’installa devant la table, la migraine oubliée, pour profiter des réflexions du coucher du soleil dans sa petite mer à lui.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/axis-a/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Clairvaux ; To converge and align</title>
+		<link>/clairvaux-faire-converger-clairvaux-to-converge-and-align/</link>
+					<comments>/clairvaux-faire-converger-clairvaux-to-converge-and-align/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 28 May 2024 17:49:37 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=518</guid>
+
+					<description><![CDATA[A poetic and historic way to bring life to the innanimate Axis A Axis B Axis C]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-5d41d5e1bb5c3193c112509dc6926041">A poetic and historic way to bring life to the innanimate</h2>
+
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/Plan-satellite-axe_page_1.webp&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-vp_lg&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-520&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1920,&quot;targetHeight&quot;:1357,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image size-vp_lg wp-lightbox-container"><img loading="lazy" decoding="async" width="1280" height="905" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/Plan-satellite-axe_page_1-1280x905.webp" alt="" class="wp-image-520" srcset="/wp-content/uploads/2024/05/Plan-satellite-axe_page_1-1280x905.webp 1280w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-300x212.webp 300w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-1024x724.webp 1024w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-768x543.webp 768w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-1536x1086.webp 1536w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-500x353.webp 500w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-800x565.webp 800w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-320x226.webp 320w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-480x339.webp 480w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1.webp 1920w" sizes="(max-width: 1280px) 100vw, 1280px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/10-04-Clairvaux-Axe-Premiere-Carte-scaled.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-vp_xl&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-522&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:2560,&quot;targetHeight&quot;:1809,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image size-vp_xl wp-lightbox-container"><img loading="lazy" decoding="async" width="1920" height="1357" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-1920x1357.jpg" alt="" class="wp-image-522" srcset="/wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-1920x1357.jpg 1920w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-300x212.jpg 300w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-1024x723.jpg 1024w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-768x543.jpg 768w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-1536x1085.jpg 1536w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-2048x1447.jpg 2048w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-500x353.jpg 500w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-800x565.jpg 800w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-1280x904.jpg 1280w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-320x226.jpg 320w, /wp-content/uploads/2024/05/10-04-Clairvaux-Axe-Premiere-Carte-480x339.jpg 480w" sizes="(max-width: 1920px) 100vw, 1920px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<p><a href="/axis-a" class="hover-effect-link" target="_blank" rel="noopener noreferrer"></p>
+<div class="hover-effect-container">
+        <img decoding="async" src="/wp-content/uploads/2024/05/CLAIRVAUX-AXES-A_page_1.webp">
+    </div>
+<p></a></p>
+
+
+<p style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10)">Axis A</p>
+
+
+
+<div style="height:1px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<p><a href="/axis-b" class="hover-effect-link" target="_blank" rel="noopener noreferrer"></p>
+<div class="hover-effect-container">
+        <img decoding="async" src="/wp-content/uploads/2024/05/CLAIRVAUX-AXES-B_page_1.webp">
+    </div>
+<p></a></p>
+
+
+<p style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10)">Axis B</p>
+
+
+
+<div style="height:1px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<p><a href="/axis-c" class="hover-effect-link" target="_blank" rel="noopener noreferrer"></p>
+<div class="hover-effect-container">
+        <img decoding="async" src="/wp-content/uploads/2024/05/CLAIRVAUX-AXES-C_page_1.webp">
+    </div>
+<p></a></p>
+
+
+<p style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10)">Axis C</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/clairvaux-faire-converger-clairvaux-to-converge-and-align/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Desert Observatory</title>
+		<link>/desert-observatory/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 27 May 2024 21:54:14 +0000</pubDate>
+				<category><![CDATA[Architecture]]></category>
+		<category><![CDATA[Bachelor]]></category>
+		<category><![CDATA[School]]></category>
+		<guid isPermaLink="false">/?p=507</guid>
+
+					<description><![CDATA[A stone dug refuge The project aims to explore the architecture and programming of the domestic space. It was contextless.One of our aim with this pretty bare refuge was to have as minimal as an impact we could, to let the context of the refuge be the center of its interest The three programs we [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-vp_xl"><img loading="lazy" decoding="async" width="1920" height="1280" src="/wp-content/uploads/2024/05/Fini-1920x1280.jpg" alt="" class="wp-image-508" srcset="/wp-content/uploads/2024/05/Fini-1920x1280.jpg 1920w, /wp-content/uploads/2024/05/Fini-300x200.jpg 300w, /wp-content/uploads/2024/05/Fini-1024x683.jpg 1024w, /wp-content/uploads/2024/05/Fini-768x512.jpg 768w, /wp-content/uploads/2024/05/Fini-1536x1024.jpg 1536w, /wp-content/uploads/2024/05/Fini-2048x1365.jpg 2048w, /wp-content/uploads/2024/05/Fini-500x333.jpg 500w, /wp-content/uploads/2024/05/Fini-800x533.jpg 800w, /wp-content/uploads/2024/05/Fini-1280x853.jpg 1280w, /wp-content/uploads/2024/05/Fini-320x213.jpg 320w, /wp-content/uploads/2024/05/Fini-480x320.jpg 480w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-478d816c31ecf2317bbc928cd83b31b3">A stone dug refuge</h2>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>The project aims to explore the architecture and programming of the domestic space. It was contextless.<br>One of our aim with this pretty bare refuge was to have as minimal as an impact we could, to let the context of the refuge be the center of its interest</p>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="683" src="/wp-content/uploads/2024/05/Photomontage-1024x683.webp" alt="" class="wp-image-510" srcset="/wp-content/uploads/2024/05/Photomontage-1024x683.webp 1024w, /wp-content/uploads/2024/05/Photomontage-300x200.webp 300w, /wp-content/uploads/2024/05/Photomontage-768x512.webp 768w, /wp-content/uploads/2024/05/Photomontage-1536x1024.webp 1536w, /wp-content/uploads/2024/05/Photomontage-2048x1365.webp 2048w, /wp-content/uploads/2024/05/Photomontage-500x333.webp 500w, /wp-content/uploads/2024/05/Photomontage-800x533.webp 800w, /wp-content/uploads/2024/05/Photomontage-1280x853.webp 1280w, /wp-content/uploads/2024/05/Photomontage-1920x1280.webp 1920w, /wp-content/uploads/2024/05/Photomontage-320x213.webp 320w, /wp-content/uploads/2024/05/Photomontage-480x320.webp 480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>The three programs we chose to explore were the terrace, the bedroom and a living space. We chose to dig so as to have a simple enclosed space, and to have a theatrical entry into the inside. The lounge room is made just after the stairs to the sides of the main circulation to give the bedroom the most space, the most attention.</p>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-vp_xl"><img decoding="async"  src="/wp-content/uploads/2024/05/Untitled-2.svg" alt="" class="wp-image-513"/></figure>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Credits : Alexandre Polycarpe</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Float architecture studio</title>
 		<link>/388/</link>
-					<comments>/388/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sun, 26 May 2024 19:39:23 +0000</pubDate>
 				<category><![CDATA[Architecture]]></category>
+		<category><![CDATA[Bachelor]]></category>
+		<category><![CDATA[School]]></category>
 		<guid isPermaLink="false">/?p=388</guid>
 
 					<description><![CDATA[The workshop aimed to make a inflatable structure. We worked in groups of 10. We had access to the specific plastic type as well as ropes, to fixate our structure. We almost immediately opposed the tenderness of the skin of a breathable structure to the constraining and rough textures of the ropes. Therefore, we developped [&#8230;]]]></description>
@@ -40,7 +426,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/05/IMG_3082-1024x768.webp" alt="" class="wp-image-392" srcset="/wp-content/uploads/2024/05/IMG_3082-1024x768.webp 1024w, /wp-content/uploads/2024/05/IMG_3082-300x225.webp 300w, /wp-content/uploads/2024/05/IMG_3082-768x576.webp 768w, /wp-content/uploads/2024/05/IMG_3082-500x375.webp 500w, /wp-content/uploads/2024/05/IMG_3082-800x600.webp 800w, /wp-content/uploads/2024/05/IMG_3082-320x240.webp 320w, /wp-content/uploads/2024/05/IMG_3082-480x360.webp 480w, /wp-content/uploads/2024/05/IMG_3082.webp 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/05/IMG_3082-1024x768.webp" alt="" class="wp-image-392" srcset="/wp-content/uploads/2024/05/IMG_3082-1024x768.webp 1024w, /wp-content/uploads/2024/05/IMG_3082-300x225.webp 300w, /wp-content/uploads/2024/05/IMG_3082-768x576.webp 768w, /wp-content/uploads/2024/05/IMG_3082-500x375.webp 500w, /wp-content/uploads/2024/05/IMG_3082-800x600.webp 800w, /wp-content/uploads/2024/05/IMG_3082-320x240.webp 320w, /wp-content/uploads/2024/05/IMG_3082-480x360.webp 480w, /wp-content/uploads/2024/05/IMG_3082.webp 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -56,14 +442,14 @@
 
 
 
-<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-is-layout-1 wp-block-column-is-layout-flow" style="padding-right:0;padding-left:0;flex-basis:60%">
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-1 wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0">
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1024x768.webp" alt="" class="wp-image-393" srcset="/wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1024x768.webp 1024w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-300x225.webp 300w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-768x576.webp 768w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1536x1152.webp 1536w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-500x375.webp 500w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-800x600.webp 800w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1280x960.webp 1280w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-320x240.webp 320w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-480x360.webp 480w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-is-layout-5 wp-block-column-is-layout-flow" style="padding-right:0;padding-left:0;flex-basis:60%">
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-2 wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0">
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1024x768.webp" alt="" class="wp-image-393" srcset="/wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1024x768.webp 1024w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-300x225.webp 300w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-768x576.webp 768w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1536x1152.webp 1536w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-500x375.webp 500w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-800x600.webp 800w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1280x960.webp 1280w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-320x240.webp 320w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-480x360.webp 480w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="512" src="/wp-content/uploads/2024/05/IMG_20190619_182113-1024x512.webp" alt="" class="wp-image-396" srcset="/wp-content/uploads/2024/05/IMG_20190619_182113-1024x512.webp 1024w, /wp-content/uploads/2024/05/IMG_20190619_182113-300x150.webp 300w, /wp-content/uploads/2024/05/IMG_20190619_182113-768x384.webp 768w, /wp-content/uploads/2024/05/IMG_20190619_182113-1536x768.webp 1536w, /wp-content/uploads/2024/05/IMG_20190619_182113-500x250.webp 500w, /wp-content/uploads/2024/05/IMG_20190619_182113-800x400.webp 800w, /wp-content/uploads/2024/05/IMG_20190619_182113-1280x640.webp 1280w, /wp-content/uploads/2024/05/IMG_20190619_182113-320x160.webp 320w, /wp-content/uploads/2024/05/IMG_20190619_182113-480x240.webp 480w, /wp-content/uploads/2024/05/IMG_20190619_182113.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="512" src="/wp-content/uploads/2024/05/IMG_20190619_182113-1024x512.webp" alt="" class="wp-image-396" srcset="/wp-content/uploads/2024/05/IMG_20190619_182113-1024x512.webp 1024w, /wp-content/uploads/2024/05/IMG_20190619_182113-300x150.webp 300w, /wp-content/uploads/2024/05/IMG_20190619_182113-768x384.webp 768w, /wp-content/uploads/2024/05/IMG_20190619_182113-1536x768.webp 1536w, /wp-content/uploads/2024/05/IMG_20190619_182113-500x250.webp 500w, /wp-content/uploads/2024/05/IMG_20190619_182113-800x400.webp 800w, /wp-content/uploads/2024/05/IMG_20190619_182113-1280x640.webp 1280w, /wp-content/uploads/2024/05/IMG_20190619_182113-320x160.webp 320w, /wp-content/uploads/2024/05/IMG_20190619_182113-480x240.webp 480w, /wp-content/uploads/2024/05/IMG_20190619_182113.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 </div>
 
@@ -88,7 +474,7 @@
 
 
 
-<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex" style="padding-right:0;padding-left:0">
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex" style="padding-right:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:62.5%">
 <figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-1024x768.webp" alt="" class="wp-image-390" srcset="/wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-1024x768.webp 1024w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-300x225.webp 300w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-768x576.webp 768w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-1536x1152.webp 1536w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-500x375.webp 500w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-800x600.webp 800w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-1280x960.webp 1280w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-320x240.webp 320w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-480x360.webp 480w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
@@ -113,7 +499,7 @@
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<a href="/wp-content/uploads/2024/05/g.-N13-CARNET.pdf" class="pdfemb-viewer" style="width:413px;height:584px;" data-width="413" data-height="584" data-toolbar="both" data-toolbar-fixed="on">g.-N13-CARNET</a>
+<a href="/wp-content/uploads/2024/05/g.-N13-CARNET.pdf" class="pdfemb-viewer" style="" data-width="max" data-height="max" data-toolbar="both" data-toolbar-fixed="on">g.-N13-CARNET</a>
 
 
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -124,8 +510,6 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/388/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -138,18 +522,20 @@
 		<pubDate>Mon, 03 May 2021 18:42:00 +0000</pubDate>
 				<category><![CDATA[Architecture]]></category>
 		<category><![CDATA[Rendering]]></category>
+		<category><![CDATA[Bachelor]]></category>
+		<category><![CDATA[School]]></category>
 		<guid isPermaLink="false">/?p=463</guid>
 
 					<description><![CDATA[For a construction class, we had to analyze a contemporary building. Our group had to work on the Gerrit Rietveld Academy and Sandberg Institute by Studio Paulien Bremmer + Hootsmans Architects. From the publicly available concise drawings, our group had to make a series of hypothesis on how the building would work both as a [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-columns is-style-default is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10)">
+<div class="wp-block-columns is-style-default is-layout-flex wp-container-core-columns-is-layout-6 wp-block-columns-is-layout-flex" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10)">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <figure class="wp-block-image size-vp_xl"><img loading="lazy" decoding="async" width="1920" height="5760" src="/wp-content/uploads/2024/05/YesSirCestlafin-1920x5760.jpg" alt="" class="wp-image-464" srcset="/wp-content/uploads/2024/05/YesSirCestlafin-1920x5760.jpg 1920w, /wp-content/uploads/2024/05/YesSirCestlafin-100x300.jpg 100w, /wp-content/uploads/2024/05/YesSirCestlafin-341x1024.jpg 341w, /wp-content/uploads/2024/05/YesSirCestlafin-768x2304.jpg 768w, /wp-content/uploads/2024/05/YesSirCestlafin-512x1536.jpg 512w, /wp-content/uploads/2024/05/YesSirCestlafin-683x2048.jpg 683w, /wp-content/uploads/2024/05/YesSirCestlafin-500x1500.jpg 500w, /wp-content/uploads/2024/05/YesSirCestlafin-800x2400.jpg 800w, /wp-content/uploads/2024/05/YesSirCestlafin-1280x3840.jpg 1280w, /wp-content/uploads/2024/05/YesSirCestlafin-320x960.jpg 320w, /wp-content/uploads/2024/05/YesSirCestlafin-480x1440.jpg 480w, /wp-content/uploads/2024/05/YesSirCestlafin-scaled.jpg 853w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
 </div>
 
 
 
-<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-8 wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)">
+<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-12 wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)">
 <p style="margin-right:0;margin-left:0">For a construction class, we had to analyze a contemporary building. Our group had to work on the Gerrit Rietveld Academy and Sandberg Institute by Studio Paulien Bremmer + Hootsmans Architects.</p>
 
 
@@ -158,7 +544,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-5 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:55%">
 <figure class="wp-block-image size-full"><img decoding="async" src="/wp-content/uploads/2024/05/06_basement_souterrain.webp" alt=""/></figure>
 </div>
@@ -180,8 +566,10 @@
 
 
 
-<div data-client-id="c6a87e4cd78948e6ba22b45427506e48" id="pdf-1" class="wp-block-tropicalista-pdfembed" style="height:500px" data-api-key="c6a87e4cd78948e6ba22b45427506e48" data-file-name="Binder1" data-media-url="/wp-content/uploads/2024/05/Binder1.pdf" data-embed-mode="SIZED_CONTAINER" data-show-download-pdf="true" data-show-page-controls="true" data-show-thumbnails="true" data-show-zoom-control="true" data-show-full-screen="true" data-default-view-mode="FIT_WIDTH"></div>
-</div>
+<div data-client-id="c6a87e4cd78948e6ba22b45427506e48" id="pdf-2" class="wp-block-tropicalista-pdfembed" style="height:500px" data-api-key="" data-file-name="Binder1.pdf" data-media-url="/wp-content/uploads/2024/05/Binder1.pdf" data-show-download-pdf="true" data-show-print-pdf="true" data-show-page-controls="true" data-show-thumbnails="true" data-show-bookmarks="true" data-show-zoom-control="true" data-show-full-screen="true" data-default-view-mode="FIT_PAGE" data-show-annotation-tools="true" data-enable-form-filling="true"></div>
+
+
+<a href="/wp-content/uploads/2024/05/Binder1.pdf" class="pdfemb-viewer" style="" data-width="max" data-height="max" data-toolbar="bottom" data-toolbar-fixed="off">Binder1</a></div>
 </div>
 
 
@@ -205,8 +593,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Mon, 21 Jan 2019 17:48:00 +0000</pubDate>
 				<category><![CDATA[Architecture]]></category>
-		<category><![CDATA[First year of architecture school]]></category>
-		<category><![CDATA[Intensive studio]]></category>
+		<category><![CDATA[Bachelor]]></category>
+		<category><![CDATA[School]]></category>
 		<guid isPermaLink="false">/?p=352</guid>
 
 					<description><![CDATA[A protecting hand surely makes the best shelter ? That&#8217;s the idea that guided our group of 5 during our very first intensive studio in architecture school. The challenge of the studio was to make a shelter using a cut and slide technique to assemble pieces of cardboard. The three middle fingers are movable to [&#8230;]]]></description>
@@ -236,7 +624,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-5 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-uagb-image uagb-block-b802a839 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="/wp-content/uploads/2024/05/SP11_high-joints-1024x683.webp ,/wp-content/uploads/2024/05/SP11_high-joints.webp 780w, /wp-content/uploads/2024/05/SP11_high-joints.webp 360w" sizes="(max-width: 480px) 150px" src="/wp-content/uploads/2024/05/SP11_high-joints-1024x683.webp" alt="" class="uag-image-373" width="6000" height="4000" title="SP11_high-joints" loading="lazy" role="img"/></figure></div>
 </div>
