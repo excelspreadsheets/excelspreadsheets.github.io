@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description></description>
-	<lastBuildDate>Thu, 30 May 2024 17:50:56 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 31 May 2024 11:55:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -32,13 +32,39 @@
 										<content:encoded><![CDATA[
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-vp_md"><img fetchpriority="high" decoding="async" width="800" height="2604" src="/wp-content/uploads/2024/05/bigsat-3-800x2604.png" alt="" class="wp-image-669" srcset="/wp-content/uploads/2024/05/bigsat-3-800x2604.png 800w, /wp-content/uploads/2024/05/bigsat-3-92x300.png 92w, /wp-content/uploads/2024/05/bigsat-3-315x1024.png 315w, /wp-content/uploads/2024/05/bigsat-3-768x2500.png 768w, /wp-content/uploads/2024/05/bigsat-3-472x1536.png 472w, /wp-content/uploads/2024/05/bigsat-3-629x2048.png 629w, /wp-content/uploads/2024/05/bigsat-3-500x1628.png 500w, /wp-content/uploads/2024/05/bigsat-3-320x1042.png 320w, /wp-content/uploads/2024/05/bigsat-3-480x1563.png 480w, /wp-content/uploads/2024/05/bigsat-3.png 1096w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/bigsat-3.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-vp_md&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-669&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1096,&quot;targetHeight&quot;:3568,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-vp_md wp-lightbox-container"><img fetchpriority="high" decoding="async" width="800" height="2604" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/bigsat-3-800x2604.png" alt="" class="wp-image-669" srcset="/wp-content/uploads/2024/05/bigsat-3-800x2604.png 800w, /wp-content/uploads/2024/05/bigsat-3-92x300.png 92w, /wp-content/uploads/2024/05/bigsat-3-315x1024.png 315w, /wp-content/uploads/2024/05/bigsat-3-768x2500.png 768w, /wp-content/uploads/2024/05/bigsat-3-472x1536.png 472w, /wp-content/uploads/2024/05/bigsat-3-629x2048.png 629w, /wp-content/uploads/2024/05/bigsat-3-500x1628.png 500w, /wp-content/uploads/2024/05/bigsat-3-320x1042.png 320w, /wp-content/uploads/2024/05/bigsat-3-480x1563.png 480w, /wp-content/uploads/2024/05/bigsat-3.png 1096w" sizes="(max-width: 800px) 100vw, 800px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-vp_md"><img decoding="async" width="800" height="2583" src="/wp-content/uploads/2024/05/smallsat-1-800x2583.png" alt="" class="wp-image-670" srcset="/wp-content/uploads/2024/05/smallsat-1-800x2583.png 800w, /wp-content/uploads/2024/05/smallsat-1-93x300.png 93w, /wp-content/uploads/2024/05/smallsat-1-317x1024.png 317w, /wp-content/uploads/2024/05/smallsat-1-768x2480.png 768w, /wp-content/uploads/2024/05/smallsat-1-476x1536.png 476w, /wp-content/uploads/2024/05/smallsat-1-634x2048.png 634w, /wp-content/uploads/2024/05/smallsat-1-500x1614.png 500w, /wp-content/uploads/2024/05/smallsat-1-320x1033.png 320w, /wp-content/uploads/2024/05/smallsat-1-480x1550.png 480w, /wp-content/uploads/2024/05/smallsat-1.png 1098w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/smallsat-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-vp_md&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-670&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3545,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-vp_md wp-lightbox-container"><img decoding="async" width="800" height="2583" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/smallsat-1-800x2583.png" alt="" class="wp-image-670" srcset="/wp-content/uploads/2024/05/smallsat-1-800x2583.png 800w, /wp-content/uploads/2024/05/smallsat-1-93x300.png 93w, /wp-content/uploads/2024/05/smallsat-1-317x1024.png 317w, /wp-content/uploads/2024/05/smallsat-1-768x2480.png 768w, /wp-content/uploads/2024/05/smallsat-1-476x1536.png 476w, /wp-content/uploads/2024/05/smallsat-1-634x2048.png 634w, /wp-content/uploads/2024/05/smallsat-1-500x1614.png 500w, /wp-content/uploads/2024/05/smallsat-1-320x1033.png 320w, /wp-content/uploads/2024/05/smallsat-1-480x1550.png 480w, /wp-content/uploads/2024/05/smallsat-1.png 1098w" sizes="(max-width: 800px) 100vw, 800px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 </div>
 
@@ -62,13 +88,39 @@
 
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-vp_md"><img decoding="async" width="800" height="2582" src="/wp-content/uploads/2024/05/sat1-5-800x2582.png" alt="" class="wp-image-671" srcset="/wp-content/uploads/2024/05/sat1-5-800x2582.png 800w, /wp-content/uploads/2024/05/sat1-5-93x300.png 93w, /wp-content/uploads/2024/05/sat1-5-317x1024.png 317w, /wp-content/uploads/2024/05/sat1-5-768x2479.png 768w, /wp-content/uploads/2024/05/sat1-5-476x1536.png 476w, /wp-content/uploads/2024/05/sat1-5-635x2048.png 635w, /wp-content/uploads/2024/05/sat1-5-500x1614.png 500w, /wp-content/uploads/2024/05/sat1-5-320x1033.png 320w, /wp-content/uploads/2024/05/sat1-5-480x1549.png 480w, /wp-content/uploads/2024/05/sat1-5.png 1098w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat1-5.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-vp_md&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-671&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-vp_md wp-lightbox-container"><img decoding="async" width="800" height="2582" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat1-5-800x2582.png" alt="" class="wp-image-671" srcset="/wp-content/uploads/2024/05/sat1-5-800x2582.png 800w, /wp-content/uploads/2024/05/sat1-5-93x300.png 93w, /wp-content/uploads/2024/05/sat1-5-317x1024.png 317w, /wp-content/uploads/2024/05/sat1-5-768x2479.png 768w, /wp-content/uploads/2024/05/sat1-5-476x1536.png 476w, /wp-content/uploads/2024/05/sat1-5-635x2048.png 635w, /wp-content/uploads/2024/05/sat1-5-500x1614.png 500w, /wp-content/uploads/2024/05/sat1-5-320x1033.png 320w, /wp-content/uploads/2024/05/sat1-5-480x1549.png 480w, /wp-content/uploads/2024/05/sat1-5.png 1098w" sizes="(max-width: 800px) 100vw, 800px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-vp_md"><img loading="lazy" decoding="async" width="800" height="2589" src="/wp-content/uploads/2024/05/sat2-6-800x2589.png" alt="" class="wp-image-680" srcset="/wp-content/uploads/2024/05/sat2-6-800x2589.png 800w, /wp-content/uploads/2024/05/sat2-6-93x300.png 93w, /wp-content/uploads/2024/05/sat2-6-316x1024.png 316w, /wp-content/uploads/2024/05/sat2-6-768x2485.png 768w, /wp-content/uploads/2024/05/sat2-6-475x1536.png 475w, /wp-content/uploads/2024/05/sat2-6-633x2048.png 633w, /wp-content/uploads/2024/05/sat2-6-500x1618.png 500w, /wp-content/uploads/2024/05/sat2-6-320x1035.png 320w, /wp-content/uploads/2024/05/sat2-6-480x1553.png 480w, /wp-content/uploads/2024/05/sat2-6.png 1098w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat2-6.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-vp_md&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-680&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3553,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-vp_md wp-lightbox-container"><img loading="lazy" decoding="async" width="800" height="2589" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat2-6-800x2589.png" alt="" class="wp-image-680" srcset="/wp-content/uploads/2024/05/sat2-6-800x2589.png 800w, /wp-content/uploads/2024/05/sat2-6-93x300.png 93w, /wp-content/uploads/2024/05/sat2-6-316x1024.png 316w, /wp-content/uploads/2024/05/sat2-6-768x2485.png 768w, /wp-content/uploads/2024/05/sat2-6-475x1536.png 475w, /wp-content/uploads/2024/05/sat2-6-633x2048.png 633w, /wp-content/uploads/2024/05/sat2-6-500x1618.png 500w, /wp-content/uploads/2024/05/sat2-6-320x1035.png 320w, /wp-content/uploads/2024/05/sat2-6-480x1553.png 480w, /wp-content/uploads/2024/05/sat2-6.png 1098w" sizes="(max-width: 800px) 100vw, 800px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 </div>
 
@@ -111,7 +163,20 @@
 
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-vp_xl"><img loading="lazy" decoding="async" width="1920" height="2880" src="/wp-content/uploads/2024/05/MAREE2-1920x2880.jpg" alt="" class="wp-image-675" style="aspect-ratio:1;object-fit:contain" srcset="/wp-content/uploads/2024/05/MAREE2-1920x2880.jpg 1920w, /wp-content/uploads/2024/05/MAREE2-200x300.jpg 200w, /wp-content/uploads/2024/05/MAREE2-683x1024.jpg 683w, /wp-content/uploads/2024/05/MAREE2-768x1152.jpg 768w, /wp-content/uploads/2024/05/MAREE2-1024x1536.jpg 1024w, /wp-content/uploads/2024/05/MAREE2-1365x2048.jpg 1365w, /wp-content/uploads/2024/05/MAREE2-500x750.jpg 500w, /wp-content/uploads/2024/05/MAREE2-800x1200.jpg 800w, /wp-content/uploads/2024/05/MAREE2-1280x1920.jpg 1280w, /wp-content/uploads/2024/05/MAREE2-320x480.jpg 320w, /wp-content/uploads/2024/05/MAREE2-480x720.jpg 480w, /wp-content/uploads/2024/05/MAREE2-scaled.jpg 1707w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/MAREE2-scaled.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-vp_xl&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-675&quot;,&quot;imgStyles&quot;:&quot;aspect-ratio:1;object-fit:contain&quot;,&quot;targetWidth&quot;:1707,&quot;targetHeight&quot;:2560,&quot;scaleAttr&quot;:&quot;contain&quot;,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image size-vp_xl wp-lightbox-container"><img loading="lazy" decoding="async" width="1920" height="2880" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/MAREE2-1920x2880.jpg" alt="" class="wp-image-675" style="aspect-ratio:1;object-fit:contain" srcset="/wp-content/uploads/2024/05/MAREE2-1920x2880.jpg 1920w, /wp-content/uploads/2024/05/MAREE2-200x300.jpg 200w, /wp-content/uploads/2024/05/MAREE2-683x1024.jpg 683w, /wp-content/uploads/2024/05/MAREE2-768x1152.jpg 768w, /wp-content/uploads/2024/05/MAREE2-1024x1536.jpg 1024w, /wp-content/uploads/2024/05/MAREE2-1365x2048.jpg 1365w, /wp-content/uploads/2024/05/MAREE2-500x750.jpg 500w, /wp-content/uploads/2024/05/MAREE2-800x1200.jpg 800w, /wp-content/uploads/2024/05/MAREE2-1280x1920.jpg 1280w, /wp-content/uploads/2024/05/MAREE2-320x480.jpg 320w, /wp-content/uploads/2024/05/MAREE2-480x720.jpg 480w, /wp-content/uploads/2024/05/MAREE2-scaled.jpg 1707w" sizes="(max-width: 1920px) 100vw, 1920px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
@@ -403,13 +468,39 @@
 										<content:encoded><![CDATA[
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-11 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/bigsat-1-317x1024.png" alt="" class="wp-image-646" srcset="/wp-content/uploads/2024/05/bigsat-1-317x1024.png 317w, /wp-content/uploads/2024/05/bigsat-1-93x300.png 93w, /wp-content/uploads/2024/05/bigsat-1-768x2479.png 768w, /wp-content/uploads/2024/05/bigsat-1-476x1536.png 476w, /wp-content/uploads/2024/05/bigsat-1-500x1614.png 500w, /wp-content/uploads/2024/05/bigsat-1-800x2582.png 800w, /wp-content/uploads/2024/05/bigsat-1-320x1033.png 320w, /wp-content/uploads/2024/05/bigsat-1-480x1549.png 480w, /wp-content/uploads/2024/05/bigsat-1.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/bigsat-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-646&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/bigsat-1-317x1024.png" alt="" class="wp-image-646" srcset="/wp-content/uploads/2024/05/bigsat-1-317x1024.png 317w, /wp-content/uploads/2024/05/bigsat-1-93x300.png 93w, /wp-content/uploads/2024/05/bigsat-1-768x2479.png 768w, /wp-content/uploads/2024/05/bigsat-1-476x1536.png 476w, /wp-content/uploads/2024/05/bigsat-1-500x1614.png 500w, /wp-content/uploads/2024/05/bigsat-1-800x2582.png 800w, /wp-content/uploads/2024/05/bigsat-1-320x1033.png 320w, /wp-content/uploads/2024/05/bigsat-1-480x1549.png 480w, /wp-content/uploads/2024/05/bigsat-1.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/smallsat-317x1024.png" alt="" class="wp-image-647" srcset="/wp-content/uploads/2024/05/smallsat-317x1024.png 317w, /wp-content/uploads/2024/05/smallsat-93x300.png 93w, /wp-content/uploads/2024/05/smallsat-768x2482.png 768w, /wp-content/uploads/2024/05/smallsat-475x1536.png 475w, /wp-content/uploads/2024/05/smallsat-634x2048.png 634w, /wp-content/uploads/2024/05/smallsat-500x1616.png 500w, /wp-content/uploads/2024/05/smallsat-800x2585.png 800w, /wp-content/uploads/2024/05/smallsat-320x1034.png 320w, /wp-content/uploads/2024/05/smallsat-480x1551.png 480w, /wp-content/uploads/2024/05/smallsat.png 1097w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/smallsat.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-647&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1097,&quot;targetHeight&quot;:3545,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/smallsat-317x1024.png" alt="" class="wp-image-647" srcset="/wp-content/uploads/2024/05/smallsat-317x1024.png 317w, /wp-content/uploads/2024/05/smallsat-93x300.png 93w, /wp-content/uploads/2024/05/smallsat-768x2482.png 768w, /wp-content/uploads/2024/05/smallsat-475x1536.png 475w, /wp-content/uploads/2024/05/smallsat-634x2048.png 634w, /wp-content/uploads/2024/05/smallsat-500x1616.png 500w, /wp-content/uploads/2024/05/smallsat-800x2585.png 800w, /wp-content/uploads/2024/05/smallsat-320x1034.png 320w, /wp-content/uploads/2024/05/smallsat-480x1551.png 480w, /wp-content/uploads/2024/05/smallsat.png 1097w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 </div>
 
@@ -428,12 +519,38 @@
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image alignfull size-large"><img loading="lazy" decoding="async" width="1024" height="318" src="/wp-content/uploads/2024/05/img1-3-1024x318.png" alt="" class="wp-image-648" srcset="/wp-content/uploads/2024/05/img1-3-1024x318.png 1024w, /wp-content/uploads/2024/05/img1-3-300x93.png 300w, /wp-content/uploads/2024/05/img1-3-768x238.png 768w, /wp-content/uploads/2024/05/img1-3-1536x477.png 1536w, /wp-content/uploads/2024/05/img1-3-2048x636.png 2048w, /wp-content/uploads/2024/05/img1-3-500x155.png 500w, /wp-content/uploads/2024/05/img1-3-800x248.png 800w, /wp-content/uploads/2024/05/img1-3-1280x397.png 1280w, /wp-content/uploads/2024/05/img1-3-1920x596.png 1920w, /wp-content/uploads/2024/05/img1-3-320x99.png 320w, /wp-content/uploads/2024/05/img1-3-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/img1-3.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image alignfull size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-648&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:3544,&quot;targetHeight&quot;:1100,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image alignfull size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="1024" height="318" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/img1-3-1024x318.png" alt="" class="wp-image-648" srcset="/wp-content/uploads/2024/05/img1-3-1024x318.png 1024w, /wp-content/uploads/2024/05/img1-3-300x93.png 300w, /wp-content/uploads/2024/05/img1-3-768x238.png 768w, /wp-content/uploads/2024/05/img1-3-1536x477.png 1536w, /wp-content/uploads/2024/05/img1-3-2048x636.png 2048w, /wp-content/uploads/2024/05/img1-3-500x155.png 500w, /wp-content/uploads/2024/05/img1-3-800x248.png 800w, /wp-content/uploads/2024/05/img1-3-1280x397.png 1280w, /wp-content/uploads/2024/05/img1-3-1920x596.png 1920w, /wp-content/uploads/2024/05/img1-3-320x99.png 320w, /wp-content/uploads/2024/05/img1-3-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/img2-3.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image alignfull size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-649&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:3544,&quot;targetHeight&quot;:1105,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image alignfull size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="1024" height="319" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/img2-3-1024x319.png" alt="" class="wp-image-649" srcset="/wp-content/uploads/2024/05/img2-3-1024x319.png 1024w, /wp-content/uploads/2024/05/img2-3-300x94.png 300w, /wp-content/uploads/2024/05/img2-3-768x239.png 768w, /wp-content/uploads/2024/05/img2-3-1536x479.png 1536w, /wp-content/uploads/2024/05/img2-3-2048x639.png 2048w, /wp-content/uploads/2024/05/img2-3-500x156.png 500w, /wp-content/uploads/2024/05/img2-3-800x249.png 800w, /wp-content/uploads/2024/05/img2-3-1280x399.png 1280w, /wp-content/uploads/2024/05/img2-3-1920x599.png 1920w, /wp-content/uploads/2024/05/img2-3-320x100.png 320w, /wp-content/uploads/2024/05/img2-3-480x150.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="319" src="/wp-content/uploads/2024/05/img2-3-1024x319.png" alt="" class="wp-image-649" srcset="/wp-content/uploads/2024/05/img2-3-1024x319.png 1024w, /wp-content/uploads/2024/05/img2-3-300x94.png 300w, /wp-content/uploads/2024/05/img2-3-768x239.png 768w, /wp-content/uploads/2024/05/img2-3-1536x479.png 1536w, /wp-content/uploads/2024/05/img2-3-2048x639.png 2048w, /wp-content/uploads/2024/05/img2-3-500x156.png 500w, /wp-content/uploads/2024/05/img2-3-800x249.png 800w, /wp-content/uploads/2024/05/img2-3-1280x399.png 1280w, /wp-content/uploads/2024/05/img2-3-1920x599.png 1920w, /wp-content/uploads/2024/05/img2-3-320x100.png 320w, /wp-content/uploads/2024/05/img2-3-480x150.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -443,13 +560,39 @@
 
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-12 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/sat1-3-317x1024.png" alt="" class="wp-image-650" srcset="/wp-content/uploads/2024/05/sat1-3-317x1024.png 317w, /wp-content/uploads/2024/05/sat1-3-93x300.png 93w, /wp-content/uploads/2024/05/sat1-3-768x2479.png 768w, /wp-content/uploads/2024/05/sat1-3-476x1536.png 476w, /wp-content/uploads/2024/05/sat1-3-500x1614.png 500w, /wp-content/uploads/2024/05/sat1-3-800x2582.png 800w, /wp-content/uploads/2024/05/sat1-3-320x1033.png 320w, /wp-content/uploads/2024/05/sat1-3-480x1549.png 480w, /wp-content/uploads/2024/05/sat1-3.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat1-3.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-650&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat1-3-317x1024.png" alt="" class="wp-image-650" srcset="/wp-content/uploads/2024/05/sat1-3-317x1024.png 317w, /wp-content/uploads/2024/05/sat1-3-93x300.png 93w, /wp-content/uploads/2024/05/sat1-3-768x2479.png 768w, /wp-content/uploads/2024/05/sat1-3-476x1536.png 476w, /wp-content/uploads/2024/05/sat1-3-500x1614.png 500w, /wp-content/uploads/2024/05/sat1-3-800x2582.png 800w, /wp-content/uploads/2024/05/sat1-3-320x1033.png 320w, /wp-content/uploads/2024/05/sat1-3-480x1549.png 480w, /wp-content/uploads/2024/05/sat1-3.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/sat2-3-317x1024.png" alt="" class="wp-image-651" srcset="/wp-content/uploads/2024/05/sat2-3-317x1024.png 317w, /wp-content/uploads/2024/05/sat2-3-93x300.png 93w, /wp-content/uploads/2024/05/sat2-3-476x1536.png 476w, /wp-content/uploads/2024/05/sat2-3-500x1613.png 500w, /wp-content/uploads/2024/05/sat2-3-800x2581.png 800w, /wp-content/uploads/2024/05/sat2-3.png 1099w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat2-3.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-651&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1099,&quot;targetHeight&quot;:3545,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat2-3-317x1024.png" alt="" class="wp-image-651" srcset="/wp-content/uploads/2024/05/sat2-3-317x1024.png 317w, /wp-content/uploads/2024/05/sat2-3-93x300.png 93w, /wp-content/uploads/2024/05/sat2-3-476x1536.png 476w, /wp-content/uploads/2024/05/sat2-3-500x1613.png 500w, /wp-content/uploads/2024/05/sat2-3-800x2581.png 800w, /wp-content/uploads/2024/05/sat2-3.png 1099w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 </div>
 
@@ -563,13 +706,39 @@
 										<content:encoded><![CDATA[
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-16 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/bigsat-317x1024.png" alt="" class="wp-image-634" srcset="/wp-content/uploads/2024/05/bigsat-317x1024.png 317w, /wp-content/uploads/2024/05/bigsat-93x300.png 93w, /wp-content/uploads/2024/05/bigsat-768x2480.png 768w, /wp-content/uploads/2024/05/bigsat-476x1536.png 476w, /wp-content/uploads/2024/05/bigsat-634x2048.png 634w, /wp-content/uploads/2024/05/bigsat-500x1614.png 500w, /wp-content/uploads/2024/05/bigsat-800x2583.png 800w, /wp-content/uploads/2024/05/bigsat-320x1033.png 320w, /wp-content/uploads/2024/05/bigsat-480x1550.png 480w, /wp-content/uploads/2024/05/bigsat.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/bigsat.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-634&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3545,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/bigsat-317x1024.png" alt="" class="wp-image-634" srcset="/wp-content/uploads/2024/05/bigsat-317x1024.png 317w, /wp-content/uploads/2024/05/bigsat-93x300.png 93w, /wp-content/uploads/2024/05/bigsat-768x2480.png 768w, /wp-content/uploads/2024/05/bigsat-476x1536.png 476w, /wp-content/uploads/2024/05/bigsat-634x2048.png 634w, /wp-content/uploads/2024/05/bigsat-500x1614.png 500w, /wp-content/uploads/2024/05/bigsat-800x2583.png 800w, /wp-content/uploads/2024/05/bigsat-320x1033.png 320w, /wp-content/uploads/2024/05/bigsat-480x1550.png 480w, /wp-content/uploads/2024/05/bigsat.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/satsmall-5-317x1024.png" alt="" class="wp-image-635" srcset="/wp-content/uploads/2024/05/satsmall-5-317x1024.png 317w, /wp-content/uploads/2024/05/satsmall-5-93x300.png 93w, /wp-content/uploads/2024/05/satsmall-5-768x2479.png 768w, /wp-content/uploads/2024/05/satsmall-5-476x1536.png 476w, /wp-content/uploads/2024/05/satsmall-5-500x1614.png 500w, /wp-content/uploads/2024/05/satsmall-5-800x2582.png 800w, /wp-content/uploads/2024/05/satsmall-5-320x1033.png 320w, /wp-content/uploads/2024/05/satsmall-5-480x1549.png 480w, /wp-content/uploads/2024/05/satsmall-5.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/satsmall-5.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-635&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/satsmall-5-317x1024.png" alt="" class="wp-image-635" srcset="/wp-content/uploads/2024/05/satsmall-5-317x1024.png 317w, /wp-content/uploads/2024/05/satsmall-5-93x300.png 93w, /wp-content/uploads/2024/05/satsmall-5-768x2479.png 768w, /wp-content/uploads/2024/05/satsmall-5-476x1536.png 476w, /wp-content/uploads/2024/05/satsmall-5-500x1614.png 500w, /wp-content/uploads/2024/05/satsmall-5-800x2582.png 800w, /wp-content/uploads/2024/05/satsmall-5-320x1033.png 320w, /wp-content/uploads/2024/05/satsmall-5-480x1549.png 480w, /wp-content/uploads/2024/05/satsmall-5.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 </div>
 
@@ -588,12 +757,38 @@
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image alignfull size-large"><img loading="lazy" decoding="async" width="1024" height="318" src="/wp-content/uploads/2024/05/img1-2-1024x318.png" alt="" class="wp-image-636" srcset="/wp-content/uploads/2024/05/img1-2-1024x318.png 1024w, /wp-content/uploads/2024/05/img1-2-300x93.png 300w, /wp-content/uploads/2024/05/img1-2-768x238.png 768w, /wp-content/uploads/2024/05/img1-2-1536x477.png 1536w, /wp-content/uploads/2024/05/img1-2-2048x636.png 2048w, /wp-content/uploads/2024/05/img1-2-500x155.png 500w, /wp-content/uploads/2024/05/img1-2-800x248.png 800w, /wp-content/uploads/2024/05/img1-2-1280x397.png 1280w, /wp-content/uploads/2024/05/img1-2-1920x596.png 1920w, /wp-content/uploads/2024/05/img1-2-320x99.png 320w, /wp-content/uploads/2024/05/img1-2-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/img1-2.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-636&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:3544,&quot;targetHeight&quot;:1100,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="1024" height="318" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/img1-2-1024x318.png" alt="" class="wp-image-636" srcset="/wp-content/uploads/2024/05/img1-2-1024x318.png 1024w, /wp-content/uploads/2024/05/img1-2-300x93.png 300w, /wp-content/uploads/2024/05/img1-2-768x238.png 768w, /wp-content/uploads/2024/05/img1-2-1536x477.png 1536w, /wp-content/uploads/2024/05/img1-2-2048x636.png 2048w, /wp-content/uploads/2024/05/img1-2-500x155.png 500w, /wp-content/uploads/2024/05/img1-2-800x248.png 800w, /wp-content/uploads/2024/05/img1-2-1280x397.png 1280w, /wp-content/uploads/2024/05/img1-2-1920x596.png 1920w, /wp-content/uploads/2024/05/img1-2-320x99.png 320w, /wp-content/uploads/2024/05/img1-2-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/img2-2.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-637&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:3544,&quot;targetHeight&quot;:1100,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="1024" height="318" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/img2-2-1024x318.png" alt="" class="wp-image-637" srcset="/wp-content/uploads/2024/05/img2-2-1024x318.png 1024w, /wp-content/uploads/2024/05/img2-2-300x93.png 300w, /wp-content/uploads/2024/05/img2-2-768x238.png 768w, /wp-content/uploads/2024/05/img2-2-1536x477.png 1536w, /wp-content/uploads/2024/05/img2-2-2048x636.png 2048w, /wp-content/uploads/2024/05/img2-2-500x155.png 500w, /wp-content/uploads/2024/05/img2-2-800x248.png 800w, /wp-content/uploads/2024/05/img2-2-1280x397.png 1280w, /wp-content/uploads/2024/05/img2-2-1920x596.png 1920w, /wp-content/uploads/2024/05/img2-2-320x99.png 320w, /wp-content/uploads/2024/05/img2-2-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="318" src="/wp-content/uploads/2024/05/img2-2-1024x318.png" alt="" class="wp-image-637" srcset="/wp-content/uploads/2024/05/img2-2-1024x318.png 1024w, /wp-content/uploads/2024/05/img2-2-300x93.png 300w, /wp-content/uploads/2024/05/img2-2-768x238.png 768w, /wp-content/uploads/2024/05/img2-2-1536x477.png 1536w, /wp-content/uploads/2024/05/img2-2-2048x636.png 2048w, /wp-content/uploads/2024/05/img2-2-500x155.png 500w, /wp-content/uploads/2024/05/img2-2-800x248.png 800w, /wp-content/uploads/2024/05/img2-2-1280x397.png 1280w, /wp-content/uploads/2024/05/img2-2-1920x596.png 1920w, /wp-content/uploads/2024/05/img2-2-320x99.png 320w, /wp-content/uploads/2024/05/img2-2-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -603,13 +798,39 @@
 
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-17 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/sat1-2-317x1024.png" alt="" class="wp-image-638" srcset="/wp-content/uploads/2024/05/sat1-2-317x1024.png 317w, /wp-content/uploads/2024/05/sat1-2-93x300.png 93w, /wp-content/uploads/2024/05/sat1-2-768x2479.png 768w, /wp-content/uploads/2024/05/sat1-2-476x1536.png 476w, /wp-content/uploads/2024/05/sat1-2-500x1614.png 500w, /wp-content/uploads/2024/05/sat1-2-800x2582.png 800w, /wp-content/uploads/2024/05/sat1-2-320x1033.png 320w, /wp-content/uploads/2024/05/sat1-2-480x1549.png 480w, /wp-content/uploads/2024/05/sat1-2.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat1-2.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-638&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat1-2-317x1024.png" alt="" class="wp-image-638" srcset="/wp-content/uploads/2024/05/sat1-2-317x1024.png 317w, /wp-content/uploads/2024/05/sat1-2-93x300.png 93w, /wp-content/uploads/2024/05/sat1-2-768x2479.png 768w, /wp-content/uploads/2024/05/sat1-2-476x1536.png 476w, /wp-content/uploads/2024/05/sat1-2-500x1614.png 500w, /wp-content/uploads/2024/05/sat1-2-800x2582.png 800w, /wp-content/uploads/2024/05/sat1-2-320x1033.png 320w, /wp-content/uploads/2024/05/sat1-2-480x1549.png 480w, /wp-content/uploads/2024/05/sat1-2.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/sat2-2-317x1024.png" alt="" class="wp-image-639" srcset="/wp-content/uploads/2024/05/sat2-2-317x1024.png 317w, /wp-content/uploads/2024/05/sat2-2-93x300.png 93w, /wp-content/uploads/2024/05/sat2-2-768x2479.png 768w, /wp-content/uploads/2024/05/sat2-2-476x1536.png 476w, /wp-content/uploads/2024/05/sat2-2-500x1614.png 500w, /wp-content/uploads/2024/05/sat2-2-800x2582.png 800w, /wp-content/uploads/2024/05/sat2-2-320x1033.png 320w, /wp-content/uploads/2024/05/sat2-2-480x1549.png 480w, /wp-content/uploads/2024/05/sat2-2.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat2-2.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-639&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat2-2-317x1024.png" alt="" class="wp-image-639" srcset="/wp-content/uploads/2024/05/sat2-2-317x1024.png 317w, /wp-content/uploads/2024/05/sat2-2-93x300.png 93w, /wp-content/uploads/2024/05/sat2-2-768x2479.png 768w, /wp-content/uploads/2024/05/sat2-2-476x1536.png 476w, /wp-content/uploads/2024/05/sat2-2-500x1614.png 500w, /wp-content/uploads/2024/05/sat2-2-800x2582.png 800w, /wp-content/uploads/2024/05/sat2-2-320x1033.png 320w, /wp-content/uploads/2024/05/sat2-2-480x1549.png 480w, /wp-content/uploads/2024/05/sat2-2.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 </div>
 
@@ -723,13 +944,13 @@
 										<content:encoded><![CDATA[
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-21 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/satbig-2-317x1024.png" alt="" class="wp-image-615" srcset="/wp-content/uploads/2024/05/satbig-2-317x1024.png 317w, /wp-content/uploads/2024/05/satbig-2-93x300.png 93w, /wp-content/uploads/2024/05/satbig-2-768x2479.png 768w, /wp-content/uploads/2024/05/satbig-2-476x1536.png 476w, /wp-content/uploads/2024/05/satbig-2-500x1614.png 500w, /wp-content/uploads/2024/05/satbig-2-800x2582.png 800w, /wp-content/uploads/2024/05/satbig-2-320x1033.png 320w, /wp-content/uploads/2024/05/satbig-2-480x1549.png 480w, /wp-content/uploads/2024/05/satbig-2.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/satbig-2-317x1024.png" alt="" class="wp-image-615" srcset="/wp-content/uploads/2024/05/satbig-2-317x1024.png 317w, /wp-content/uploads/2024/05/satbig-2-93x300.png 93w, /wp-content/uploads/2024/05/satbig-2-768x2479.png 768w, /wp-content/uploads/2024/05/satbig-2-476x1536.png 476w, /wp-content/uploads/2024/05/satbig-2-500x1614.png 500w, /wp-content/uploads/2024/05/satbig-2-800x2582.png 800w, /wp-content/uploads/2024/05/satbig-2-320x1033.png 320w, /wp-content/uploads/2024/05/satbig-2-480x1549.png 480w, /wp-content/uploads/2024/05/satbig-2.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/satsmall-4-317x1024.png" alt="" class="wp-image-610" srcset="/wp-content/uploads/2024/05/satsmall-4-317x1024.png 317w, /wp-content/uploads/2024/05/satsmall-4-93x300.png 93w, /wp-content/uploads/2024/05/satsmall-4-768x2479.png 768w, /wp-content/uploads/2024/05/satsmall-4-476x1536.png 476w, /wp-content/uploads/2024/05/satsmall-4-500x1614.png 500w, /wp-content/uploads/2024/05/satsmall-4-800x2582.png 800w, /wp-content/uploads/2024/05/satsmall-4-320x1033.png 320w, /wp-content/uploads/2024/05/satsmall-4-480x1549.png 480w, /wp-content/uploads/2024/05/satsmall-4.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/satsmall-4-317x1024.png" alt="" class="wp-image-610" srcset="/wp-content/uploads/2024/05/satsmall-4-317x1024.png 317w, /wp-content/uploads/2024/05/satsmall-4-93x300.png 93w, /wp-content/uploads/2024/05/satsmall-4-768x2479.png 768w, /wp-content/uploads/2024/05/satsmall-4-476x1536.png 476w, /wp-content/uploads/2024/05/satsmall-4-500x1614.png 500w, /wp-content/uploads/2024/05/satsmall-4-800x2582.png 800w, /wp-content/uploads/2024/05/satsmall-4-320x1033.png 320w, /wp-content/uploads/2024/05/satsmall-4-480x1549.png 480w, /wp-content/uploads/2024/05/satsmall-4.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
 </div>
 </div>
 
@@ -748,12 +969,38 @@
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image alignfull size-large"><img loading="lazy" decoding="async" width="1024" height="318" src="/wp-content/uploads/2024/05/img1-1-1024x318.png" alt="" class="wp-image-628" srcset="/wp-content/uploads/2024/05/img1-1-1024x318.png 1024w, /wp-content/uploads/2024/05/img1-1-300x93.png 300w, /wp-content/uploads/2024/05/img1-1-768x238.png 768w, /wp-content/uploads/2024/05/img1-1-1536x477.png 1536w, /wp-content/uploads/2024/05/img1-1-2048x636.png 2048w, /wp-content/uploads/2024/05/img1-1-500x155.png 500w, /wp-content/uploads/2024/05/img1-1-800x248.png 800w, /wp-content/uploads/2024/05/img1-1-1280x397.png 1280w, /wp-content/uploads/2024/05/img1-1-1920x596.png 1920w, /wp-content/uploads/2024/05/img1-1-320x99.png 320w, /wp-content/uploads/2024/05/img1-1-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/img1-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-628&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:3544,&quot;targetHeight&quot;:1100,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="1024" height="318" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/img1-1-1024x318.png" alt="" class="wp-image-628" srcset="/wp-content/uploads/2024/05/img1-1-1024x318.png 1024w, /wp-content/uploads/2024/05/img1-1-300x93.png 300w, /wp-content/uploads/2024/05/img1-1-768x238.png 768w, /wp-content/uploads/2024/05/img1-1-1536x477.png 1536w, /wp-content/uploads/2024/05/img1-1-2048x636.png 2048w, /wp-content/uploads/2024/05/img1-1-500x155.png 500w, /wp-content/uploads/2024/05/img1-1-800x248.png 800w, /wp-content/uploads/2024/05/img1-1-1280x397.png 1280w, /wp-content/uploads/2024/05/img1-1-1920x596.png 1920w, /wp-content/uploads/2024/05/img1-1-320x99.png 320w, /wp-content/uploads/2024/05/img1-1-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/img2-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-629&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:3545,&quot;targetHeight&quot;:1100,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="1024" height="318" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/img2-1-1024x318.png" alt="" class="wp-image-629" srcset="/wp-content/uploads/2024/05/img2-1-1024x318.png 1024w, /wp-content/uploads/2024/05/img2-1-300x93.png 300w, /wp-content/uploads/2024/05/img2-1-768x238.png 768w, /wp-content/uploads/2024/05/img2-1-1536x477.png 1536w, /wp-content/uploads/2024/05/img2-1-2048x635.png 2048w, /wp-content/uploads/2024/05/img2-1-500x155.png 500w, /wp-content/uploads/2024/05/img2-1-800x248.png 800w, /wp-content/uploads/2024/05/img2-1-1280x397.png 1280w, /wp-content/uploads/2024/05/img2-1-1920x596.png 1920w, /wp-content/uploads/2024/05/img2-1-320x99.png 320w, /wp-content/uploads/2024/05/img2-1-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="318" src="/wp-content/uploads/2024/05/img2-1-1024x318.png" alt="" class="wp-image-629" srcset="/wp-content/uploads/2024/05/img2-1-1024x318.png 1024w, /wp-content/uploads/2024/05/img2-1-300x93.png 300w, /wp-content/uploads/2024/05/img2-1-768x238.png 768w, /wp-content/uploads/2024/05/img2-1-1536x477.png 1536w, /wp-content/uploads/2024/05/img2-1-2048x635.png 2048w, /wp-content/uploads/2024/05/img2-1-500x155.png 500w, /wp-content/uploads/2024/05/img2-1-800x248.png 800w, /wp-content/uploads/2024/05/img2-1-1280x397.png 1280w, /wp-content/uploads/2024/05/img2-1-1920x596.png 1920w, /wp-content/uploads/2024/05/img2-1-320x99.png 320w, /wp-content/uploads/2024/05/img2-1-480x149.png 480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -763,25 +1010,77 @@
 
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-22 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/sat1-1-317x1024.png" alt="" class="wp-image-611" srcset="/wp-content/uploads/2024/05/sat1-1-317x1024.png 317w, /wp-content/uploads/2024/05/sat1-1-93x300.png 93w, /wp-content/uploads/2024/05/sat1-1-768x2479.png 768w, /wp-content/uploads/2024/05/sat1-1-476x1536.png 476w, /wp-content/uploads/2024/05/sat1-1-500x1614.png 500w, /wp-content/uploads/2024/05/sat1-1-800x2582.png 800w, /wp-content/uploads/2024/05/sat1-1-320x1033.png 320w, /wp-content/uploads/2024/05/sat1-1-480x1549.png 480w, /wp-content/uploads/2024/05/sat1-1.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat1-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-611&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat1-1-317x1024.png" alt="" class="wp-image-611" srcset="/wp-content/uploads/2024/05/sat1-1-317x1024.png 317w, /wp-content/uploads/2024/05/sat1-1-93x300.png 93w, /wp-content/uploads/2024/05/sat1-1-768x2479.png 768w, /wp-content/uploads/2024/05/sat1-1-476x1536.png 476w, /wp-content/uploads/2024/05/sat1-1-500x1614.png 500w, /wp-content/uploads/2024/05/sat1-1-800x2582.png 800w, /wp-content/uploads/2024/05/sat1-1-320x1033.png 320w, /wp-content/uploads/2024/05/sat1-1-480x1549.png 480w, /wp-content/uploads/2024/05/sat1-1.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/sat2-1-317x1024.png" alt="" class="wp-image-612" srcset="/wp-content/uploads/2024/05/sat2-1-317x1024.png 317w, /wp-content/uploads/2024/05/sat2-1-93x300.png 93w, /wp-content/uploads/2024/05/sat2-1-768x2481.png 768w, /wp-content/uploads/2024/05/sat2-1-475x1536.png 475w, /wp-content/uploads/2024/05/sat2-1-634x2048.png 634w, /wp-content/uploads/2024/05/sat2-1-500x1615.png 500w, /wp-content/uploads/2024/05/sat2-1-800x2585.png 800w, /wp-content/uploads/2024/05/sat2-1-320x1034.png 320w, /wp-content/uploads/2024/05/sat2-1-480x1551.png 480w, /wp-content/uploads/2024/05/sat2-1.png 1097w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat2-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-612&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1097,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat2-1-317x1024.png" alt="" class="wp-image-612" srcset="/wp-content/uploads/2024/05/sat2-1-317x1024.png 317w, /wp-content/uploads/2024/05/sat2-1-93x300.png 93w, /wp-content/uploads/2024/05/sat2-1-768x2481.png 768w, /wp-content/uploads/2024/05/sat2-1-475x1536.png 475w, /wp-content/uploads/2024/05/sat2-1-634x2048.png 634w, /wp-content/uploads/2024/05/sat2-1-500x1615.png 500w, /wp-content/uploads/2024/05/sat2-1-800x2585.png 800w, /wp-content/uploads/2024/05/sat2-1-320x1034.png 320w, /wp-content/uploads/2024/05/sat2-1-480x1551.png 480w, /wp-content/uploads/2024/05/sat2-1.png 1097w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/sat3-2-317x1024.png" alt="" class="wp-image-613" srcset="/wp-content/uploads/2024/05/sat3-2-317x1024.png 317w, /wp-content/uploads/2024/05/sat3-2-93x300.png 93w, /wp-content/uploads/2024/05/sat3-2-768x2479.png 768w, /wp-content/uploads/2024/05/sat3-2-476x1536.png 476w, /wp-content/uploads/2024/05/sat3-2-500x1614.png 500w, /wp-content/uploads/2024/05/sat3-2-800x2582.png 800w, /wp-content/uploads/2024/05/sat3-2-320x1033.png 320w, /wp-content/uploads/2024/05/sat3-2-480x1549.png 480w, /wp-content/uploads/2024/05/sat3-2.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat3-2.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-613&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1098,&quot;targetHeight&quot;:3544,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat3-2-317x1024.png" alt="" class="wp-image-613" srcset="/wp-content/uploads/2024/05/sat3-2-317x1024.png 317w, /wp-content/uploads/2024/05/sat3-2-93x300.png 93w, /wp-content/uploads/2024/05/sat3-2-768x2479.png 768w, /wp-content/uploads/2024/05/sat3-2-476x1536.png 476w, /wp-content/uploads/2024/05/sat3-2-500x1614.png 500w, /wp-content/uploads/2024/05/sat3-2-800x2582.png 800w, /wp-content/uploads/2024/05/sat3-2-320x1033.png 320w, /wp-content/uploads/2024/05/sat3-2-480x1549.png 480w, /wp-content/uploads/2024/05/sat3-2.png 1098w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center has-global-padding is-layout-constrained wp-block-column-is-layout-constrained">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="317" height="1024" src="/wp-content/uploads/2024/05/sat4-1-317x1024.png" alt="" class="wp-image-614" srcset="/wp-content/uploads/2024/05/sat4-1-317x1024.png 317w, /wp-content/uploads/2024/05/sat4-1-93x300.png 93w, /wp-content/uploads/2024/05/sat4-1-476x1536.png 476w, /wp-content/uploads/2024/05/sat4-1-500x1613.png 500w, /wp-content/uploads/2024/05/sat4-1-800x2581.png 800w, /wp-content/uploads/2024/05/sat4-1.png 1099w" sizes="(max-width: 317px) 100vw, 317px" /></figure>
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/sat4-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-614&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1099,&quot;targetHeight&quot;:3545,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="317" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/sat4-1-317x1024.png" alt="" class="wp-image-614" srcset="/wp-content/uploads/2024/05/sat4-1-317x1024.png 317w, /wp-content/uploads/2024/05/sat4-1-93x300.png 93w, /wp-content/uploads/2024/05/sat4-1-476x1536.png 476w, /wp-content/uploads/2024/05/sat4-1-500x1613.png 500w, /wp-content/uploads/2024/05/sat4-1-800x2581.png 800w, /wp-content/uploads/2024/05/sat4-1.png 1099w" sizes="(max-width: 317px) 100vw, 317px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
 </div>
 </div>
 
@@ -1217,14 +1516,6 @@
 
 
 
-<p>Pourtant il se peut que l’on appartienne à aucune des deux catégories susnommées. Il fut une personne qui vivait dans un privilège certain pour l’époque. Avec un emploi du temps d’une rigidité terrible, mais une sécurité remarquable. Il s’était retrouvé là jeune, persuadé de le vouloir, interdit à la parole pendant une majeure partie de son temps. Quand il le pouvait, il était impensable de ne parler d’autre chose que de la raison de son séjour, l’adoration sans limite, remplie de sacrifices, solitaire, d’un être divin, qui écrasait alors l’entièreté du monde connu.</p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-33 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
@@ -1275,10 +1566,6 @@
 
 
 
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-34 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
 <figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/plan-1.png&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-vp_xl wp-duotone-unset-1&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-573&quot;,&quot;imgStyles&quot;:&quot;aspect-ratio:1;object-fit:cover&quot;,&quot;targetWidth&quot;:3248,&quot;targetHeight&quot;:3247,&quot;scaleAttr&quot;:&quot;cover&quot;,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-vp_xl wp-duotone-unset-1 wp-lightbox-container"><img loading="lazy" decoding="async" width="1920" height="1919" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/plan-1-1920x1919.png" alt="" class="wp-image-573" style="aspect-ratio:1;object-fit:cover" srcset="/wp-content/uploads/2024/05/plan-1-1920x1919.png 1920w, /wp-content/uploads/2024/05/plan-1-300x300.png 300w, /wp-content/uploads/2024/05/plan-1-1024x1024.png 1024w, /wp-content/uploads/2024/05/plan-1-150x150.png 150w, /wp-content/uploads/2024/05/plan-1-768x768.png 768w, /wp-content/uploads/2024/05/plan-1-1536x1536.png 1536w, /wp-content/uploads/2024/05/plan-1-2048x2048.png 2048w, /wp-content/uploads/2024/05/plan-1-500x500.png 500w, /wp-content/uploads/2024/05/plan-1-800x800.png 800w, /wp-content/uploads/2024/05/plan-1-1280x1280.png 1280w, /wp-content/uploads/2024/05/plan-1-320x320.png 320w, /wp-content/uploads/2024/05/plan-1-480x480.png 480w" sizes="(max-width: 1920px) 100vw, 1920px" /><button
@@ -1300,13 +1587,9 @@
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<p class="has-text-align-center">Alors qu’il arpentait les rues, allées, recoins, cellules, salles, cours, il ne pouvait s’empêcher de penser. Il s’imaginait routes par les sillons, murs par des murets, murailles par les murs, brèches par les fissures, tigres par les chats, forêts par les bosquets, scorpions par les fourmis, pythons par les couleuvres, monolithes par les pierres, phares par les tourelles, voiles par les linges, aqueducs par les ruisseaux, champs de batailles par le cimetière, cathédrales par la basilique, ornements par les défauts, villes par la proximité de deux cabanes, carpaccio par le gruau, plage par une berge, nobles par les silhouettes lointaines, humour par une fugace satisfaction, sexe par un frôlement, intimité par un regard, égouts par des tuyaux, suite par une chambre, chambre par une cellule, jeux par un trébuchement, vague par une vaguelette, lac par un verre d’eau, étendue infinie par étendue finie, trébuchet par une roue à eau, troupeau par une bête, bête par un homme détestable.</p>
+<p>Pourtant il se peut que l’on appartienne à aucune des deux catégories susnommées. Il fut une personne qui vivait dans un privilège certain pour l’époque. Avec un emploi du temps d’une rigidité terrible, mais une sécurité remarquable. Il s’était retrouvé là jeune, persuadé de le vouloir, interdit à la parole pendant une majeure partie de son temps. Quand il le pouvait, il était impensable de ne parler d’autre chose que de la raison de son séjour, l’adoration sans limite, remplie de sacrifices, solitaire, d’un être divin, qui écrasait alors l’entièreté du monde connu.</p>
 </div>
 </div>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
 
@@ -1345,15 +1628,30 @@
 
 
 
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-36 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/VACANCES.jpg&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image aligncenter size-large&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-568&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1080,&quot;targetHeight&quot;:1920,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" decoding="async" width="576" height="1024" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/VACANCES-576x1024.jpg" alt="" class="wp-image-568" srcset="/wp-content/uploads/2024/05/VACANCES-576x1024.jpg 576w, /wp-content/uploads/2024/05/VACANCES-169x300.jpg 169w, /wp-content/uploads/2024/05/VACANCES-768x1365.jpg 768w, /wp-content/uploads/2024/05/VACANCES-864x1536.jpg 864w, /wp-content/uploads/2024/05/VACANCES-500x889.jpg 500w, /wp-content/uploads/2024/05/VACANCES-800x1422.jpg 800w, /wp-content/uploads/2024/05/VACANCES-320x569.jpg 320w, /wp-content/uploads/2024/05/VACANCES-480x853.jpg 480w, /wp-content/uploads/2024/05/VACANCES.jpg 1080w" sizes="(max-width: 576px) 100vw, 576px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			aria-label="Enlarge image"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="context.imageButtonRight"
+			data-wp-style--top="context.imageButtonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+</div>
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="576" height="1024" src="/wp-content/uploads/2024/05/VACANCES-576x1024.jpg" alt="" class="wp-image-568" srcset="/wp-content/uploads/2024/05/VACANCES-576x1024.jpg 576w, /wp-content/uploads/2024/05/VACANCES-169x300.jpg 169w, /wp-content/uploads/2024/05/VACANCES-768x1365.jpg 768w, /wp-content/uploads/2024/05/VACANCES-864x1536.jpg 864w, /wp-content/uploads/2024/05/VACANCES-500x889.jpg 500w, /wp-content/uploads/2024/05/VACANCES-800x1422.jpg 800w, /wp-content/uploads/2024/05/VACANCES-320x569.jpg 320w, /wp-content/uploads/2024/05/VACANCES-480x853.jpg 480w, /wp-content/uploads/2024/05/VACANCES.jpg 1080w" sizes="(max-width: 576px) 100vw, 576px" /></figure>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-text-align-center">Alors qu’il arpentait les rues, allées, recoins, cellules, salles, cours, il ne pouvait s’empêcher de penser. Il s’imaginait routes par les sillons, murs par des murets, murailles par les murs, brèches par les fissures, tigres par les chats, forêts par les bosquets, scorpions par les fourmis, pythons par les couleuvres, monolithes par les pierres, phares par les tourelles, voiles par les linges, aqueducs par les ruisseaux, champs de batailles par le cimetière, cathédrales par la basilique, ornements par les défauts, villes par la proximité de deux cabanes, carpaccio par le gruau, plage par une berge, nobles par les silhouettes lointaines, humour par une fugace satisfaction, sexe par un frôlement, intimité par un regard, égouts par des tuyaux, suite par une chambre, chambre par une cellule, jeux par un trébuchement, vague par une vaguelette, lac par un verre d’eau, étendue infinie par étendue finie, trébuchet par une roue à eau, troupeau par une bête, bête par un homme détestable.</p>
+</div>
+</div>
 ]]></content:encoded>
 					
 		
@@ -1362,27 +1660,14 @@
 		<item>
 		<title>Clairvaux ; To align and converge</title>
 		<link>/clairvaux-faire-converger-clairvaux-to-converge-and-align/</link>
-					<comments>/clairvaux-faire-converger-clairvaux-to-converge-and-align/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Tue, 28 May 2024 17:49:37 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+		<pubDate>Tue, 30 May 2023 17:49:37 +0000</pubDate>
+				<category><![CDATA[Architecture]]></category>
 		<guid isPermaLink="false">/?p=518</guid>
 
-					<description><![CDATA[A poetic and historic way to bring life to the innanimate Axis A Axis B Axis C]]></description>
+					<description><![CDATA[A poetic and historic way to bring life to the innanimate Clairvaux. Worship, isolation, life on 30 hectares cut off from the world for centuries. As architects, not politicians, economists, or sociologists, we can&#8217;t invent the realistic future of this place, but we can show its enormous potential to host all narratives. The goal is [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-5d41d5e1bb5c3193c112509dc6926041">A poetic and historic way to bring life to the innanimate</h2>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
 <figure data-wp-context="{&quot;uploadedSrc&quot;:&quot;\/wp-content\/uploads\/2024\/05\/Plan-satellite-axe_page_1.webp&quot;,&quot;figureClassNames&quot;:&quot;wp-block-image size-vp_lg&quot;,&quot;figureStyles&quot;:null,&quot;imgClassNames&quot;:&quot;wp-image-520&quot;,&quot;imgStyles&quot;:null,&quot;targetWidth&quot;:1920,&quot;targetHeight&quot;:1357,&quot;scaleAttr&quot;:false,&quot;ariaLabel&quot;:&quot;Enlarge image&quot;,&quot;alt&quot;:&quot;&quot;}" data-wp-interactive="core/image" class="wp-block-image size-vp_lg wp-lightbox-container"><img loading="lazy" decoding="async" width="1280" height="905" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2024/05/Plan-satellite-axe_page_1-1280x905.webp" alt="" class="wp-image-520" srcset="/wp-content/uploads/2024/05/Plan-satellite-axe_page_1-1280x905.webp 1280w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-300x212.webp 300w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-1024x724.webp 1024w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-768x543.webp 768w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-1536x1086.webp 1536w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-500x353.webp 500w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-800x565.webp 800w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-320x226.webp 320w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1-480x339.webp 480w, /wp-content/uploads/2024/05/Plan-satellite-axe_page_1.webp 1920w" sizes="(max-width: 1280px) 100vw, 1280px" /><button
 			class="lightbox-trigger"
 			type="button"
@@ -1397,6 +1682,54 @@
 				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
 			</svg>
 		</button></figure>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-5d41d5e1bb5c3193c112509dc6926041">A poetic and historic way to bring life to the innanimate</h2>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Clairvaux. Worship, isolation, life on 30 hectares cut off from the world for centuries. As architects, not politicians, economists, or sociologists, we can&#8217;t invent the realistic future of this place, but we can show its enormous potential to host all narratives. The goal is to imagine this place connected to both global and personal processes, especially those that have not been presented here before, the strange and the foreign.</p>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>To make Clairvaux converge, we focus solely on geometry, what is shown, and what is demonstrated. Ignoring the historicity of the site, which is only one possible logic, is key for us to reimagine the spaces we work with. Dealing with history means being confined to a logic inherent to isolation, whether ecclesiastical or carceral. To dream of a future for a site so marked by the complex relationship between living conditions and habitat, we found that geometric logic and forming formal theories of relationships between buildings, views, paths, and boundaries was the most objective approach to begin dissecting this complex.</p>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Applying spatial logic is akin to archaeology. But pushing this logic to the extreme, we don&#8217;t just appeal to archaeology but to conspiracy theories. This notion of reinvention and reinterpretation of the remains of a site, with subjective rules, sometimes allows humanity to reshape the meaning of symbols and significance. Re-sacralizing the sacred, finding a higher meaning in a site that already has its answers, is the goal that allows us to envision and glimpse something else.</p>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Thus, we must grasp the exterior of an island that is decidedly resistant. We have traveled hundreds of kilometers in search of narratives. Following the directions updated by our initial research, traversing indicated paths, we read in the territories—sometimes different, sometimes twin—the land where Bernard of Clairvaux settled. What do the architectural typologies, diverse programs, boundaries, edges, and flows encountered during a long journey tell us?</p>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>What do they tell us about the past, the future, and the contemporaneity of a place that will outlive us? Conversely, what does such a peaceful, calm, and immutable place tell us about a world that now seems to signify the opposite, advocating speed, consumption, and constant overcommunication? A terrible anxiety and a wind of change weigh on the world, and the contrast between these troubled times—past and future—and the wise character of a massive complex is what we aim to explore in the present work.</p>
 
 
 
@@ -1429,7 +1762,7 @@
 
 
 
-<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-36 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-37 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
 <p><a href="/axis-a" class="hover-effect-link" target="_blank" rel="noopener noreferrer"></p>
 <div class="hover-effect-container">
@@ -1472,75 +1805,79 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/clairvaux-faire-converger-clairvaux-to-converge-and-align/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Desert Observatory</title>
-		<link>/desert-observatory/</link>
+		<title>Study of the Gerrit Rietveld Academy and Sandberg Institute</title>
+		<link>/study-of-the-gerrit-rietveld-academy-and-sandberg-institute/</link>
+					<comments>/study-of-the-gerrit-rietveld-academy-and-sandberg-institute/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Mon, 27 May 2024 21:54:14 +0000</pubDate>
+		<pubDate>Mon, 03 May 2021 18:42:00 +0000</pubDate>
 				<category><![CDATA[Architecture]]></category>
+		<category><![CDATA[Rendering]]></category>
 		<category><![CDATA[Bachelor]]></category>
 		<category><![CDATA[School]]></category>
-		<guid isPermaLink="false">/?p=507</guid>
+		<guid isPermaLink="false">/?p=463</guid>
 
-					<description><![CDATA[A stone dug refuge The project aims to explore the architecture and programming of the domestic space. It was contextless.One of our aim with this pretty bare refuge was to have as minimal as an impact we could, to let the context of the refuge be the center of its interest The three programs we [&#8230;]]]></description>
+					<description><![CDATA[For a construction class, we had to analyze a contemporary building. Our group had to work on the Gerrit Rietveld Academy and Sandberg Institute by Studio Paulien Bremmer + Hootsmans Architects. From the publicly available concise drawings, our group had to make a series of hypothesis on how the building would work both as a [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-vp_xl"><img loading="lazy" decoding="async" width="1920" height="1280" src="/wp-content/uploads/2024/05/Fini-1920x1280.jpg" alt="" class="wp-image-508" srcset="/wp-content/uploads/2024/05/Fini-1920x1280.jpg 1920w, /wp-content/uploads/2024/05/Fini-300x200.jpg 300w, /wp-content/uploads/2024/05/Fini-1024x683.jpg 1024w, /wp-content/uploads/2024/05/Fini-768x512.jpg 768w, /wp-content/uploads/2024/05/Fini-1536x1024.jpg 1536w, /wp-content/uploads/2024/05/Fini-2048x1365.jpg 2048w, /wp-content/uploads/2024/05/Fini-500x333.jpg 500w, /wp-content/uploads/2024/05/Fini-800x533.jpg 800w, /wp-content/uploads/2024/05/Fini-1280x853.jpg 1280w, /wp-content/uploads/2024/05/Fini-320x213.jpg 320w, /wp-content/uploads/2024/05/Fini-480x320.jpg 480w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+<div class="wp-block-columns is-style-default is-layout-flex wp-container-core-columns-is-layout-39 wp-block-columns-is-layout-flex" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10)">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-vp_xl"><img loading="lazy" decoding="async" width="1920" height="5760" src="/wp-content/uploads/2024/05/YesSirCestlafin-1920x5760.jpg" alt="" class="wp-image-464" srcset="/wp-content/uploads/2024/05/YesSirCestlafin-1920x5760.jpg 1920w, /wp-content/uploads/2024/05/YesSirCestlafin-100x300.jpg 100w, /wp-content/uploads/2024/05/YesSirCestlafin-341x1024.jpg 341w, /wp-content/uploads/2024/05/YesSirCestlafin-768x2304.jpg 768w, /wp-content/uploads/2024/05/YesSirCestlafin-512x1536.jpg 512w, /wp-content/uploads/2024/05/YesSirCestlafin-683x2048.jpg 683w, /wp-content/uploads/2024/05/YesSirCestlafin-500x1500.jpg 500w, /wp-content/uploads/2024/05/YesSirCestlafin-800x2400.jpg 800w, /wp-content/uploads/2024/05/YesSirCestlafin-1280x3840.jpg 1280w, /wp-content/uploads/2024/05/YesSirCestlafin-320x960.jpg 320w, /wp-content/uploads/2024/05/YesSirCestlafin-480x1440.jpg 480w, /wp-content/uploads/2024/05/YesSirCestlafin-scaled.jpg 853w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+</div>
 
 
 
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-83 wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)">
+<p style="margin-right:0;margin-left:0">For a construction class, we had to analyze a contemporary building. Our group had to work on the Gerrit Rietveld Academy and Sandberg Institute by Studio Paulien Bremmer + Hootsmans Architects.</p>
 
 
 
-<h2 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-478d816c31ecf2317bbc928cd83b31b3">A stone dug refuge</h2>
+<p>From the publicly available concise drawings, our group had to make a series of hypothesis on how the building would work both as a structure and thermal enveloppe.</p>
 
 
 
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-38 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:55%">
+<figure class="wp-block-image size-full"><img decoding="async" src="/wp-content/uploads/2024/05/06_basement_souterrain.webp" alt=""/></figure>
+</div>
 
 
 
-<p>The project aims to explore the architecture and programming of the domestic space. It was contextless.<br>One of our aim with this pretty bare refuge was to have as minimal as an impact we could, to let the context of the refuge be the center of its interest</p>
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="709" height="1000" src="/wp-content/uploads/2024/05/10_Fragment_Facade-FRAGMENT_1op80opA4_kopie.webp" alt="" class="wp-image-466" srcset="/wp-content/uploads/2024/05/10_Fragment_Facade-FRAGMENT_1op80opA4_kopie.webp 709w, /wp-content/uploads/2024/05/10_Fragment_Facade-FRAGMENT_1op80opA4_kopie-213x300.webp 213w, /wp-content/uploads/2024/05/10_Fragment_Facade-FRAGMENT_1op80opA4_kopie-500x705.webp 500w, /wp-content/uploads/2024/05/10_Fragment_Facade-FRAGMENT_1op80opA4_kopie-320x451.webp 320w, /wp-content/uploads/2024/05/10_Fragment_Facade-FRAGMENT_1op80opA4_kopie-480x677.webp 480w" sizes="(max-width: 709px) 100vw, 709px" /></figure>
+</div>
+</div>
 
 
 
-<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+<figure class="wp-block-image size-vp_xl"><img loading="lazy" decoding="async" width="1920" height="1280" src="/wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-1920x1280.webp" alt="" class="wp-image-468" srcset="/wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-1920x1280.webp 1920w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-300x200.webp 300w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-1024x683.webp 1024w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-768x512.webp 768w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-1536x1024.webp 1536w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-2048x1365.webp 2048w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-500x333.webp 500w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-800x533.webp 800w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-1280x853.webp 1280w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-320x213.webp 320w, /wp-content/uploads/2024/05/02-photo-Jeroen-Verrecht.1568036864.6717-1-480x320.webp 480w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="683" src="/wp-content/uploads/2024/05/Photomontage-1024x683.webp" alt="" class="wp-image-510" srcset="/wp-content/uploads/2024/05/Photomontage-1024x683.webp 1024w, /wp-content/uploads/2024/05/Photomontage-300x200.webp 300w, /wp-content/uploads/2024/05/Photomontage-768x512.webp 768w, /wp-content/uploads/2024/05/Photomontage-1536x1024.webp 1536w, /wp-content/uploads/2024/05/Photomontage-2048x1365.webp 2048w, /wp-content/uploads/2024/05/Photomontage-500x333.webp 500w, /wp-content/uploads/2024/05/Photomontage-800x533.webp 800w, /wp-content/uploads/2024/05/Photomontage-1280x853.webp 1280w, /wp-content/uploads/2024/05/Photomontage-1920x1280.webp 1920w, /wp-content/uploads/2024/05/Photomontage-320x213.webp 320w, /wp-content/uploads/2024/05/Photomontage-480x320.webp 480w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p>A part of my work consisted on making a drawn section a realistic rendering. Therefore, I had to combine the work done by my group as well as photos of the building.</p>
 
 
 
-<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+<div data-client-id="c6a87e4cd78948e6ba22b45427506e48" id="pdf-2" class="wp-block-tropicalista-pdfembed" style="height:500px" data-api-key="" data-file-name="Binder1.pdf" data-media-url="/wp-content/uploads/2024/05/Binder1.pdf" data-show-download-pdf="true" data-show-print-pdf="true" data-show-page-controls="true" data-show-thumbnails="true" data-show-bookmarks="true" data-show-zoom-control="true" data-show-full-screen="true" data-default-view-mode="FIT_PAGE" data-show-annotation-tools="true" data-enable-form-filling="true"></div>
+
+
+<a href="/wp-content/uploads/2024/05/Binder1.pdf" class="pdfemb-viewer" style="" data-width="max" data-height="max" data-toolbar="bottom" data-toolbar-fixed="off">Binder1</a></div>
+</div>
 
 
 
-<p>The three programs we chose to explore were the terrace, the bedroom and a living space. We chose to dig so as to have a simple enclosed space, and to have a theatrical entry into the inside. The lounge room is made just after the stairs to the sides of the main circulation to give the bedroom the most space, the most attention.</p>
+<p></p>
 
 
 
-<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-image size-vp_xl"><img decoding="async"  src="/wp-content/uploads/2024/05/Untitled-2.svg" alt="" class="wp-image-513"/></figure>
-
-
-
-<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>Credits : Alexandre Polycarpe</p>
+<p>Credits : Lila Van Wassenhove, Salma Khobalatte, Lucie Leccia, Lucas Thalamy, Inès Boitheauville</p>
 ]]></content:encoded>
 					
+					<wfw:commentRss>/study-of-the-gerrit-rietveld-academy-and-sandberg-institute/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -1549,7 +1886,7 @@
 		<link>/388/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Sun, 26 May 2024 19:39:23 +0000</pubDate>
+		<pubDate>Tue, 26 May 2020 19:39:23 +0000</pubDate>
 				<category><![CDATA[Architecture]]></category>
 		<category><![CDATA[Bachelor]]></category>
 		<category><![CDATA[School]]></category>
@@ -1582,8 +1919,8 @@
 
 
 
-<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-37 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-is-layout-78 wp-block-column-is-layout-flow" style="padding-right:0;padding-left:0;flex-basis:60%">
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-40 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-is-layout-84 wp-block-column-is-layout-flow" style="padding-right:0;padding-left:0;flex-basis:60%">
 <div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-7 wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1024x768.webp" alt="" class="wp-image-393" srcset="/wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1024x768.webp 1024w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-300x225.webp 300w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-768x576.webp 768w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1536x1152.webp 1536w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-500x375.webp 500w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-800x600.webp 800w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-1280x960.webp 1280w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-320x240.webp 320w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n-480x360.webp 480w, /wp-content/uploads/2024/05/64900207_338323850179084_8801617243503853568_n.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
@@ -1614,7 +1951,7 @@
 
 
 
-<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-38 wp-block-columns-is-layout-flex" style="padding-right:0;padding-left:0">
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-41 wp-block-columns-is-layout-flex" style="padding-right:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:62.5%">
 <figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-1024x768.webp" alt="" class="wp-image-390" srcset="/wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-1024x768.webp 1024w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-300x225.webp 300w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-768x576.webp 768w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-1536x1152.webp 1536w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-500x375.webp 500w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-800x600.webp 800w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-1280x960.webp 1280w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-320x240.webp 320w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1-480x360.webp 480w, /wp-content/uploads/2024/05/62361203_344338109538230_4914070175835226112_n1.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
