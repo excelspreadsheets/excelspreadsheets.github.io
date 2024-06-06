@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description></description>
-	<lastBuildDate>Fri, 31 May 2024 11:55:18 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 06 Jun 2024 12:31:02 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -1858,10 +1858,6 @@
 
 
 <p>A part of my work consisted on making a drawn section a realistic rendering. Therefore, I had to combine the work done by my group as well as photos of the building.</p>
-
-
-
-<div data-client-id="c6a87e4cd78948e6ba22b45427506e48" id="pdf-2" class="wp-block-tropicalista-pdfembed" style="height:500px" data-api-key="" data-file-name="Binder1.pdf" data-media-url="/wp-content/uploads/2024/05/Binder1.pdf" data-show-download-pdf="true" data-show-print-pdf="true" data-show-page-controls="true" data-show-thumbnails="true" data-show-bookmarks="true" data-show-zoom-control="true" data-show-full-screen="true" data-default-view-mode="FIT_PAGE" data-show-annotation-tools="true" data-enable-form-filling="true"></div>
 
 
 <a href="/wp-content/uploads/2024/05/Binder1.pdf" class="pdfemb-viewer" style="" data-width="max" data-height="max" data-toolbar="bottom" data-toolbar-fixed="off">Binder1</a></div>
