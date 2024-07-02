@@ -8,7 +8,7 @@
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="/comments/feed/">
 <script>
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.4"}};
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.5"}};
 /*! This file is auto-generated */
 !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
 </script>
@@ -73,6 +73,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 .wp-block-site-title a:where(:not(.wp-element-button)):hover{text-decoration: none;}
 .wp-block-heading{color: var(--wp--preset--color--base-2);font-size: var(--wp--preset--font-size--x-large);line-height: 1.4;}
 .wp-block-heading a:where(:not(.wp-element-button)){color: var(--wp--preset--color--base-2);}
+
+
 .center-vertically {
     display: flex;
     flex-direction: column;
@@ -80,6 +82,15 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     height: 95vh; /* Adjust as needed */
     width: 95vw;
 }
+
+.center-vertically-soft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Adjust as needed */
+    width: 100%;
+}
+
 
 .hover-effect-container {
     display: inline-block;
@@ -230,7 +241,7 @@ body::-webkit-scrollbar {
 		}</style>
 <link rel="stylesheet" id="sbttb-fonts-css" href="/wp-content/plugins/smooth-back-to-top-button/assets/css/sbttb-fonts.css?ver=1.1.14" media="all">
 <link rel="stylesheet" id="sbttb-style-css" href="/wp-content/plugins/smooth-back-to-top-button/assets/css/smooth-back-to-top-button.css?ver=1.1.14" media="all">
-<link rel="stylesheet" id="videojs-css" href="/wp-content/plugins/videojs-html5-player/videojs/video-js.min.css?ver=6.5.4" media="all">
+<link rel="stylesheet" id="videojs-css" href="/wp-content/plugins/videojs-html5-player/videojs/video-js.min.css?ver=6.5.5" media="all">
 <link rel="stylesheet" id="widgetopts-styles-css" href="/wp-content/plugins/widget-options/assets/css/widget-options.css?ver=4.0.6" media="all">
 <link rel="stylesheet" id="wpim-style-css-css" href="/wp-content/plugins/wp-image-mask/dist/blocks.style.build.css" media="all">
 <script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
@@ -238,7 +249,7 @@ body::-webkit-scrollbar {
 <link rel="https://api.w.org/" href="/wp-json/">
 <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/488">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<meta name="generator" content="WordPress 6.5.4">
+<meta name="generator" content="WordPress 6.5.5">
 <link rel="canonical" href="/photography/">
 <link rel="shortlink" href="/?p=488">
 <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fphotography%2F">
@@ -332,7 +343,7 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 
 
 
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"><h2 class="has-text-align-right has-link-color has-text-color has-base-2-color wp-block-post-title has-large-font-size wp-elements-9f729ac0fff8260b96c245c36c0d1dae">Photography</h2></div>
+<div class="wp-block-column is-vertically-aligned-center uag-hide-mob is-layout-flow wp-block-column-is-layout-flow"><h2 class="has-text-align-right has-link-color has-text-color has-base-2-color wp-block-post-title has-large-font-size wp-elements-9f729ac0fff8260b96c245c36c0d1dae">Photography</h2></div>
 </div>
 </div>
 
@@ -349,7 +360,11 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 <div class="wp-block-autogrid-item-2 wp-block-andreslav-autogrid-item is-layout-flex wp-container-andreslav-autogrid-item-is-layout-1 wp-block-autogrid-item-is-layout-flex">
 	
 
-<figure class="wp-block-image size-vp_xl"><a href="/toulouse-noel-2023/" target="_blank" rel="noreferrer noopener"><img fetchpriority="high" decoding="async" width="1920" height="3521" src="/wp-content/uploads/2024/06/IMG_0084-1920x3521.png" alt="" class="wp-image-1019" srcset="/wp-content/uploads/2024/06/IMG_0084-1920x3521.png 1920w, /wp-content/uploads/2024/06/IMG_0084-164x300.png 164w, /wp-content/uploads/2024/06/IMG_0084-558x1024.png 558w, /wp-content/uploads/2024/06/IMG_0084-768x1409.png 768w, /wp-content/uploads/2024/06/IMG_0084-838x1536.png 838w, /wp-content/uploads/2024/06/IMG_0084-1117x2048.png 1117w, /wp-content/uploads/2024/06/IMG_0084-500x917.png 500w, /wp-content/uploads/2024/06/IMG_0084-800x1467.png 800w, /wp-content/uploads/2024/06/IMG_0084-1280x2348.png 1280w, /wp-content/uploads/2024/06/IMG_0084-320x587.png 320w, /wp-content/uploads/2024/06/IMG_0084-480x880.png 480w" sizes="(max-width: 1920px) 100vw, 1920px"></a></figure>
+<figure class="wp-block-image size-vp_xl"><a href="/bassin-minier/"><img fetchpriority="high" decoding="async" width="1920" height="1280" src="/wp-content/uploads/2024/07/export1-5953-1920x1280.jpg" alt="" class="wp-image-1205" srcset="/wp-content/uploads/2024/07/export1-5953-1920x1280.jpg 1920w, /wp-content/uploads/2024/07/export1-5953-300x200.jpg 300w, /wp-content/uploads/2024/07/export1-5953-1024x683.jpg 1024w, /wp-content/uploads/2024/07/export1-5953-768x512.jpg 768w, /wp-content/uploads/2024/07/export1-5953-1536x1024.jpg 1536w, /wp-content/uploads/2024/07/export1-5953-2048x1365.jpg 2048w, /wp-content/uploads/2024/07/export1-5953-500x333.jpg 500w, /wp-content/uploads/2024/07/export1-5953-800x533.jpg 800w, /wp-content/uploads/2024/07/export1-5953-1280x853.jpg 1280w, /wp-content/uploads/2024/07/export1-5953-320x213.jpg 320w, /wp-content/uploads/2024/07/export1-5953-480x320.jpg 480w" sizes="(max-width: 1920px) 100vw, 1920px"></a></figure>
+
+
+
+<figure class="wp-block-image size-vp_xl"><a href="/toulouse-noel-2023/" target="_blank" rel="noreferrer noopener"><img decoding="async" width="1920" height="3521" src="/wp-content/uploads/2024/06/IMG_0084-1920x3521.png" alt="" class="wp-image-1019" srcset="/wp-content/uploads/2024/06/IMG_0084-1920x3521.png 1920w, /wp-content/uploads/2024/06/IMG_0084-164x300.png 164w, /wp-content/uploads/2024/06/IMG_0084-558x1024.png 558w, /wp-content/uploads/2024/06/IMG_0084-768x1409.png 768w, /wp-content/uploads/2024/06/IMG_0084-838x1536.png 838w, /wp-content/uploads/2024/06/IMG_0084-1117x2048.png 1117w, /wp-content/uploads/2024/06/IMG_0084-500x917.png 500w, /wp-content/uploads/2024/06/IMG_0084-800x1467.png 800w, /wp-content/uploads/2024/06/IMG_0084-1280x2348.png 1280w, /wp-content/uploads/2024/06/IMG_0084-320x587.png 320w, /wp-content/uploads/2024/06/IMG_0084-480x880.png 480w" sizes="(max-width: 1920px) 100vw, 1920px"></a></figure>
 
 
 
@@ -362,7 +377,7 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 <div class="wp-block-autogrid-item-3 wp-block-andreslav-autogrid-item is-layout-flex wp-container-andreslav-autogrid-item-is-layout-2 wp-block-autogrid-item-is-layout-flex">
 	
 
-<figure class="wp-block-image size-vp_xl"><a href="/haute-saone-2024/" target="_blank" rel="noreferrer noopener"><img decoding="async" width="1920" height="1366" src="/wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1920x1366.jpg" alt="" class="wp-image-996" srcset="/wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1920x1366.jpg 1920w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-300x213.jpg 300w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1024x729.jpg 1024w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-768x546.jpg 768w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1536x1093.jpg 1536w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-500x356.jpg 500w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-800x569.jpg 800w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1280x911.jpg 1280w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-320x228.jpg 320w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-480x342.jpg 480w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR.jpg 2000w" sizes="(max-width: 1920px) 100vw, 1920px"></a></figure>
+<figure class="wp-block-image size-vp_xl"><a href="/haute-saone-2024/" target="_blank" rel="noreferrer noopener"><img loading="lazy" decoding="async" width="1920" height="1366" src="/wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1920x1366.jpg" alt="" class="wp-image-996" srcset="/wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1920x1366.jpg 1920w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-300x213.jpg 300w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1024x729.jpg 1024w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-768x546.jpg 768w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1536x1093.jpg 1536w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-500x356.jpg 500w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-800x569.jpg 800w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-1280x911.jpg 1280w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-320x228.jpg 320w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR-480x342.jpg 480w, /wp-content/uploads/2024/06/DSCF3638-Enhanced-NR.jpg 2000w" sizes="(max-width: 1920px) 100vw, 1920px"></a></figure>
 
 
 

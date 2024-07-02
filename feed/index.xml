@@ -12,14 +12,232 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description></description>
-	<lastBuildDate>Sat, 08 Jun 2024 15:40:38 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 01 Jul 2024 18:29:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
 	<item>
+		<title>Bassin minier du Nord-pas-de-Calais &#8211; 2024</title>
+		<link>/bassin-minier/</link>
+					<comments>/bassin-minier/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 18:28:33 +0000</pubDate>
+				<category><![CDATA[Photography]]></category>
+		<guid isPermaLink="false">/?p=1201</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-uagb-container uagb-block-67000852 alignfull uagb-is-root-container">					<div
+						class="wp-block-uagb-image-gallery uagb-block-ae784a55     "
+						style=""
+					>
+											<div class="spectra-image-gallery spectra-image-gallery__layout--masonry spectra-image-gallery__layout--masonry-col-2 spectra-image-gallery__layout--masonry-col-tab-4 spectra-image-gallery__layout--masonry-col-mob-1">
+											<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1206'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/export1-6150-1920x1280.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/export1-6150-1024x683.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/export1-6150-300x200.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+						<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1205'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/export1-5953-1920x1280.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/export1-5953-1024x683.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/export1-5953-300x200.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+						<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1202'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/export1--1920x1280.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/export1--1024x683.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/export1--300x200.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+						<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1203'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/export1-5180-1920x1280.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/export1-5180-1024x683.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/export1-5180-300x200.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+						<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1204'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/export1-5190-1920x1280.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/export1-5190-1024x683.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/export1-5190-300x200.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+						<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1210'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/Planche-contact-004-1920x1920.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/Planche-contact-004-1024x1024.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/Planche-contact-004-300x300.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+						<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1207'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/Planche-contact-001-1920x1920.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/Planche-contact-001-1024x1024.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/Planche-contact-001-300x300.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+						<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1208'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/Planche-contact-002-1920x1920.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/Planche-contact-002-1024x1024.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/Planche-contact-002-300x300.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+						<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1209'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/Planche-contact-003-1920x1920.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/Planche-contact-003-1024x1024.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/Planche-contact-003-300x300.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+						<div class='spectra-image-gallery__media-wrapper--isotope'>
+							<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='1211'>
+							<div class="spectra-image-gallery__media spectra-image-gallery__media--masonry">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/07/Planche-contact-005-1920x1920.jpg">
+					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/07/Planche-contact-005-1024x1024.jpg">
+					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--masonry" src="/wp-content/uploads/2024/07/Planche-contact-005-300x300.jpg" alt="" loading="lazy" />
+				</picture>
+				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
+											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
+								</div>
+						</div>
+						</div>
+										</div>
+																		</div>
+											<div class='spectra-image-gallery__control-lightbox' tabindex='0'>
+											<div class="swiper spectra-image-gallery__control-lightbox--main" dir="">
+					<div class="swiper-wrapper">
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/export1-6150-scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/export1-5953-scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/export1--scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/export1-5180-scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/export1-5190-scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/Planche-contact-004-scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/Planche-contact-001-scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/Planche-contact-002-scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/Planche-contact-003-scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+													
+							<div class="swiper-slide">
+								<img class="swiper-lazy" data-src="/wp-content/uploads/2024/07/Planche-contact-005-scaled.jpg" alt=""/>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+															</div>
+											</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>			
+																																<button class='spectra-image-gallery__control-lightbox--close'>
+													<svg xmlns="https://www.w3.org/2000/svg" viewBox= "0 0 320 512"><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg>
+												</button>
+													</div>
+									</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/bassin-minier/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Londre 2023 &#8211; Cars</title>
 		<link>/londre-2023-cars/</link>
 					<comments>/londre-2023-cars/#respond</comments>
@@ -2014,130 +2232,6 @@
 					
 					<wfw:commentRss>/sicile-2023/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Pastoralism renewal : Côme Mazin-Pietri et Camille de Broissia</title>
-		<link>/pastoralism-renewal-come-mazin-pietri-et-camille-de-broissia/</link>
-		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Thu, 08 Jun 2023 14:10:00 +0000</pubDate>
-				<category><![CDATA[Rendering]]></category>
-		<guid isPermaLink="false">/?p=971</guid>
-
-					<description><![CDATA[Rendering made for the diploma of Côme Mazin-Pietri and Camille de Broissia The rendering are made using the photographs below. It&#8217;s a project made to reinforce the usages of sheep herding along the Loire. I had access to the 3D models, and a broad range of materiality choices.The first one showcases a multi-usage hall.The second [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<h2 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-e35a8e810dd897a9f1372a89f2264900" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)">Rendering made for the diploma of Côme Mazin-Pietri and Camille de Broissia</h2>
-
-
-
-<div class="wp-block-uagb-container uagb-block-4583ae08 alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">					<div
-						class="wp-block-uagb-image-gallery uagb-block-34a6dac4     "
-						style=""
-					>
-											<div class="spectra-image-gallery spectra-image-gallery__layout--carousel">
-								<div class="uagb-slick-carousel uagb-block-34a6dac4">
-												<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='976'>
-							<div class="spectra-image-gallery__media spectra-image-gallery__media--carousel">
-				<picture>
-					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/06/halle-1920x1280.png">
-					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/06/halle-1024x683.png">
-					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--carousel" src="/wp-content/uploads/2024/06/halle-300x200.png" alt="" loading="lazy" />
-				</picture>
-				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
-											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
-								</div>
-						</div>
-						<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='975'>
-							<div class="spectra-image-gallery__media spectra-image-gallery__media--carousel">
-				<picture>
-					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/06/fromagerie-1920x1280.png">
-					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/06/fromagerie-1024x683.png">
-					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--carousel" src="/wp-content/uploads/2024/06/fromagerie-300x200.png" alt="" loading="lazy" />
-				</picture>
-				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
-											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
-								</div>
-						</div>
-						<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='973'>
-							<div class="spectra-image-gallery__media spectra-image-gallery__media--carousel">
-				<picture>
-					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/06/filature-1920x1280.png">
-					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/06/filature-1024x683.png">
-					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--carousel" src="/wp-content/uploads/2024/06/filature-300x200.png" alt="" loading="lazy" />
-				</picture>
-				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
-											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
-								</div>
-						</div>
-						<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='974'>
-							<div class="spectra-image-gallery__media spectra-image-gallery__media--carousel">
-				<picture>
-					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/06/abri-1-1920x1280.png">
-					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/06/abri-1-1024x683.png">
-					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--carousel" src="/wp-content/uploads/2024/06/abri-1-300x200.png" alt="" loading="lazy" />
-				</picture>
-				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
-											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
-								</div>
-						</div>
-											</div>
-							</div>
-											</div>
-									</div></div>
-
-
-
-<p style="margin-top:var(--wp--preset--spacing--10);margin-right:0;margin-bottom:var(--wp--preset--spacing--10);margin-left:0">The rendering are made using the photographs below. It&#8217;s a project made to reinforce the usages of sheep herding along the Loire. I had access to the 3D models, and a broad range of materiality choices.<br>The first one showcases a multi-usage hall.<br>The second one showcases a dairy.<br>The third one displays a cabin for herders.<br>The final one is made without photo references and shows a spinning mill.</p>
-
-
-
-<div class="wp-block-uagb-container uagb-block-acbcba00 alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">					<div
-						class="wp-block-uagb-image-gallery uagb-block-ff950a4e     "
-						style=""
-					>
-											<div class="spectra-image-gallery spectra-image-gallery__layout--carousel">
-								<div class="uagb-slick-carousel uagb-block-ff950a4e">
-												<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='984'>
-							<div class="spectra-image-gallery__media spectra-image-gallery__media--carousel">
-				<picture>
-					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/06/DSC_0301-1920x1280.jpg">
-					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/06/DSC_0301-1024x683.jpg">
-					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--carousel" src="/wp-content/uploads/2024/06/DSC_0301-300x200.jpg" alt="" loading="lazy" />
-				</picture>
-				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
-											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
-								</div>
-						</div>
-						<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='985'>
-							<div class="spectra-image-gallery__media spectra-image-gallery__media--carousel">
-				<picture>
-					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/06/DSC_0318-1920x1280.jpg">
-					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/06/DSC_0318-1024x683.jpg">
-					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--carousel" src="/wp-content/uploads/2024/06/DSC_0318-300x200.jpg" alt="" loading="lazy" />
-				</picture>
-				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
-											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
-								</div>
-						</div>
-						<div class='spectra-image-gallery__media-wrapper' data-spectra-gallery-image-id='986'>
-							<div class="spectra-image-gallery__media spectra-image-gallery__media--carousel">
-				<picture>
-					<source media="(min-width: 1024px)" srcset="/wp-content/uploads/2024/06/DSC_0148-1920x1280.jpg">
-					<source media="(min-width: 768px)" srcset="/wp-content/uploads/2024/06/DSC_0148-1024x683.jpg">
-					<img decoding="async" class="spectra-image-gallery__media-thumbnail spectra-image-gallery__media-thumbnail--carousel" src="/wp-content/uploads/2024/06/DSC_0148-300x200.jpg" alt="" loading="lazy" />
-				</picture>
-				<div class="spectra-image-gallery__media-thumbnail-blurrer"></div>
-											<div class="spectra-image-gallery__media-thumbnail-caption-wrapper spectra-image-gallery__media-thumbnail-caption-wrapper--overlay"></div>
-								</div>
-						</div>
-											</div>
-							</div>
-											</div>
-									</div></div>
-]]></content:encoded>
-					
 		
 		
 			</item>
