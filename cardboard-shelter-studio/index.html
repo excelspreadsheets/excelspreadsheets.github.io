@@ -8,7 +8,7 @@
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="/comments/feed/">
 <script>
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.5"}};
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.5"}};
 /*! This file is auto-generated */
 !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
 </script>
@@ -143,6 +143,14 @@ body {
     overflow: hidden; /* Prevent page from scrolling */
 }
 
+.y-overflow2 {
+    height: 78vh; /* Full viewport height */
+    overflow-y: scroll; /* Enable vertical scroll */
+}
+body {
+    overflow: hidden; /* Prevent page from scrolling */
+}
+
 
 
 
@@ -218,7 +226,7 @@ body::-webkit-scrollbar {
     display: none; /* Hides the scrollbar for Webkit browsers if required */
 }
 .wp-block-calendar.wp-block-calendar table:where(:not(.has-text-color)) th{background-color:var(--wp--preset--color--contrast-2);color:var(--wp--preset--color--base);border-color:var(--wp--preset--color--contrast-2)}.wp-block-calendar table:where(:not(.has-text-color)) td{border-color:var(--wp--preset--color--contrast-2)}.wp-block-categories{}.wp-block-categories{list-style-type:none;}.wp-block-categories li{margin-bottom: 0.5rem;}.wp-block-post-comments-form{}.wp-block-post-comments-form textarea, .wp-block-post-comments-form input{border-radius:.33rem}.wp-block-loginout{}.wp-block-loginout input{border-radius:.33rem;padding:calc(0.667em + 2px);border:1px solid #949494;}.wp-block-post-terms{}.wp-block-post-terms .wp-block-post-terms__prefix{color: var(--wp--preset--color--contrast-2);}.wp-block-query-title{}.wp-block-query-title span{font-style: italic;}.wp-block-quote{}.wp-block-quote :where(p){margin-block-start:0;margin-block-end:calc(var(--wp--preset--spacing--10) + 0.5rem);}.wp-block-quote :where(:last-child){margin-block-end:0;}.wp-block-quote.has-text-align-right.is-style-plain, .rtl .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-left){border-width: 0 2px 0 0;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem);}.wp-block-quote.has-text-align-left.is-style-plain, body:not(.rtl) .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-right){border-width: 0 0 0 2px;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem)}.wp-block-search{}.wp-block-search .wp-block-search__input{border-radius:.33rem}.wp-block-separator{}.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: var(--wp--preset--spacing--60)}</style>
-<style id="core-block-supports-inline-css">.wp-elements-e397ee5a7e6bc2419ac8700bcbe31b3e a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-9f729ac0fff8260b96c245c36c0d1dae a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}.wp-container-1{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-elements-0ff9e7721cf478a3b20e6616fa80164a a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-2.wp-container-core-columns-is-layout-2{flex-wrap:nowrap;gap:2em 10px;}.wp-elements-47659be9fa87215f04e26f919dc508b6 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-b510812ed716b06318a380b3bc202421 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-467f925fd0fa2ce36cd44eebdcb68ec0 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-3.wp-container-core-columns-is-layout-3{flex-wrap:nowrap;gap:2em var(--wp--preset--spacing--10);}.wp-elements-cda10368c170cd0aa26cf3171fdaae20 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-4.wp-container-core-columns-is-layout-4{flex-wrap:nowrap;gap:2em var(--wp--preset--spacing--10);}</style>
+<style id="core-block-supports-inline-css">.wp-elements-e397ee5a7e6bc2419ac8700bcbe31b3e a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-9f729ac0fff8260b96c245c36c0d1dae a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}.wp-container-1{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-elements-0ff9e7721cf478a3b20e6616fa80164a a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-2.wp-container-core-columns-is-layout-2{flex-wrap:nowrap;gap:2em 10px;}.wp-elements-47659be9fa87215f04e26f919dc508b6 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-b510812ed716b06318a380b3bc202421 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-467f925fd0fa2ce36cd44eebdcb68ec0 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-3.wp-container-core-columns-is-layout-3{flex-wrap:nowrap;gap:2em 10px;}.wp-container-core-columns-is-layout-4.wp-container-core-columns-is-layout-4{flex-wrap:nowrap;gap:2em var(--wp--preset--spacing--10);}.wp-elements-cda10368c170cd0aa26cf3171fdaae20 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-5.wp-container-core-columns-is-layout-5{flex-wrap:nowrap;gap:2em var(--wp--preset--spacing--10);}</style>
 <style id="wp-block-template-skip-link-inline-css">.skip-link.screen-reader-text {
 			border: 0;
 			clip: rect(1px,1px,1px,1px);
@@ -253,7 +261,7 @@ body::-webkit-scrollbar {
 <link rel="stylesheet" id="videojs-css" href="/wp-content/plugins/videojs-html5-player/videojs/video-js.min.css?ver=6.5.5" media="all">
 <link rel="stylesheet" id="widgetopts-styles-css" href="/wp-content/plugins/widget-options/assets/css/widget-options.css?ver=4.0.6" media="all">
 <link rel="stylesheet" id="wpim-style-css-css" href="/wp-content/plugins/wp-image-mask/dist/blocks.style.build.css" media="all">
-<link rel="stylesheet" id="uag-style-352-css" href="/wp-content/uploads/uag-plugin/assets/0/uag-css-352.css?ver=1719870612" media="all">
+<link rel="stylesheet" id="uag-style-352-css" href="/wp-content/uploads/uag-plugin/assets/0/uag-css-352.css?ver=1720127376" media="all">
 <script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
@@ -360,8 +368,8 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
 <div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-columns alignfull is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:15%">
+<div class="wp-block-columns alignfull is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
+<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:15%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 
@@ -419,7 +427,7 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 
 
 
-<div class="wp-block-column has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="border-style:none;border-width:0px;padding-right:0.2rem;padding-left:0.2rem"><div class="entry-content y-overflow wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
+<div class="wp-block-column uag-hide-desktop is-layout-flow wp-block-column-is-layout-flow" style="border-style:none;border-width:0px;padding-right:0.2rem;padding-left:0.2rem"><div class="entry-content y-overflow2 wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="padding-right:10px;padding-left:10px">
 <div class="wp-block-uagb-image aligncenter uagb-block-1bbfc781 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-center"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="/wp-content/uploads/2024/05/SP11_whole-view-1-1920x1280.webp ,/wp-content/uploads/2024/05/SP11_whole-view-1-scaled.webp 780w, /wp-content/uploads/2024/05/SP11_whole-view-1-scaled.webp 360w" sizes="(max-width: 480px) 150px" src="/wp-content/uploads/2024/05/SP11_whole-view-1-1920x1280.webp" alt="" class="uag-image-381" width="1920" height="1280" title="SP11_whole-view-1" loading="lazy" role="img"></figure></div>
 
@@ -497,14 +505,95 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 
 
 
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="border-style:none;border-width:0px;padding-right:0;padding-left:0;flex-basis:15%"><div style="padding-right:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10);" class="has-text-align-right wp-block-post-date"><time datetime="2019-01-21T17:48:00+00:00">01/2019</time></div></div>
+<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow"><div class="entry-content y-overflow wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="padding-right:10px;padding-left:10px">
+<div class="wp-block-uagb-image aligncenter uagb-block-1bbfc781 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-center"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="/wp-content/uploads/2024/05/SP11_whole-view-1-1920x1280.webp ,/wp-content/uploads/2024/05/SP11_whole-view-1-scaled.webp 780w, /wp-content/uploads/2024/05/SP11_whole-view-1-scaled.webp 360w" sizes="(max-width: 480px) 150px" src="/wp-content/uploads/2024/05/SP11_whole-view-1-1920x1280.webp" alt="" class="uag-image-381" width="1920" height="1280" title="SP11_whole-view-1" loading="lazy" role="img"></figure></div>
+
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-base-2-color has-text-color has-link-color has-medium-font-size wp-elements-0ff9e7721cf478a3b20e6616fa80164a">A protecting hand surely makes the best shelter ? </h2>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>That&#8217;s the idea that guided our group of 5 during our very first intensive studio in architecture school. The challenge of the studio was to make a shelter using a <strong>cut and slide </strong>technique to assemble pieces of cardboard.</p>
+
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<div class="wp-block-uagb-image uagb-block-b802a839 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="/wp-content/uploads/2024/05/SP11_high-joints-1024x683.webp ,/wp-content/uploads/2024/05/SP11_high-joints.webp 780w, /wp-content/uploads/2024/05/SP11_high-joints.webp 360w" sizes="(max-width: 480px) 150px" src="/wp-content/uploads/2024/05/SP11_high-joints-1024x683.webp" alt="" class="uag-image-373" width="6000" height="4000" title="SP11_high-joints" loading="lazy" role="img"></figure></div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img decoding="async" width="1920" height="1280" src="/wp-content/uploads/2024/05/SP11_pinkie-1.webp" alt="" class="wp-image-374" srcset="/wp-content/uploads/2024/05/SP11_pinkie-1.webp 1920w, /wp-content/uploads/2024/05/SP11_pinkie-1-300x200.webp 300w, /wp-content/uploads/2024/05/SP11_pinkie-1-1024x683.webp 1024w, /wp-content/uploads/2024/05/SP11_pinkie-1-768x512.webp 768w, /wp-content/uploads/2024/05/SP11_pinkie-1-1536x1024.webp 1536w, /wp-content/uploads/2024/05/SP11_pinkie-1-500x333.webp 500w, /wp-content/uploads/2024/05/SP11_pinkie-1-800x533.webp 800w, /wp-content/uploads/2024/05/SP11_pinkie-1-1280x853.webp 1280w, /wp-content/uploads/2024/05/SP11_pinkie-1-320x213.webp 320w, /wp-content/uploads/2024/05/SP11_pinkie-1-480x320.webp 480w" sizes="(max-width: 1920px) 100vw, 1920px"></figure>
+</div>
+</div>
+
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="has-base-2-color has-text-color has-link-color wp-elements-47659be9fa87215f04e26f919dc508b6">The three middle fingers are movable to vary the extent and height of the shelter. Even though we were skeptical of the durability of the joints, the zip-ties holding them lasted long enough !</p>
+
+
+
+<p class="has-base-2-color has-text-color has-link-color wp-elements-b510812ed716b06318a380b3bc202421">The thumb and pinky fingers are made to be seated on.</p>
+
+
+
+<p class="has-base-2-color has-text-color has-link-color wp-elements-467f925fd0fa2ce36cd44eebdcb68ec0">Looking back at that project, I am very fond of what we made, and thoroughly impressed by the modelling and rendering of the project !</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2024/05/Sp11-1.svg" alt="" class="wp-image-375"></figure>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Credits : Ramatoullaye Diallo, Léa Vail, Lila Geslot et Léo Mulalić</p>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="border-style:none;border-width:0px;padding-right:0;padding-left:0;flex-basis:15%"><div style="padding-right:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10);" class="has-text-align-right wp-block-post-date"><time datetime="2019-01-21T17:48:00+00:00">01/2019</time></div></div>
 </div>
 
 
 
 <div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:1vh;margin-bottom:1vh;padding-top:0;padding-bottom:0">
-<div class="wp-block-columns alignfull is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:15%"></div>
+<div style="padding-right:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10);" class="has-text-align-right wp-block-post-date has-medium-font-size"><time datetime="2019-01-21T17:48:00+00:00">01/2019</time></div>
+
+
+<div class="wp-block-columns alignfull is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-is-layout-5 wp-block-columns-is-layout-flex">
+<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:15%"></div>
 
 
 
@@ -518,7 +607,7 @@ var VPData = {"version":"3.3.5","pro":false,"__":{"couldnt_retrieve_vp":"Couldn'
 
 
 
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:16%"></div>
+<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:16%"></div>
 </div>
 </div>
 </div>
