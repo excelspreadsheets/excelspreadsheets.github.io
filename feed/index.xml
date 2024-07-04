@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title></title>
+	<title>Louis-Guilhem Placenti</title>
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description></description>
@@ -19,6 +19,14 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5.5</generator>
+
+<image>
+	<url>/wp-content/uploads/2024/07/iconedemalade-150x150.png</url>
+	<title>Louis-Guilhem Placenti</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Drum and Bass Piano</title>
 		<link>/drum-and-bass-piano/</link>
