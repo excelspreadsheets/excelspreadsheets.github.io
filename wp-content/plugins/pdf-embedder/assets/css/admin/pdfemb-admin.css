@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Lato";
-  src: url("../../fonts/Lato-Black.ttf") format("truetype");
+  src: url("/wp-content/plugins/pdf-embedder/assets/fonts/Lato-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -351,7 +351,7 @@
   letter-spacing: -0.056px;
 }
 #pdfemb-settings-bottom-cta ul li:before {
-  content: url("../../img/edu/check.svg");
+  content: url("/wp-content/plugins/pdf-embedder/assets/img/edu/check.svg");
   position: absolute;
   color: #00A32A;
   left: 0;

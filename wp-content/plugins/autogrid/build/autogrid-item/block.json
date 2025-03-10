@@ -1,0 +1,105 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "andreslav/autogrid-item",
+  "version": "2.0.6",
+  "title": "Autogrid Item",
+  "category": "design",
+  "icon": "smiley",
+  "description": "Autogrid Block Item.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "background": {
+      "backgroundImage": true,
+      "backgroundSize": true,
+      "__experimentalDefaultControls": {}
+    },
+    "color": {
+      "text": true,
+      "background": true,
+      "gradients": true,
+      "heading": true,
+      "button": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true,
+      "__experimentalDefaultControls": {
+        "blockGap": false,
+        "margin": false,
+        "padding": false
+      }
+    },
+    "dimensions": {
+      "minHeight": true,
+      "__experimentalDefaultControls": {
+        "minHeight": false
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {}
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {}
+    },
+    "layout": {
+      "allowSwitching": false,
+      "allowEditing": true,
+      "allowInheriting": false,
+      "allowSizingOnChildren": false,
+      "allowVerticalAlignment": true,
+      "allowJustification": true,
+      "allowOrientation": true,
+      "allowCustomContentAndWideSize": false,
+      "default": {
+        "type": "flex",
+        "orientation": "vertical"
+      }
+    },
+    "interactivity": {
+      "clientNavigation": true
+    },
+    "shadow": true
+  },
+  "attributes": {
+    "indexNode": {
+      "type": "number",
+      "default": 0
+    },
+    "sizes": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "parent": [
+    "andreslav/autogrid"
+  ],
+  "usesContext": [
+    "autogrid/columnCount",
+    "autogrid/minWidth"
+  ],
+  "textdomain": "autogrid",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

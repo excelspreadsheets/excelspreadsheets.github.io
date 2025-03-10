@@ -183,27 +183,27 @@ div.pdfemb-toolbar button.pdfemb-toggled:hover {
 }
 
 div.pdfemb-toolbar button.pdfemb-prev::before {
-  content: url("../img/toolbarButton-pageUp.png");
+  content: url("/wp-content/plugins/pdf-embedder/assets/img/toolbarButton-pageUp.png");
 }
 
 div.pdfemb-toolbar button.pdfemb-next::before {
-  content: url("../img/toolbarButton-pageDown.png");
+  content: url("/wp-content/plugins/pdf-embedder/assets/img/toolbarButton-pageDown.png");
 }
 
 div.pdfemb-toolbar button.pdfemb-zoomout::before {
-  content: url("../img/toolbarButton-zoomOut.png");
+  content: url("/wp-content/plugins/pdf-embedder/assets/img/toolbarButton-zoomOut.png");
 }
 
 div.pdfemb-toolbar button.pdfemb-zoomin::before {
-  content: url("../img/toolbarButton-zoomIn.png");
+  content: url("/wp-content/plugins/pdf-embedder/assets/img/toolbarButton-zoomIn.png");
 }
 
 div.pdfemb-toolbar button.pdfemb-fs::before {
-  content: url("../img/toolbarButton-presentationMode.png");
+  content: url("/wp-content/plugins/pdf-embedder/assets/img/toolbarButton-presentationMode.png");
 }
 
 div.pdfemb-toolbar button.pdfemb-download::before {
-  content: url("../img/toolbarButton-download.png");
+  content: url("/wp-content/plugins/pdf-embedder/assets/img/toolbarButton-download.png");
 }
 
 div.pdfemb-toolbar button.pdfemb-btndisabled {
