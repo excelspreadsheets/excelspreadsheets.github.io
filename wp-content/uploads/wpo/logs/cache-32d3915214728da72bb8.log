@@ -12,3 +12,83 @@
 [2025-05-02 16:09:39 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
 [2025-05-02 16:09:48 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
 [2025-05-02 16:09:50 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-02 16:41:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 16:41:51 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-02 16:41:51 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-02 16:41:51 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-02 16:41:51 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-02 16:41:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 16:41:55 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-02 16:41:55 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-02 16:41:55 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-02 16:41:55 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-02 16:47:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 16:47:46 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-02 16:47:46 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-02 16:47:46 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-02 16:47:46 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-02 16:47:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 16:47:49 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-02 16:47:49 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-02 16:47:49 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-02 16:47:49 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-02 16:55:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 16:55:57 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 16:55:57 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 16:55:57 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 16:55:57 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 16:55:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 16:55:59 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 16:55:59 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 16:55:59 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 16:55:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 16:57:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 16:57:46 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 16:57:46 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 16:57:46 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 16:57:46 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 16:57:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 16:57:49 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 16:57:49 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 16:57:49 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 16:57:49 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 17:00:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 17:00:06 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 17:00:06 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:00:06 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:00:06 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 17:00:09 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 17:00:09 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 17:00:09 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:00:09 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:00:09 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 17:00:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 17:00:50 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 17:00:50 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:00:50 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:00:50 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 17:00:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 17:00:53 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 17:00:53 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:00:53 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:00:53 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 17:01:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 17:01:12 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 17:01:12 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:01:12 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:01:12 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 17:01:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 17:01:15 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 17:01:15 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:01:15 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:01:15 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 17:01:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 17:01:57 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 17:01:57 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:01:57 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:01:57 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-02 17:02:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-02 17:02:00 : INFO] - Cache for URL: https://localhost/wordpress/1676-2/ has been purged, triggered by action: save_post 
+[2025-05-02 17:02:00 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:02:00 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
+[2025-05-02 17:02:00 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
