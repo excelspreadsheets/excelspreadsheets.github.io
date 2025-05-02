@@ -1,3 +1,14 @@
 [2025-03-10 10:53:40 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
 [2025-03-10 10:57:56 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
 [2025-03-10 10:59:01 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-02 16:04:35 : INFO] - Cache for URL: https://localhost/wordpress/?p=1682 has been purged, triggered by action: save_post 
+[2025-05-02 16:04:35 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1682 has been purged, triggered by action: save_post 
+[2025-05-02 16:04:35 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-05-02 16:07:16 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-02 16:07:18 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-02 16:09:21 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-02 16:09:25 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-02 16:09:37 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-02 16:09:39 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-02 16:09:48 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-02 16:09:50 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
