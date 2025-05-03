@@ -376,3 +376,73 @@
 [2025-05-03 12:55:38 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
 [2025-05-03 12:55:38 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
 [2025-05-03 12:55:38 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-03 13:37:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 13:37:56 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-03 13:37:56 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:37:56 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:37:56 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-03 13:37:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 13:37:59 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-03 13:37:59 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:37:59 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:37:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-03 13:38:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 13:38:20 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-03 13:38:20 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:38:20 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:38:20 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-03 13:38:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 13:38:23 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-03 13:38:23 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:38:23 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:38:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-03 13:39:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 13:39:15 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-03 13:39:15 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:39:15 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:39:15 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-03 13:39:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 13:39:18 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-03 13:39:18 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:39:18 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-03 13:39:18 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-03 16:32:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 16:32:13 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-03 16:32:13 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:32:13 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:32:13 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-03 16:32:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 16:32:16 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-03 16:32:16 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:32:16 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:32:16 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-03 16:33:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 16:33:03 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-03 16:33:03 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:33:03 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:33:03 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-03 16:33:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 16:33:06 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-03 16:33:06 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:33:06 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:33:06 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-03 16:50:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 16:50:33 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-03 16:50:33 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:50:33 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:50:33 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-03 16:50:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 16:50:36 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-03 16:50:36 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:50:36 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:50:36 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-03 16:51:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 16:51:12 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-03 16:51:12 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:51:12 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:51:12 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-03 16:51:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-03 16:51:15 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-03 16:51:15 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:51:15 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-03 16:51:15 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
