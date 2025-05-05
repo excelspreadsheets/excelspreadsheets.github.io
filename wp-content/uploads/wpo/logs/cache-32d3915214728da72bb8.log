@@ -446,3 +446,112 @@
 [2025-05-03 16:51:15 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
 [2025-05-03 16:51:15 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
 [2025-05-03 16:51:15 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-05 13:42:28 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 13:42:30 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 13:47:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 13:47:26 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-05 13:47:26 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:47:26 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:47:26 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-05 13:47:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 13:47:30 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-05 13:47:30 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:47:30 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:47:30 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-05 13:49:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 13:49:59 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-05 13:49:59 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:49:59 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:49:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-05 13:50:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 13:50:02 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-05 13:50:02 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:50:02 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:50:02 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-05 13:51:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 13:51:23 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-05 13:51:23 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:51:23 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:51:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-05 13:51:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 13:51:25 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-05 13:51:25 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:51:25 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:51:25 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-05 13:52:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 13:52:46 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-05 13:52:46 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:52:46 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:52:46 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-05 13:52:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 13:52:49 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-05-05 13:52:49 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:52:49 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-05-05 13:52:49 : INFO] - Cache for all archives page associated with post_type: post and Title: "Hypothetical parisian public property" have been purged, triggered by action: save_post 
+[2025-05-05 13:54:37 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 13:54:39 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 13:55:41 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 13:55:50 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 13:59:03 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 13:59:09 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 13:59:14 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 13:59:15 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:07:13 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:07:15 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:07:29 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:07:31 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:08:22 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:08:24 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:08:50 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:08:53 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:09:05 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:09:07 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:09:13 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:09:16 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:15:32 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:15:34 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:15:52 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:15:54 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:16:24 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:16:26 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:17:23 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:17:24 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:17:36 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:17:38 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:17:50 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:17:52 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:20:59 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:21:01 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:22:05 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:22:07 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:22:13 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:22:15 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:22:39 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:22:41 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:23:06 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:23:08 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:24:28 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:24:33 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:27:45 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:27:46 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:27:51 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:27:53 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:28:11 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:28:13 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:28:29 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:28:31 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:28:38 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:28:40 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:29:07 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:29:12 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-05-05 14:33:01 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-05-05 14:34:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 14:35:00 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-05 14:35:00 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-05 14:35:00 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-05 14:35:00 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
+[2025-05-05 14:35:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-05 14:35:02 : INFO] - Cache for URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/ has been purged, triggered by action: save_post 
+[2025-05-05 14:35:02 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1676-2/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-05 14:35:02 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 518 has been purged, triggered by action: save_post 
+[2025-05-05 14:35:02 : INFO] - Cache for all archives page associated with post_type: post and Title: "Clairvaux ; To align and converge" have been purged, triggered by action: save_post 
