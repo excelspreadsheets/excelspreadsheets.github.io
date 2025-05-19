@@ -593,3 +593,107 @@
 [2025-05-05 19:44:10 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/dreux-kunsthall/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
 [2025-05-05 19:44:10 : INFO] - Cache for next post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 1676 has been purged, triggered by action: save_post 
 [2025-05-05 19:44:10 : INFO] - Cache for all archives page associated with post_type: post and Title: "Tobato" have been purged, triggered by action: save_post 
+[2025-05-17 11:29:11 : INFO] - Cache for URL: https://localhost/wordpress/?p=1863 has been purged, triggered by action: save_post 
+[2025-05-17 11:29:11 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 11:29:11 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-05-17 12:22:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:22:28 : INFO] - Cache for URL: https://localhost/wordpress/?p=1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:22:28 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:22:28 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 12:22:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:22:31 : INFO] - Cache for URL: https://localhost/wordpress/?p=1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:22:31 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:22:31 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 12:58:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:58:23 : INFO] - Cache for URL: https://localhost/wordpress/?p=1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:58:23 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:58:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 12:58:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:58:26 : INFO] - Cache for URL: https://localhost/wordpress/?p=1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:58:26 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:58:26 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 12:58:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:58:33 : INFO] - Cache for URL: https://localhost/wordpress/?p=1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:58:33 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:58:33 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 12:58:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:58:35 : INFO] - Cache for URL: https://localhost/wordpress/?p=1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:58:35 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:58:35 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 12:59:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:59:27 : INFO] - Cache for URL: https://localhost/wordpress/?p=1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:59:27 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:59:27 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 12:59:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:59:29 : INFO] - Cache for URL: https://localhost/wordpress/?p=1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:59:29 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:59:29 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 12:59:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:59:55 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 12:59:55 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:59:55 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 12:59:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 12:59:58 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 12:59:58 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 12:59:58 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 13:01:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:01:48 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:01:48 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:01:48 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 13:01:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:01:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:01:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:01:59 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:01:59 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:01:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "" have been purged, triggered by action: save_post 
+[2025-05-17 13:02:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:02:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:02:24 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:02:24 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:02:24 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-05-17 13:02:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:02:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:02:26 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:02:26 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:02:26 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-05-17 13:04:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:04:07 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:04:07 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:04:07 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-05-17 13:04:11 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:04:11 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:04:11 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:04:11 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-05-17 13:04:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:04:20 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:04:20 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:04:20 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-05-17 13:04:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:04:23 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:04:23 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:04:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-05-17 13:05:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:05:18 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:05:18 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:05:18 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-05-17 13:05:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:05:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-17 13:05:21 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-05-17 13:05:21 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-05-17 13:05:21 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-05-17 13:06:48 : INFO] - Cache for URL: https://localhost/wordpress/sandbox/ has been purged, triggered by action: wp_trash_post 
+[2025-05-17 13:06:48 : INFO] - Cache for URL: https://localhost/wordpress/?page_id=490 has been purged, triggered by action: save_post 
+[2025-05-17 13:07:36 : INFO] - Cache for URL: https://localhost/wordpress/?page_id=1881 has been purged, triggered by action: save_post 
+[2025-05-17 13:08:34 : INFO] - Cache for URL: https://localhost/wordpress/?page_id=1881 has been purged, triggered by action: save_post 
+[2025-05-17 13:08:36 : INFO] - Cache for URL: https://localhost/wordpress/?page_id=1881 has been purged, triggered by action: save_post 
+[2025-05-17 13:09:43 : INFO] - Cache for URL: https://localhost/wordpress/?page_id=1881 has been purged, triggered by action: save_post 
+[2025-05-17 13:10:25 : INFO] - Cache for URL: https://localhost/wordpress/blog/ has been purged, triggered by action: save_post 
+[2025-05-17 13:10:27 : INFO] - Cache for URL: https://localhost/wordpress/blog/ has been purged, triggered by action: save_post 
+[2025-05-17 13:11:46 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-17 13:11:49 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-17 13:11:56 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-17 13:11:58 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-17 13:19:51 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-05-19 21:40:25 : INFO] - Cache for URL: https://localhost/wordpress/?p=1885 has been purged, triggered by action: save_post 
+[2025-05-19 21:40:25 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1885 has been purged, triggered by action: save_post 
+[2025-05-19 21:40:25 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
