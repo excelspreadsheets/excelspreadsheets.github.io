@@ -894,3 +894,200 @@
 [2025-05-24 13:30:08 : INFO] - Cache for URL: https://localhost/wordpress/eclepens/ has been purged, triggered by action: save_post 
 [2025-05-24 13:30:08 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/alsace-wildlife/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
 [2025-05-24 13:30:08 : INFO] - Cache for all archives page associated with post_type: post and Title: "Éclépens" have been purged, triggered by action: save_post 
+[2025-06-05 15:06:28 : INFO] - Cache for URL: https://localhost/wordpress/?p=1988 has been purged, triggered by action: save_post 
+[2025-06-05 15:06:28 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1988 has been purged, triggered by action: save_post 
+[2025-06-05 15:06:28 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-06-05 15:07:07 : INFO] - Cache for URL: https://localhost/wordpress/?p=1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:07:07 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:07:07 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-06-05 15:23:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:23:26 : INFO] - Cache for URL: https://localhost/wordpress/?p=1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:23:26 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:23:26 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:23:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:23:31 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:23:31 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:23:31 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:23:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:23:34 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:23:34 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:23:34 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:23:34 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:23:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:23:57 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:23:57 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:23:57 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:24:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:24:00 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:24:00 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:24:00 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:24:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:24:23 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:24:23 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:24:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:24:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:24:27 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:24:27 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:24:27 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:24:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:24:59 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:24:59 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:24:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:25:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:25:03 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:25:03 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:25:03 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:28:32 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:28:32 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:28:32 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:28:32 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:28:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:28:36 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:28:36 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:28:36 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:29:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:29:54 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:29:54 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:29:54 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:29:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:29:58 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:29:58 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:29:58 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:35:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:35:16 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:35:16 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:35:16 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:35:16 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:36:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:36:51 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:36:51 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:36:51 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:36:51 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:36:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:36:55 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:36:55 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:36:55 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:36:55 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:37:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:37:58 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:37:58 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:37:58 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:37:58 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:38:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:38:01 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:38:01 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:38:01 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:38:01 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:38:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:38:55 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:38:55 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:38:55 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:38:55 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:38:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:38:58 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:38:58 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:38:58 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:38:58 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:39:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:39:31 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:39:31 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:39:31 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:39:31 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:39:34 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:39:34 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:39:34 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:39:34 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:39:34 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:40:30 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:40:30 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:40:30 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:40:30 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:40:30 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:40:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:40:33 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:40:33 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:40:33 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:40:33 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:42:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:42:39 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:42:39 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:42:39 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:42:39 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:42:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:42:42 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-05 15:42:42 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:42:42 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-05 15:42:42 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-05 15:49:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:49:43 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:49:43 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:49:43 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 15:49:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 15:49:46 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 15:49:46 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 15:49:46 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:03:11 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:03:11 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:03:11 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:03:11 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:03:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:03:14 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:03:14 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:03:14 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:04:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:04:16 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:04:16 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:04:16 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:04:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:04:19 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:04:19 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:04:19 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:04:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:04:56 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:04:56 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:04:56 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:04:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:04:59 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:04:59 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:04:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:06:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:06:42 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:06:42 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:06:42 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:06:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:06:43 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:06:43 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:06:43 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:07:29 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:07:29 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:07:29 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:07:29 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:07:31 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:07:31 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:07:31 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:07:31 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:08:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:08:53 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:08:53 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:08:53 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:08:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:08:56 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:08:56 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:08:56 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:09:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:09:05 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:09:05 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:09:05 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:09:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:09:07 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:09:07 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:09:07 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:09:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:09:56 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:09:56 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:09:56 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-05 16:09:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:09:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-05 16:09:58 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-05 16:09:58 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-05 16:09:58 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
