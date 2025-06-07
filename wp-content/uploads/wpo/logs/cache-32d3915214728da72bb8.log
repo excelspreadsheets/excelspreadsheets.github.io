@@ -1091,3 +1091,92 @@
 [2025-06-05 16:09:58 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
 [2025-06-05 16:09:58 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
 [2025-06-05 16:09:58 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-07 13:45:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:45:51 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-07 13:45:51 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-07 13:45:51 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-07 13:45:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:45:53 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-07 13:45:53 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-07 13:45:53 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-07 13:52:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:52:36 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-07 13:52:36 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-07 13:52:36 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-07 13:52:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:52:39 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-07 13:52:39 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-07 13:52:39 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-07 13:55:53 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:58:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:58:22 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-07 13:58:22 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-07 13:58:22 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-07 13:58:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:58:23 : INFO] - Cache for URL: https://localhost/wordpress/du-droit-de-deambuler/ has been purged, triggered by action: save_post 
+[2025-06-07 13:58:23 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1989 has been purged, triggered by action: save_post 
+[2025-06-07 13:58:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "Du droit de déambuler" have been purged, triggered by action: save_post 
+[2025-06-07 13:59:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:59:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:59:12 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-06-07 13:59:12 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 13:59:12 : INFO] - Cache for next post (with URL: https://localhost/wordpress/1886-2/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 13:59:12 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-06-07 13:59:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:59:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 13:59:19 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-07 13:59:19 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 13:59:19 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 13:59:19 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-07 14:01:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:01:08 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:01:08 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:01:08 : INFO] - Cache for next post (with URL: https://localhost/wordpress/1886-2/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:01:08 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-06-07 14:01:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:01:10 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:01:10 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:01:10 : INFO] - Cache for next post (with URL: https://localhost/wordpress/1886-2/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:01:10 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-06-07 14:01:44 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:01:44 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:01:44 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:01:44 : INFO] - Cache for next post (with URL: https://localhost/wordpress/1886-2/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:01:44 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-06-07 14:01:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:01:46 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:01:46 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:01:46 : INFO] - Cache for next post (with URL: https://localhost/wordpress/1886-2/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:01:46 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-06-07 14:02:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:02:23 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:02:23 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:02:23 : INFO] - Cache for next post (with URL: https://localhost/wordpress/1886-2/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:02:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-06-07 14:02:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:02:25 : INFO] - Cache for URL: https://localhost/wordpress/1863-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:02:25 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:02:25 : INFO] - Cache for next post (with URL: https://localhost/wordpress/1886-2/) adjacent to post with id: 1863 has been purged, triggered by action: save_post 
+[2025-06-07 14:02:25 : INFO] - Cache for all archives page associated with post_type: post and Title: "The Lighthouse" have been purged, triggered by action: save_post 
+[2025-06-07 14:02:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:02:59 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:02:59 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 14:02:59 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 14:02:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-07 14:03:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:03:01 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:03:01 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 14:03:01 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 14:03:01 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-07 14:04:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:04:07 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:04:07 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 14:04:07 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 14:04:07 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-07 14:04:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-06-07 14:04:10 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2025-06-07 14:04:10 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 14:04:10 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2025-06-07 14:04:10 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2025-06-07 14:08:41 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2025-06-07 14:08:43 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 

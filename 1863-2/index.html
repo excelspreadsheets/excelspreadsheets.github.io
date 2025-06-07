@@ -70,9 +70,6 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 <style id="wp-block-post-content-inline-css">
 .wp-block-post-content{display:flow-root}
 </style>
-<style id="wp-block-post-navigation-link-inline-css">
-.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-previous{display:inline-block;margin-right:1ch}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-previous:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-next{display:inline-block;margin-left:1ch}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-next:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-post-navigation-link.has-text-align-left[style*="writing-mode: vertical-lr"],.wp-block-post-navigation-link.has-text-align-right[style*="writing-mode: vertical-rl"]{rotate:180deg}
-</style>
 <style id="wp-emoji-styles-inline-css">
 
 	img.wp-smiley, img.emoji {
@@ -154,7 +151,7 @@ body {
 }
 
 .y-overflowSmall {
-    height: 85vh; /* Full viewport height */
+    height: 90vh; /* Full viewport height */
     overflow-y: scroll; /* Enable vertical scroll */
 }
 body {
@@ -248,7 +245,7 @@ body::-webkit-scrollbar {
 :root :where(.wp-block-heading a:where(:not(.wp-element-button))){color: var(--wp--preset--color--base-2);}
 </style>
 <style id="core-block-supports-inline-css">
-.wp-elements-09c885f659b800999f0bfe6c0f9936eb a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-0142a10c983b29380634fa2d9968ff57 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-f1928cf2{flex-wrap:nowrap;gap:2em 0px;}.wp-container-1{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-container-core-columns-is-layout-28f84493{flex-wrap:nowrap;}.wp-container-core-column-is-layout-c19476fc > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-column-is-layout-c19476fc > * + *{margin-block-start:var(--wp--preset--spacing--10);margin-block-end:0;}.wp-container-core-columns-is-layout-eeddd1a4{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10) 2em;}.wp-container-core-columns-is-layout-c5150b4a{flex-wrap:nowrap;gap:2em var(--wp--preset--spacing--10);}.wp-elements-cda10368c170cd0aa26cf3171fdaae20 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}
+.wp-elements-09c885f659b800999f0bfe6c0f9936eb a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-0142a10c983b29380634fa2d9968ff57 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-f1928cf2{flex-wrap:nowrap;gap:2em 0px;}.wp-container-1{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-container-core-column-is-layout-db5a5724 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:100%;margin-left:auto !important;margin-right:auto !important;}.wp-container-core-column-is-layout-db5a5724 > .alignwide{max-width:100%;}.wp-container-core-column-is-layout-db5a5724 .alignfull{max-width:none;}.wp-container-core-column-is-layout-db5a5724 > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-column-is-layout-db5a5724 > * + *{margin-block-start:var(--wp--preset--spacing--10);margin-block-end:0;}.wp-container-core-columns-is-layout-28f84493{flex-wrap:nowrap;}.wp-container-core-column-is-layout-12243e0f > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:100%;margin-left:auto !important;margin-right:auto !important;}.wp-container-core-column-is-layout-12243e0f > .alignwide{max-width:100%;}.wp-container-core-column-is-layout-12243e0f .alignfull{max-width:none;}.wp-container-core-columns-is-layout-eeddd1a4{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10) 2em;}.wp-container-core-columns-is-layout-c5150b4a{flex-wrap:nowrap;gap:2em var(--wp--preset--spacing--10);}
 </style>
 <style id="wp-block-template-skip-link-inline-css">
 
@@ -296,7 +293,11 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 				.vp-portfolio__preloader-wrap{display:none}.vp-portfolio__filter-wrap,.vp-portfolio__items-wrap,.vp-portfolio__pagination-wrap,.vp-portfolio__sort-wrap{opacity:1;visibility:visible}.vp-portfolio__item .vp-portfolio__item-img noscript+img,.vp-portfolio__thumbnails-wrap{display:none}
 			</style>
 		</noscript>
-				<style type="text/css">
+		<script type="importmap" id="wp-importmap">
+{"imports":{"@wordpress\/interactivity":"\/wp-includes\/js\/dist\/script-modules\/interactivity\/index.min.js?ver=55aebb6e0a16726baffb"}}
+</script>
+<script type="module" src="/wp-includes/js/dist/script-modules/block-library/image/view.min.js?ver=e38a2f910342023b9d19" id="@wordpress/block-library/image/view-js-module"></script>
+<link rel="modulepreload" href="/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=55aebb6e0a16726baffb" id="@wordpress/interactivity-js-modulepreload">		<style type="text/css">
 			/* If html does not have either class, do not show lazy loaded images. */
 			html:not(.vp-lazyload-enabled):not(.js) .vp-lazyload {
 				display: none;
@@ -323,7 +324,7 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2024/07/iconedemalade-300x300.png">
 </head>
 
-<body class="wp-singular post-template post-template-wp-custom-template-post single single-post postid-1863 single-format-standard wp-embed-responsive wp-theme-twentytwentyfour">
+<body class="wp-singular post-template post-template-wp-custom-template-post-pour-blog single single-post postid-1863 single-format-standard wp-embed-responsive wp-theme-twentytwentyfour">
 
 <div class="wp-site-blocks">
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
@@ -350,18 +351,14 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
 <div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
 <div class="wp-block-columns alignfull is-layout-flex wp-container-core-columns-is-layout-c5150b4a wp-block-columns-is-layout-flex">
-<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:5%"></div>
+<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:2%"></div>
 
 
 
-<div class="wp-block-column uag-hide-desktop is-layout-flow wp-block-column-is-layout-flow" style="border-style:none;border-width:0px;padding-right:0.2rem;padding-left:0.2rem"><div class="entry-content y-overflow3 wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-eeddd1a4 wp-block-columns-is-layout-flex">
-<div class="wp-block-column has-global-padding is-layout-constrained wp-container-core-column-is-layout-c19476fc wp-block-column-is-layout-constrained">
+<div class="wp-block-column uag-hide-desktop is-layout-flow wp-block-column-is-layout-flow" style="border-style:none;border-width:0px;padding-right:0.2rem;padding-left:0.2rem"><div class="entry-content wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-eeddd1a4 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center y-overflowSmall has-global-padding is-layout-constrained wp-container-core-column-is-layout-db5a5724 wp-block-column-is-layout-constrained" style="flex-basis:50%">
 <p><em>The Lighthouse</em> a &eacute;t&eacute; une exp&eacute;rience notable. J&rsquo;ai &eacute;t&eacute; particuli&egrave;rement content d&rsquo;avoir la bonne id&eacute;e de relancer ce film dont j&rsquo;avais d&eacute;j&agrave; abandonn&eacute; le visionnage. Je l&rsquo;ai regard&eacute; sur mon PC, en streaming de qualit&eacute; plut&ocirc;t m&eacute;diocre. J&rsquo;y reviendrai.</p>
-
-
-
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_011.jpg" alt="" class="wp-image-1865" srcset="/wp-content/uploads/2025/05/The_Lighthouse_011.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_011-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_011-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_011-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_011-800x667.jpg 800w" sizes="(max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">La lumi&egrave;re comme absolu de l&rsquo;image &ndash; Qui guide l&rsquo;oeil et constitue les personnage.</figcaption></figure>
 
 
 
@@ -369,15 +366,7 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_013.jpg" alt="" class="wp-image-1866" srcset="/wp-content/uploads/2025/05/The_Lighthouse_013.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_013-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_013-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_013-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_013-800x667.jpg 800w" sizes="(max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">Contraste</figcaption></figure>
-
-
-
 <p>J&rsquo;ai cependant not&eacute; l&rsquo;encodage pitoyable gr&acirc;ce auquel j&rsquo;ai pu appr&eacute;cier ce film. Tr&egrave;s dommage au vu de l&rsquo;opportunit&eacute; que repr&eacute;sente un film en noir et blanc, mais s&ucirc;rement est-ce trop demander &agrave; fmovies d&rsquo;&ecirc;tre anim&eacute; par la passion compression dont fitgirl repack nous gracie.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_042.jpg" alt="" class="wp-image-1873" srcset="/wp-content/uploads/2025/05/The_Lighthouse_042.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_042-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_042-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_042-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_042-800x667.jpg 800w" sizes="(max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">Les niveaux de gris</figcaption></figure>
 
 
 
@@ -385,31 +374,7 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_020.jpg" alt="" class="wp-image-1867" srcset="/wp-content/uploads/2025/05/The_Lighthouse_020.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_020-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_020-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_020-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_020-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">Image laiteuse et presque surr&eacute;elle</figcaption></figure>
-
-
-
 <p>Le montage b&eacute;n&eacute;ficie aussi d&rsquo;une attention au son, et son rythme r&eacute;pond clairement &agrave; la mont&eacute;e en folie des deux (?) personnages. La curiosit&eacute; maladive de l&rsquo;un et la rigueur marine de l&rsquo;autre, rythm&eacute;s par l&rsquo;apparition de symboliques que d&rsquo;aucuns ont qualifi&eacute;s de prom&eacute;th&eacute;ennes. Je me suis pour ma part arr&ecirc;t&eacute; au folklore maritime, voyant assez difficilement la dynamique d&rsquo;autorit&eacute; calquable sur une critique du <em>statu quo</em> capitaliste. Quoiqu&rsquo;il en soit, les symboles, <strong>la lumi&egrave;re</strong>, <strong>la sir&egrave;ne</strong>, <strong>l&rsquo;oiseau</strong> se succ&egrave;dent pour ne laisser que la solitude d&rsquo;un homme (Pattinson) et ponctuellement de deux hommes. La solitude masculine, bien qu&rsquo;elle soit d&eacute;j&agrave; trait&eacute;e, n&rsquo;est ici pas rebutante et son long glissement vers la violence, plut&ocirc;t que la folie, m&rsquo;est parue remarquablement contemporaine.</p>
-
-
-
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg" alt="" class="wp-image-1868" srcset="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_021-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_021-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_021-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_021-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"></figure>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_049.jpg" alt="" class="wp-image-1870" srcset="/wp-content/uploads/2025/05/The_Lighthouse_049.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_049-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_049-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_049-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_049-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"></figure>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_061.jpg" alt="" class="wp-image-1869" srcset="/wp-content/uploads/2025/05/The_Lighthouse_061.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_061-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_061-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_061-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_061-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"></figure>
-</div>
-</div>
 
 
 
@@ -417,29 +382,99 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_052.jpg" alt="" class="wp-image-1871" srcset="/wp-content/uploads/2025/05/The_Lighthouse_052.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_052-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_052-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_052-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_052-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">La constitution de tableaux est tr&egrave;s bien r&eacute;ussie</figcaption></figure>
-
-
-
 <p>Le rythme du film est rest&eacute; excellent. Paradoxalement, l&rsquo;image garde une distance &agrave; la fin qu&rsquo;elle ne paraissait pas avoir au d&eacute;but, et le d&eacute;nouement (s&rsquo;il en est un) parait logique, presque anodin.</p>
+</div>
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_058.jpg" alt="" class="wp-image-1872" srcset="/wp-content/uploads/2025/05/The_Lighthouse_058.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_058-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_058-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_058-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_058-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">Anodinisme de la violence</figcaption></figure>
+<div class="wp-block-column y-overflowSmall has-global-padding is-layout-constrained wp-container-core-column-is-layout-12243e0f wp-block-column-is-layout-constrained" style="flex-basis:50%">
+<figure data-wp-context='{"imageId":"6844495d8582a"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img fetchpriority="high" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_011.jpg" alt="" class="wp-image-1865" srcset="/wp-content/uploads/2025/05/The_Lighthouse_011.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_011-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_011-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_011-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_011-800x667.jpg 800w" sizes="(max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">La lumi&egrave;re comme absolu de l&rsquo;image &ndash; Qui guide l&rsquo;oeil et constitue les personnage.</figcaption></figure>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d85dd1"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_013.jpg" alt="" class="wp-image-1866" srcset="/wp-content/uploads/2025/05/The_Lighthouse_013.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_013-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_013-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_013-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_013-800x667.jpg 800w" sizes="(max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">Contraste</figcaption></figure>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d863fc"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_042.jpg" alt="" class="wp-image-1873" srcset="/wp-content/uploads/2025/05/The_Lighthouse_042.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_042-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_042-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_042-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_042-800x667.jpg 800w" sizes="(max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">Les niveaux de gris</figcaption></figure>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d8691b"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_020.jpg" alt="" class="wp-image-1867" srcset="/wp-content/uploads/2025/05/The_Lighthouse_020.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_020-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_020-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_020-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_020-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">Image laiteuse et presque surr&eacute;elle</figcaption></figure>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context='{"imageId":"6844495d86d4d"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg" alt="" class="wp-image-1868" srcset="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_021-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_021-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_021-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_021-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context='{"imageId":"6844495d87163"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_049.jpg" alt="" class="wp-image-1870" srcset="/wp-content/uploads/2025/05/The_Lighthouse_049.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_049-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_049-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_049-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_049-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context='{"imageId":"6844495d8755f"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_061.jpg" alt="" class="wp-image-1869" srcset="/wp-content/uploads/2025/05/The_Lighthouse_061.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_061-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_061-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_061-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_061-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button></figure>
+</div>
+</div>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d87a8d"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_052.jpg" alt="" class="wp-image-1871" srcset="/wp-content/uploads/2025/05/The_Lighthouse_052.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_052-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_052-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_052-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_052-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">La constitution de tableaux est tr&egrave;s bien r&eacute;ussie</figcaption></figure>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d881e6"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_058.jpg" alt="" class="wp-image-1872" srcset="/wp-content/uploads/2025/05/The_Lighthouse_058.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_058-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_058-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_058-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_058-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">Anodinisme de la violence</figcaption></figure>
 </div>
 </div>
 </div></div>
 
 
 
-<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow"><div class="entry-content y-overflow3 wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-eeddd1a4 wp-block-columns-is-layout-flex">
-<div class="wp-block-column has-global-padding is-layout-constrained wp-container-core-column-is-layout-c19476fc wp-block-column-is-layout-constrained">
+<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow"><div class="entry-content wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-eeddd1a4 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center y-overflowSmall has-global-padding is-layout-constrained wp-container-core-column-is-layout-db5a5724 wp-block-column-is-layout-constrained" style="flex-basis:50%">
 <p><em>The Lighthouse</em> a &eacute;t&eacute; une exp&eacute;rience notable. J&rsquo;ai &eacute;t&eacute; particuli&egrave;rement content d&rsquo;avoir la bonne id&eacute;e de relancer ce film dont j&rsquo;avais d&eacute;j&agrave; abandonn&eacute; le visionnage. Je l&rsquo;ai regard&eacute; sur mon PC, en streaming de qualit&eacute; plut&ocirc;t m&eacute;diocre. J&rsquo;y reviendrai.</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_011.jpg" alt="" class="wp-image-1865" srcset="/wp-content/uploads/2025/05/The_Lighthouse_011.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_011-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_011-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_011-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_011-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">La lumi&egrave;re comme absolu de l&rsquo;image &ndash; Qui guide l&rsquo;oeil et constitue les personnage.</figcaption></figure>
 
 
 
@@ -447,15 +482,7 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_013.jpg" alt="" class="wp-image-1866" srcset="/wp-content/uploads/2025/05/The_Lighthouse_013.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_013-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_013-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_013-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_013-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">Contraste</figcaption></figure>
-
-
-
 <p>J&rsquo;ai cependant not&eacute; l&rsquo;encodage pitoyable gr&acirc;ce auquel j&rsquo;ai pu appr&eacute;cier ce film. Tr&egrave;s dommage au vu de l&rsquo;opportunit&eacute; que repr&eacute;sente un film en noir et blanc, mais s&ucirc;rement est-ce trop demander &agrave; fmovies d&rsquo;&ecirc;tre anim&eacute; par la passion compression dont fitgirl repack nous gracie.</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_042.jpg" alt="" class="wp-image-1873" srcset="/wp-content/uploads/2025/05/The_Lighthouse_042.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_042-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_042-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_042-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_042-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">Les niveaux de gris</figcaption></figure>
 
 
 
@@ -463,31 +490,7 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_020.jpg" alt="" class="wp-image-1867" srcset="/wp-content/uploads/2025/05/The_Lighthouse_020.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_020-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_020-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_020-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_020-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">Image laiteuse et presque surr&eacute;elle</figcaption></figure>
-
-
-
 <p>Le montage b&eacute;n&eacute;ficie aussi d&rsquo;une attention au son, et son rythme r&eacute;pond clairement &agrave; la mont&eacute;e en folie des deux (?) personnages. La curiosit&eacute; maladive de l&rsquo;un et la rigueur marine de l&rsquo;autre, rythm&eacute;s par l&rsquo;apparition de symboliques que d&rsquo;aucuns ont qualifi&eacute;s de prom&eacute;th&eacute;ennes. Je me suis pour ma part arr&ecirc;t&eacute; au folklore maritime, voyant assez difficilement la dynamique d&rsquo;autorit&eacute; calquable sur une critique du <em>statu quo</em> capitaliste. Quoiqu&rsquo;il en soit, les symboles, <strong>la lumi&egrave;re</strong>, <strong>la sir&egrave;ne</strong>, <strong>l&rsquo;oiseau</strong> se succ&egrave;dent pour ne laisser que la solitude d&rsquo;un homme (Pattinson) et ponctuellement de deux hommes. La solitude masculine, bien qu&rsquo;elle soit d&eacute;j&agrave; trait&eacute;e, n&rsquo;est ici pas rebutante et son long glissement vers la violence, plut&ocirc;t que la folie, m&rsquo;est parue remarquablement contemporaine.</p>
-
-
-
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg" alt="" class="wp-image-1868" srcset="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_021-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_021-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_021-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_021-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"></figure>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_049.jpg" alt="" class="wp-image-1870" srcset="/wp-content/uploads/2025/05/The_Lighthouse_049.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_049-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_049-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_049-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_049-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"></figure>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_061.jpg" alt="" class="wp-image-1869" srcset="/wp-content/uploads/2025/05/The_Lighthouse_061.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_061-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_061-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_061-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_061-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"></figure>
-</div>
-</div>
 
 
 
@@ -495,42 +498,96 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_052.jpg" alt="" class="wp-image-1871" srcset="/wp-content/uploads/2025/05/The_Lighthouse_052.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_052-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_052-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_052-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_052-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">La constitution de tableaux est tr&egrave;s bien r&eacute;ussie</figcaption></figure>
-
-
-
 <p>Le rythme du film est rest&eacute; excellent. Paradoxalement, l&rsquo;image garde une distance &agrave; la fin qu&rsquo;elle ne paraissait pas avoir au d&eacute;but, et le d&eacute;nouement (s&rsquo;il en est un) parait logique, presque anodin.</p>
+</div>
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_058.jpg" alt="" class="wp-image-1872" srcset="/wp-content/uploads/2025/05/The_Lighthouse_058.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_058-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_058-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_058-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_058-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><figcaption class="wp-element-caption">Anodinisme de la violence</figcaption></figure>
+<div class="wp-block-column y-overflowSmall has-global-padding is-layout-constrained wp-container-core-column-is-layout-12243e0f wp-block-column-is-layout-constrained" style="flex-basis:50%">
+<figure data-wp-context='{"imageId":"6844495d8938b"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_011.jpg" alt="" class="wp-image-1865" srcset="/wp-content/uploads/2025/05/The_Lighthouse_011.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_011-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_011-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_011-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_011-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">La lumi&egrave;re comme absolu de l&rsquo;image &ndash; Qui guide l&rsquo;oeil et constitue les personnage.</figcaption></figure>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d8959d"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_013.jpg" alt="" class="wp-image-1866" srcset="/wp-content/uploads/2025/05/The_Lighthouse_013.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_013-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_013-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_013-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_013-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">Contraste</figcaption></figure>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d8975c"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_042.jpg" alt="" class="wp-image-1873" srcset="/wp-content/uploads/2025/05/The_Lighthouse_042.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_042-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_042-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_042-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_042-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">Les niveaux de gris</figcaption></figure>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d89926"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_020.jpg" alt="" class="wp-image-1867" srcset="/wp-content/uploads/2025/05/The_Lighthouse_020.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_020-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_020-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_020-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_020-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">Image laiteuse et presque surr&eacute;elle</figcaption></figure>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context='{"imageId":"6844495d89aec"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg" alt="" class="wp-image-1868" srcset="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_021-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_021-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_021-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_021-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context='{"imageId":"6844495d89d42"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_049.jpg" alt="" class="wp-image-1870" srcset="/wp-content/uploads/2025/05/The_Lighthouse_049.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_049-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_049-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_049-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_049-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure data-wp-context='{"imageId":"6844495d89f6f"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_061.jpg" alt="" class="wp-image-1869" srcset="/wp-content/uploads/2025/05/The_Lighthouse_061.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_061-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_061-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_061-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_061-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button></figure>
+</div>
+</div>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d8a2b1"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_052.jpg" alt="" class="wp-image-1871" srcset="/wp-content/uploads/2025/05/The_Lighthouse_052.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_052-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_052-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_052-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_052-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">La constitution de tableaux est tr&egrave;s bien r&eacute;ussie</figcaption></figure>
+
+
+
+<figure data-wp-context='{"imageId":"6844495d8a540"}' data-wp-interactive="core/image" class="wp-block-image size-full wp-lightbox-container"><img loading="lazy" decoding="async" width="864" height="720" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on-async--click="actions.showLightbox" data-wp-on-async--load="callbacks.setButtonStyles" data-wp-on-async-window--resize="callbacks.setButtonStyles" src="/wp-content/uploads/2025/05/The_Lighthouse_058.jpg" alt="" class="wp-image-1872" srcset="/wp-content/uploads/2025/05/The_Lighthouse_058.jpg 864w, /wp-content/uploads/2025/05/The_Lighthouse_058-300x250.jpg 300w, /wp-content/uploads/2025/05/The_Lighthouse_058-768x640.jpg 768w, /wp-content/uploads/2025/05/The_Lighthouse_058-500x417.jpg 500w, /wp-content/uploads/2025/05/The_Lighthouse_058-800x667.jpg 800w" sizes="auto, (max-width: 864px) 100vw, 864px"><button class="lightbox-trigger" type="button" aria-haspopup="dialog" aria-label="Enlarge" data-wp-init="callbacks.initTriggerButton" data-wp-on-async--click="actions.showLightbox" data-wp-style--right="state.imageButtonRight" data-wp-style--top="state.imageButtonTop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewbox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z"></path>
+			</svg>
+		</button><figcaption class="wp-element-caption">Anodinisme de la violence</figcaption></figure>
 </div>
 </div>
 </div></div>
 
 
 
-<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="border-style:none;border-width:0px;padding-right:0;padding-left:0;flex-basis:5%"></div>
-</div>
-
-
-
-<div class="wp-block-group alignfull is-layout-flow wp-block-group-is-layout-flow" style="margin-top:1vh;margin-bottom:1vh;padding-top:0;padding-bottom:0">
-<div class="wp-block-columns alignfull is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-is-layout-c5150b4a wp-block-columns-is-layout-flex">
-<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:15%"></div>
-
-
-
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"><div class="post-navigation-link-previous wp-block-post-navigation-link has-text-color has-base-2-color has-medium-font-size has-liner-bmp-14-font-family"></div></div>
-
-
-
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"><div class="post-navigation-link-next has-text-align-right wp-elements-cda10368c170cd0aa26cf3171fdaae20 wp-block-post-navigation-link has-text-color has-base-2-color has-medium-font-size has-liner-bmp-14-font-family"><a href="/1886-2/" rel="next">Sophie Thune &ndash; Wet rooms</a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">&rarr;</span></div></div>
-
-
-
-<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:16%"></div>
-</div>
+<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="border-style:none;border-width:0px;padding-right:0;padding-left:0;flex-basis:2%"></div>
 </div>
 </div>
 </div>
@@ -539,7 +596,25 @@ var VPData = {"version":"3.3.12","pro":false,"__":{"couldnt_retrieve_vp":"Couldn
 <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/wordpress\/*"},{"not":{"href_matches":["\/wordpress\/wp-*.php","\/wordpress\/wp-admin\/*","\/wordpress\/wp-content\/uploads\/*","\/wordpress\/wp-content\/*","\/wordpress\/wp-content\/plugins\/*","\/wordpress\/wp-content\/themes\/twentytwentyfour\/*","\/wordpress\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
-<script id="wp-block-template-skip-link-js-after">
+<script type="application/json" id="wp-script-module-data-@wordpress/interactivity">
+{"state":{"core/image":{"metadata":{"6844495d8582a":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_011.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1865","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d85dd1":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_013.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1866","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d863fc":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_042.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1873","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d8691b":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_020.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1867","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d86d4d":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_021.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1868","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d87163":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_049.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1870","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d8755f":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_061.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1869","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d87a8d":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_052.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1871","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d881e6":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_058.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1872","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d8938b":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_011.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1865","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d8959d":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_013.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1866","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d8975c":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_042.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1873","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d89926":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_020.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1867","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d89aec":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_021.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1868","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d89d42":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_049.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1870","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d89f6f":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_061.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1869","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d8a2b1":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_052.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1871","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""},"6844495d8a540":{"uploadedSrc":"/wp-content/uploads/2025/05/The_Lighthouse_058.jpg","figureClassNames":"wp-block-image size-full","figureStyles":null,"imgClassNames":"wp-image-1872","imgStyles":null,"targetWidth":864,"targetHeight":720,"scaleAttr":false,"ariaLabel":"Enlarged image","alt":""}}}}}
+</script>
+		<div class="wp-lightbox-overlay zoom" data-wp-interactive="core/image" data-wp-context="{}" data-wp-bind--role="state.roleAttribute" data-wp-bind--aria-label="state.currentImage.ariaLabel" data-wp-bind--aria-modal="state.ariaModal" data-wp-class--active="state.overlayEnabled" data-wp-class--show-closing-animation="state.showClosingAnimation" data-wp-watch="callbacks.setOverlayFocus" data-wp-on--keydown="actions.handleKeydown" data-wp-on-async--touchstart="actions.handleTouchStart" data-wp-on--touchmove="actions.handleTouchMove" data-wp-on-async--touchend="actions.handleTouchEnd" data-wp-on-async--click="actions.hideLightbox" data-wp-on-async-window--resize="callbacks.setOverlayStyles" data-wp-on-async-window--scroll="actions.handleScroll" data-wp-bind--style="state.overlayStyles" tabindex="-1">
+				<button type="button" aria-label="Close" style="fill: var(--wp--preset--color--base-2)" class="close-button">
+					<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg>
+				</button>
+				<div class="lightbox-image-container">
+					<figure data-wp-bind--class="state.currentImage.figureClassNames" data-wp-bind--style="state.figureStyles">
+						<img data-wp-bind--alt="state.currentImage.alt" data-wp-bind--class="state.currentImage.imgClassNames" data-wp-bind--style="state.imgStyles" data-wp-bind--src="state.currentImage.currentSrc">
+					</figure>
+				</div>
+				<div class="lightbox-image-container">
+					<figure data-wp-bind--class="state.currentImage.figureClassNames" data-wp-bind--style="state.figureStyles">
+						<img data-wp-bind--alt="state.currentImage.alt" data-wp-bind--class="state.currentImage.imgClassNames" data-wp-bind--style="state.imgStyles" data-wp-bind--src="state.enlargedSrc">
+					</figure>
+				</div>
+				<div class="scrim" style="background-color: var(--wp--preset--color--contrast)" aria-hidden="true"></div>
+		</div><script id="wp-block-template-skip-link-js-after">
 	( function() {
 		var skipLinkTarget = document.querySelector( 'main' ),
 			sibling,

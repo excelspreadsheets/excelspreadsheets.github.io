@@ -1,19 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){ window.addEventListener( 'load', function() {
-	UAGBButtonChild.init( '.uagb-block-dc17c5d4' );
-});
-window.addEventListener( 'load', function() {
-	UAGBButtonChild.init( '.uagb-block-9dab7a4d' );
-});
-window.addEventListener( 'load', function() {
-	UAGBButtonChild.init( '.uagb-block-dd26be11' );
-});
-window.addEventListener( 'load', function() {
-	UAGBButtonChild.init( '.uagb-block-731f3752' );
-});
-window.addEventListener( 'load', function() {
-	UAGBButtonChild.init( '.uagb-block-2bc58bd8' );
-});
-				window.addEventListener( 'DOMContentLoaded', function() {
+document.addEventListener("DOMContentLoaded", function(){ 				window.addEventListener( 'DOMContentLoaded', function() {
 					const scope = document.querySelector( '.uagb-block-5820bd06' );
 					if ( scope ){
 						if ( scope.children[0].classList.contains( 'spectra-image-gallery__layout--masonry' ) ) {
