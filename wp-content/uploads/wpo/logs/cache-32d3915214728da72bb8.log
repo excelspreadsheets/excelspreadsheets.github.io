@@ -1229,3 +1229,46 @@
 [2025-07-28 16:49:30 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1927 has been purged, triggered by action: save_post 
 [2025-07-28 16:49:30 : INFO] - Cache for next post (with URL: https://localhost/wordpress/alsace-wildlife/) adjacent to post with id: 1927 has been purged, triggered by action: save_post 
 [2025-07-28 16:49:30 : INFO] - Cache for all archives page associated with post_type: post and Title: "A69 &#8211; 2024" have been purged, triggered by action: save_post 
+[2025-07-28 17:23:11 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:23:11 : INFO] - Cache for URL: https://localhost/wordpress/alsace-wildlife/ has been purged, triggered by action: save_post 
+[2025-07-28 17:23:11 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/a69-2024/) adjacent to post with id: 1962 has been purged, triggered by action: save_post 
+[2025-07-28 17:23:11 : INFO] - Cache for next post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1962 has been purged, triggered by action: save_post 
+[2025-07-28 17:23:11 : INFO] - Cache for all archives page associated with post_type: post and Title: "Alsace &#8211; Wildlife" have been purged, triggered by action: save_post 
+[2025-07-28 17:23:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:23:14 : INFO] - Cache for URL: https://localhost/wordpress/alsace-wildlife/ has been purged, triggered by action: save_post 
+[2025-07-28 17:23:14 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/a69-2024/) adjacent to post with id: 1962 has been purged, triggered by action: save_post 
+[2025-07-28 17:23:14 : INFO] - Cache for next post (with URL: https://localhost/wordpress/eclepens/) adjacent to post with id: 1962 has been purged, triggered by action: save_post 
+[2025-07-28 17:23:14 : INFO] - Cache for all archives page associated with post_type: post and Title: "Alsace &#8211; Wildlife" have been purged, triggered by action: save_post 
+[2025-07-28 17:23:45 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:23:45 : INFO] - Cache for URL: https://localhost/wordpress/eclepens/ has been purged, triggered by action: save_post 
+[2025-07-28 17:23:45 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/alsace-wildlife/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:23:45 : INFO] - Cache for next post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:23:45 : INFO] - Cache for all archives page associated with post_type: post and Title: "Éclépens" have been purged, triggered by action: save_post 
+[2025-07-28 17:23:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:23:47 : INFO] - Cache for URL: https://localhost/wordpress/eclepens/ has been purged, triggered by action: save_post 
+[2025-07-28 17:23:47 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/alsace-wildlife/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:23:47 : INFO] - Cache for next post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:23:47 : INFO] - Cache for all archives page associated with post_type: post and Title: "Éclépens" have been purged, triggered by action: save_post 
+[2025-07-28 17:24:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:24:39 : INFO] - Cache for URL: https://localhost/wordpress/eclepens/ has been purged, triggered by action: save_post 
+[2025-07-28 17:24:39 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/alsace-wildlife/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:24:39 : INFO] - Cache for next post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:24:39 : INFO] - Cache for all archives page associated with post_type: post and Title: "Éclépens" have been purged, triggered by action: save_post 
+[2025-07-28 17:24:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:24:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:24:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:24:41 : INFO] - Cache for URL: https://localhost/wordpress/eclepens/ has been purged, triggered by action: save_post 
+[2025-07-28 17:24:41 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/alsace-wildlife/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:24:41 : INFO] - Cache for next post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:24:41 : INFO] - Cache for all archives page associated with post_type: post and Title: "Éclépens" have been purged, triggered by action: save_post 
+[2025-07-28 17:24:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:24:49 : INFO] - Cache for URL: https://localhost/wordpress/eclepens/ has been purged, triggered by action: save_post 
+[2025-07-28 17:24:49 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/alsace-wildlife/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:24:49 : INFO] - Cache for next post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:24:49 : INFO] - Cache for all archives page associated with post_type: post and Title: "Éclépens" have been purged, triggered by action: save_post 
+[2025-07-28 17:24:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:24:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-07-28 17:24:51 : INFO] - Cache for URL: https://localhost/wordpress/eclepens/ has been purged, triggered by action: save_post 
+[2025-07-28 17:24:51 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/alsace-wildlife/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:24:51 : INFO] - Cache for next post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 1977 has been purged, triggered by action: save_post 
+[2025-07-28 17:24:51 : INFO] - Cache for all archives page associated with post_type: post and Title: "Éclépens" have been purged, triggered by action: save_post 
