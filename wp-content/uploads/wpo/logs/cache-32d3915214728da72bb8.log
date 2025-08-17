@@ -1338,3 +1338,79 @@
 [2025-08-12 18:47:01 : INFO] - Cache for URL: https://localhost/wordpress/2050-2/ has been purged, triggered by action: save_post 
 [2025-08-12 18:47:01 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 2050 has been purged, triggered by action: save_post 
 [2025-08-12 18:47:01 : INFO] - Cache for all archives page associated with post_type: post and Title: "Expérimentations d&#8217;impression : 1 &#8211; Photos d&#8217;espaces, Pesquet" have been purged, triggered by action: save_post 
+[2025-08-17 00:03:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:03:20 : INFO] - Cache for URL: https://localhost/wordpress/2050-2/ has been purged, triggered by action: save_post 
+[2025-08-17 00:03:20 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 2050 has been purged, triggered by action: save_post 
+[2025-08-17 00:03:20 : INFO] - Cache for all archives page associated with post_type: post and Title: "Expérimentations d&#8217;impression : 1 &#8211; Photos d&#8217;espaces, Pesquet" have been purged, triggered by action: save_post 
+[2025-08-17 00:03:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:03:25 : INFO] - Cache for URL: https://localhost/wordpress/2050-2/ has been purged, triggered by action: save_post 
+[2025-08-17 00:03:25 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 2050 has been purged, triggered by action: save_post 
+[2025-08-17 00:03:25 : INFO] - Cache for all archives page associated with post_type: post and Title: "Expérimentations d&#8217;impression : 1 &#8211; Photos d&#8217;espaces, Pesquet" have been purged, triggered by action: save_post 
+[2025-08-17 00:10:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:10:13 : INFO] - Cache for URL: https://localhost/wordpress/2050-2/ has been purged, triggered by action: save_post 
+[2025-08-17 00:10:13 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 2050 has been purged, triggered by action: save_post 
+[2025-08-17 00:10:14 : INFO] - Cache for all archives page associated with post_type: post and Title: "Expérimentations d&#8217;impression : 1 &#8211; Photos d&#8217;espaces, Pesquet" have been purged, triggered by action: save_post 
+[2025-08-17 00:10:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:10:23 : INFO] - Cache for URL: https://localhost/wordpress/2050-2/ has been purged, triggered by action: save_post 
+[2025-08-17 00:10:23 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/du-droit-de-deambuler/) adjacent to post with id: 2050 has been purged, triggered by action: save_post 
+[2025-08-17 00:10:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "Expérimentations d&#8217;impression : 1 &#8211; Photos d&#8217;espaces, Pesquet" have been purged, triggered by action: save_post 
+[2025-08-17 00:37:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:37:12 : INFO] - Cache for URL: https://localhost/wordpress/?p=2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:37:12 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:37:12 : INFO] - Cache for all archives page associated with post_type: post and Title: "Expérimentations d&#8217;impression : 1 &#8211; Photos d&#8217;espaces, Pesquet" have been purged, triggered by action: save_post 
+[2025-08-17 00:37:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:37:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:53:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:53:42 : INFO] - Cache for URL: https://localhost/wordpress/?p=2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:53:42 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:53:42 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 00:53:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:53:45 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:53:45 : INFO] - Cache for URL: https://localhost/wordpress/?p=2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:53:45 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:53:45 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 00:53:45 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:53:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:53:48 : INFO] - Cache for URL: https://localhost/wordpress/?p=2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:53:48 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:53:48 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 00:53:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:53:58 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 00:53:58 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:53:58 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 00:54:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 00:54:02 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 00:54:02 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 00:54:02 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 01:00:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 01:00:10 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 01:00:10 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 01:00:10 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 01:00:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 01:00:14 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 01:00:14 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 01:00:14 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 01:01:15 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 01:01:15 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 01:01:15 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 01:01:15 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 01:01:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 01:01:19 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 01:01:19 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 01:01:19 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 01:01:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 01:01:42 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 01:01:42 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 01:01:42 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 01:01:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 01:01:46 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 01:01:46 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 01:01:46 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 01:02:14 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 01:02:14 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 01:02:14 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 01:02:14 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-08-17 01:02:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-08-17 01:02:18 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
+[2025-08-17 01:02:18 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
+[2025-08-17 01:02:18 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
