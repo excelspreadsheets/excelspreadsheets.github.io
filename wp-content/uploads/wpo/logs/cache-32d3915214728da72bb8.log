@@ -1414,3 +1414,288 @@
 [2025-08-17 01:02:18 : INFO] - Cache for URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/ has been purged, triggered by action: save_post 
 [2025-08-17 01:02:18 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/2050-2/) adjacent to post with id: 2067 has been purged, triggered by action: save_post 
 [2025-08-17 01:02:18 : INFO] - Cache for all archives page associated with post_type: post and Title: "Doisneau Instant donnés au musée Maillol" have been purged, triggered by action: save_post 
+[2025-09-01 10:28:19 : INFO] - Cache for URL: https://localhost/wordpress/?p=2084 has been purged, triggered by action: save_post 
+[2025-09-01 10:28:19 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/) adjacent to post with id: 2084 has been purged, triggered by action: save_post 
+[2025-09-01 10:28:19 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-09-01 10:30:21 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-09-01 10:34:57 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:34:57 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:34:57 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:34:57 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:34:57 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier" have been purged, triggered by action: save_post 
+[2025-09-01 10:35:05 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:35:05 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:35:05 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:35:05 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:35:05 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:36:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:36:33 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:36:33 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:36:33 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:36:33 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:36:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:36:36 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:36:36 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:36:36 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:36:36 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:36:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:36:51 : INFO] - Cache for URL: https://localhost/wordpress/?p=2089 has been purged, triggered by action: save_post 
+[2025-09-01 10:36:51 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/doisneau-instant-donnes-au-musee-maillol/) adjacent to post with id: 2089 has been purged, triggered by action: save_post 
+[2025-09-01 10:36:51 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:36:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:41:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:41:10 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:41:10 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:41:10 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:41:10 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:41:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:41:15 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:41:15 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:41:15 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:41:15 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:42:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:42:10 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:42:10 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:10 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:10 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:42:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:42:12 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:42:12 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:12 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:12 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:42:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:42:33 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:42:33 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:33 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:33 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:42:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:42:35 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:42:35 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:35 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:35 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:42:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:42:48 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:42:48 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:48 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:48 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:42:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:42:49 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:42:49 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:49 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:42:49 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:43:56 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:43:56 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:43:56 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:43:56 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:43:56 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:43:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:43:59 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:43:59 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:43:59 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:43:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:57:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:57:22 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:57:22 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:57:22 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:57:22 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:57:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:57:25 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:57:25 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:57:25 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:57:25 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:58:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:58:03 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:58:03 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:58:03 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:58:03 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:58:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:58:06 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:58:06 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:58:06 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:58:06 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:58:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:58:36 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:58:36 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:58:36 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:58:36 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 10:58:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 10:58:39 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 10:58:39 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:58:39 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 10:58:39 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:07:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:07:23 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:07:23 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:07:23 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:07:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:07:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:07:26 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:07:26 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:07:26 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:07:26 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:09:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:09:33 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:09:33 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:09:33 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:09:33 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:09:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:09:35 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:09:35 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:09:35 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:09:35 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:11:37 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:11:37 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:11:37 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:11:37 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:11:37 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:11:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:11:40 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:11:40 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:11:40 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:11:40 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:18:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:18:06 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:18:06 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:18:06 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:18:06 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:18:08 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:18:08 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:18:08 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:18:08 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:18:08 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:19:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:19:48 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:19:48 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:19:48 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:19:48 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:19:51 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:19:51 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:19:51 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:19:51 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:19:51 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:21:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:21:19 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:21:19 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:21:19 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:21:19 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:21:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:21:22 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:21:22 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:21:22 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:21:22 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:22:28 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:22:28 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:22:28 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:22:28 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:22:28 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:22:30 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:22:30 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:22:30 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:22:30 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:22:30 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:23:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:23:24 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:23:24 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:23:24 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:23:24 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:23:26 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:23:26 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:23:26 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:23:26 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:23:26 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:23:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:23:43 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:23:43 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:23:43 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:23:43 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:23:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:23:46 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:23:46 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:23:46 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:23:46 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:27:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:27:01 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:27:01 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:27:01 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:27:01 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:27:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:27:04 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:27:04 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:27:04 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:27:04 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:27:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:27:22 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:27:22 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:27:22 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:27:22 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:27:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:27:24 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:27:24 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:27:24 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:27:24 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:28:46 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:28:46 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:28:46 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:28:46 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:28:46 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:28:48 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-01 11:28:48 : INFO] - Cache for URL: https://localhost/wordpress/pfe/ has been purged, triggered by action: save_post 
+[2025-09-01 11:28:48 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:28:48 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
+[2025-09-01 11:28:48 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2025-09-01 11:32:13 : INFO] - Cache for URL: https://localhost/wordpress/photography/ has been purged, triggered by action: save_post 
+[2025-09-01 11:32:14 : INFO] - Cache for URL: https://localhost/wordpress/photography/ has been purged, triggered by action: save_post 
+[2025-09-01 11:45:23 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:45:24 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:50:43 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:50:44 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:52:12 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:52:13 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:52:20 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:52:21 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:52:35 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:52:36 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:52:44 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:52:45 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:56:41 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:56:43 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:57:09 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 11:57:10 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:02:05 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:02:06 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:02:33 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:02:35 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:03:40 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:03:41 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:05:03 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:05:04 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:10:22 : INFO] - Cache for archive page associated with post_type: custom-css-js and Title: "Auto Draft" has been purged, triggered by action: save_post 
+[2025-09-01 12:16:52 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:16:53 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:18:46 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:18:47 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:19:31 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:19:33 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:19:42 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:19:44 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:21:25 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:21:34 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:21:36 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:22:08 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:22:09 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:23:55 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:23:56 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:24:43 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:24:44 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:29:01 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:29:02 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:31:47 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:31:49 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:32:37 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:32:38 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:33:56 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:33:57 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:35:45 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:35:47 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:36:17 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2025-09-01 12:36:18 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 

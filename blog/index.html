@@ -168,7 +168,7 @@ body {
 
 @keyframes flickerAnimation {
     0% { opacity: 1; }
-    50% { opacity: 0; }
+    50% { opacity: .5; }
     100% { opacity: 1; }
 }
 
@@ -190,7 +190,22 @@ body {
 
 
 
+.flicker-hover img {
+  transition: none; /* remove smooth transitions */
+}
 
+.flicker-hover img:hover {
+  animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .6;
+  }
+}
 
 
 

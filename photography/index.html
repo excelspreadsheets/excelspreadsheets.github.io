@@ -166,7 +166,7 @@ body {
 
 @keyframes flickerAnimation {
     0% { opacity: 1; }
-    50% { opacity: 0; }
+    50% { opacity: .5; }
     100% { opacity: 1; }
 }
 
@@ -188,7 +188,22 @@ body {
 
 
 
+.flicker-hover img {
+  transition: none; /* remove smooth transitions */
+}
 
+.flicker-hover img:hover {
+  animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .6;
+  }
+}
 
 
 
@@ -242,7 +257,7 @@ body::-webkit-scrollbar {
 :root :where(.wp-block-heading a:where(:not(.wp-element-button))){color: var(--wp--preset--color--base-2);}
 </style>
 <style id="core-block-supports-inline-css">
-.wp-elements-09c885f659b800999f0bfe6c0f9936eb a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-0142a10c983b29380634fa2d9968ff57 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-f1928cf2{flex-wrap:nowrap;gap:2em 0px;}.wp-container-1{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-container-core-columns-is-layout-c5150b4a{flex-wrap:nowrap;gap:2em var(--wp--preset--spacing--10);}
+.wp-elements-09c885f659b800999f0bfe6c0f9936eb a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-elements-0142a10c983b29380634fa2d9968ff57 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base-2);}.wp-container-core-columns-is-layout-f1928cf2{flex-wrap:nowrap;gap:2em 0px;}.wp-container-1{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:0px;gap:0;}.wp-container-core-columns-is-layout-c5150b4a{flex-wrap:nowrap;gap:2em var(--wp--preset--spacing--10);}
 </style>
 <style id="wp-block-template-skip-link-inline-css">
 
@@ -276,7 +291,7 @@ body::-webkit-scrollbar {
 </style>
 <link rel="stylesheet" id="widgetopts-styles-css" href="/wp-content/plugins/widget-options/assets/css/widget-options.css?ver=4.1.1" media="all">
 <link rel="stylesheet" id="wpim-style-css-css" href="/wp-content/plugins/wp-image-mask/build/style-index.css?ver=3.1.2" media="all">
-<link rel="stylesheet" id="uag-style-488-css" href="/wp-content/uploads/uag-plugin/assets/0/uag-css-488.css?ver=1755392538" media="all">
+<link rel="stylesheet" id="uag-style-488-css" href="/wp-content/uploads/uag-plugin/assets/0/uag-css-488.css?ver=1756730178" media="all">
 <link rel="https://api.w.org/" href="/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/488"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.8.2">
 <link rel="canonical" href="/photography/">
