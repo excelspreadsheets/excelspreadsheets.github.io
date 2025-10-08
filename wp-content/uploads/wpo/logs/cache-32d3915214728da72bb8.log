@@ -1748,3 +1748,4 @@
 [2025-10-08 16:14:48 : INFO] - Cache for all archives page associated with post_type: post and Title: "Montage Sicile" have been purged, triggered by action: save_post 
 [2025-10-08 16:15:47 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
 [2025-10-08 16:15:50 : INFO] - Cache for URL: https://localhost/wordpress/rendering/ has been purged, triggered by action: save_post 
+[2025-10-08 19:37:19 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
