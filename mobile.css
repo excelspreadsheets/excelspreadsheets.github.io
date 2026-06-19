@@ -1,0 +1,241 @@
+/* Mobile responsive fixes for lgplacenti.net */
+/* Injected into all pages for mobile compatibility */
+
+/* === GENERAL MOBILE === */
+@media (max-width: 768px) {
+  /* Fix body overflow preventing scroll */
+  body {
+    overflow: auto !important;
+    overflow-x: hidden !important;
+  }
+  
+  /* Remove scroll-over containers on mobile, let page flow naturally */
+  .y-overflow, .y-overflow2, .y-overflowSmall {
+    height: auto !important;
+    overflow-y: visible !important;
+  }
+  
+  /* Make images responsive */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  /* Fix wp-block-columns to stack vertically on mobile */
+  .wp-block-columns {
+    flex-wrap: wrap !important;
+  }
+  .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
+    flex-basis: 100% !important;
+  }
+  
+  .wp-block-column {
+    flex-basis: 100% !important;
+    min-width: 0 !important;
+  }
+  
+  /* Remove spacer columns on mobile */
+  .uag-hide-desktop, .uag-hide-tab, .uag-hide-mob {
+    display: none !important;
+  }
+  
+  /* Show blog content column on mobile (UAG hides it with !important) */
+  body.blog .wp-block-column.uag-hide-tab.uag-hide-mob {
+    display: block !important;
+    flex-basis: 100% !important;
+    width: 100% !important;
+  }
+  
+  /* Re-show other hidden-on-mobile elements that should be visible */
+  body .uag-hide-tab.uag-hide-mob.wp-block-column[style*="flex-basis"] {
+    display: block !important;
+  }
+  
+  /* Fix wp-block-gallery for mobile */
+  .wp-block-gallery {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+  }
+  .wp-block-gallery .wp-block-image {
+    width: calc(50% - 4px) !important;
+    flex-grow: 1 !important;
+  }
+  .wp-block-gallery.columns-4 .wp-block-image {
+    width: calc(50% - 4px) !important;
+  }
+  .wp-block-gallery.columns-3 .wp-block-image {
+    width: calc(50% - 4px) !important;
+  }
+  .wp-block-gallery .wp-block-image img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 300px !important;
+    object-fit: cover !important;
+  }
+  
+  /* Fix wp-block-post-template grid */
+  .wp-block-post-template {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+  .wp-block-post-template > li {
+    width: 100% !important;
+  }
+}
+
+/* === HOME PAGE (index.html) SPECIFIC === */
+@media (max-width: 768px) {
+  /* Stack the two columns vertically */
+  body.home .wp-block-columns {
+    flex-wrap: wrap !important;
+  }
+  body.home .wp-block-columns > .wp-block-column {
+    flex-basis: 100% !important;
+    text-align: center !important;
+  }
+  body.home .wp-block-columns > .wp-block-column:last-child {
+    flex-basis: 100% !important;
+  }
+  
+  /* Fix text sizes - vw makes text tiny on mobile */
+  body.home h2[style*="font-size:1.4vw"],
+  body.home h2[style*="font-size:1.3vw"] {
+    font-size: 4.5vw !important;
+    text-align: center !important;
+  }
+  
+  /* Fix navigation link sizes on home page */
+  body.home h2[style*="font-size:clamp(1.25rem"] {
+    font-size: 5vw !important;
+    text-align: center !important;
+  }
+  
+  /* Fix home page vertical spacing */
+  body.home .wp-block-spacer {
+    height: 3vh !important;
+  }
+  
+  /* Center the home page content */
+  body.home .wp-block-column h2 {
+    text-align: center !important;
+  }
+  
+  /* Fix top spacing on home */
+  body.home .wp-block-group.alignfull {
+    padding: 5vw !important;
+  }
+}
+
+/* === ARCHITECTURE LANDING PAGE === */
+@media (max-width: 768px) {
+  /* Make architecture grid columns stack */
+  body.page-template .wp-block-columns > .wp-block-column[style*="flex-basis:66.66"] {
+    flex-basis: 100% !important;
+  }
+  body.page-template .wp-block-columns > .wp-block-column[style*="flex-basis:33.33"] {
+    flex-basis: 100% !important;
+  }
+  
+  /* Fix image groups in architecture */
+  .wp-block-group .wp-block-group .wp-block-image {
+    width: calc(50% - 4px) !important;
+    margin: 2px !important;
+  }
+  
+  /* Fix architecture layout groups that use is-nowrap */
+  .is-nowrap {
+    flex-wrap: wrap !important;
+  }
+  
+  .wp-block-group.is-horizontal {
+    flex-wrap: wrap !important;
+  }
+  
+  .wp-block-group.is-nowrap .wp-block-image {
+    width: calc(50% - 4px) !important;
+    flex: 1 1 auto !important;
+  }
+  
+  .wp-block-group.is-nowrap .wp-block-image img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* === RENDERING & PHOTOGRAPHY PAGES === */
+@media (max-width: 768px) {
+  /* Fix uag-masonry galleries for mobile */
+  .uag-masonry {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 4px !important;
+  }
+  .uag-masonry .wp-block-image {
+    width: calc(50% - 2px) !important;
+    margin: 0 !important;
+  }
+  .uag-masonry.columns-4 .wp-block-image {
+    width: calc(50% - 2px) !important;
+  }
+  .uag-masonry .wp-block-image img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* === BLOG PAGE === */
+@media (max-width: 768px) {
+  /* Blog uses uag-hide-mob on content column - we must show it */
+  body.blog .wp-block-column.uag-hide-tab.uag-hide-mob {
+    display: block !important;
+    flex-basis: 100% !important;
+    width: 100% !important;
+  }
+  
+  /* Fix blog post cards for mobile */
+  .wp-block-post-template .wp-block-columns {
+    flex-direction: column !important;
+  }
+  .wp-block-post-template .wp-block-columns .wp-block-column {
+    flex-basis: 100% !important;
+  }
+  .wp-block-post-template figure.wp-block-post-featured-image {
+    width: 100% !important;
+  }
+  .wp-block-post-template figure img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* === 404 PAGE === */
+@media (max-width: 768px) {
+  .uagb-block-d8bd566f .uagb-buttons__wrap {
+    align-items: center !important;
+  }
+  .uagb-buttons-repeater .uagb-button__link {
+    font-size: 4vw !important;
+  }
+}
+
+/* === PROJECT PAGES (individual project) === */
+@media (max-width: 768px) {
+  /* Fix stacked image galleries inside project pages */
+  .wp-block-gallery {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+  }
+  .wp-block-gallery .wp-block-image {
+    width: 100% !important;
+  }
+}
+
+/* === LIGHTBOX FIX === */
+@media (max-width: 768px) {
+  .wp-lightbox-overlay .lightbox-image-container img {
+    max-width: 95vw !important;
+    max-height: 80vh !important;
+  }
+}
