@@ -289,6 +289,70 @@ body::-webkit-scrollbar {
 @font-face{font-family:"Space Grotesk";font-style:normal;font-weight:300 700;font-display:fallback;src:url('/wp-content/uploads/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');}
 </style>
 <style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}</style><style id="uagb-style-frontend-1881">.uag-blocks-common-selector{z-index:var(--z-index-desktop) !important}@media (max-width: 976px){.uag-blocks-common-selector{z-index:var(--z-index-tablet) !important}}@media (max-width: 767px){.uag-blocks-common-selector{z-index:var(--z-index-mobile) !important}}
+
+/* Moving grid — floating images animation */
+.moving-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 4px;
+  height: calc(100vh - 64px);
+  width: 100vw;
+  overflow: hidden;
+  padding: 4px;
+  box-sizing: border-box;
+}
+.moving-grid .grid-cell {
+  overflow: hidden;
+  position: relative;
+  border-radius: 2px;
+}
+.moving-grid .grid-cell a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.moving-grid .grid-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  animation: floatImage 20s ease-in-out infinite;
+}
+.moving-grid .grid-cell:hover img {
+  animation-play-state: paused;
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+}
+@keyframes floatImage {
+  0%, 100% { transform: translateY(0px); }
+  25% { transform: translateY(-8px); }
+  50% { transform: translateY(4px); }
+  75% { transform: translateY(-4px); }
+}
+.moving-grid .grid-cell:nth-child(2n) img { animation-duration: 22s; animation-delay: -3s; }
+.moving-grid .grid-cell:nth-child(3n) img { animation-duration: 18s; animation-delay: -7s; }
+.moving-grid .grid-cell:nth-child(4n) img { animation-duration: 25s; animation-delay: -1s; }
+.moving-grid .grid-cell:nth-child(5n) img { animation-duration: 16s; animation-delay: -11s; }
+@media (max-width: 600px) {
+  .moving-grid {
+    grid-template-columns: repeat(2, 1fr);
+    height: calc(100vh - 64px);
+  }
+}
+
+/* Blog grid titles overlay */
+.moving-grid .grid-cell .cell-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 20px 8px 6px;
+  text-decoration: none;
+  pointer-events: none;
+}
 </style><link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
@@ -312,58 +376,12 @@ body::-webkit-scrollbar {
 </div>
 </div>
 
-<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-columns alignfull is-layout-flex wp-block-columns-is-layout-flex">
-<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:2%"></div>
-
-<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow"><div class="entry-content y-overflow2 wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
-<div class="wp-block-query alignwide is-layout-flow wp-block-query-is-layout-flow">
-<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><ul class="alignfull wp-block-post-template has-small-font-size is-layout-grid wp-block-post-template-is-layout-grid"><li class="wp-block-post post-2067 post type-post status-publish format-standard has-post-thumbnail hentry category-photography category-review tag-doisneau tag-exhibition tag-maillol tag-photography">
-
-<div class="wp-block-columns are-vertically-aligned-center is-style-default is-layout-flex wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"><figure style="aspect-ratio:4/3;width:100%;height:100%; padding-bottom:0%;padding-right:0;padding-left:0%;padding-top:0%;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/doisneau-instant-donnes-au-musee-maillol/" target="_self" style="height:100%"><img fetchpriority="high" decoding="async" width="2560" height="1920" src="/wp-content/uploads/2025/08/IMG_20250625_115829-1.jpg" class="attachment-full size-full wp-post-image" alt="Doisneau Instant donn&eacute;s au mus&eacute;e Maillol" style="border-radius:0px;border-style:none;border-width:0px;width:100%;height:100%;object-fit:cover;"></a></figure>
-
-<h3 style="font-size:0.8rem; padding-top:0%;padding-bottom:0%;" class="has-text-align-left wp-block-post-title"><a href="/doisneau-instant-donnes-au-musee-maillol/" target="_self">Doisneau Instant donn&eacute;s au mus&eacute;e Maillol</a></h3></div>
-</div>
-
-</li><li class="wp-block-post post-2050 post type-post status-publish format-standard has-post-thumbnail hentry category-photography category-review tag-pesquet tag-photography tag-printing">
-
-<div class="wp-block-columns are-vertically-aligned-center is-style-default is-layout-flex wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"><figure style="aspect-ratio:4/3;width:100%;height:100%; padding-bottom:0%;padding-right:0;padding-left:0%;padding-top:0%;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/2050-2/" target="_self" style="height:100%"><img decoding="async" width="1500" height="1000" src="/wp-content/uploads/2025/08/DSCF2875-DxO_DeepPRIME-XD3-X-Trans-beta-1.png" class="attachment-full size-full wp-post-image" alt="Exp&eacute;rimentations d&rsquo;impression : 1 &ndash; Photos d&rsquo;espaces, Pesquet" style="border-radius:0px;border-style:none;border-width:0px;width:100%;height:100%;object-fit:cover;"></a></figure>
-
-<h3 style="font-size:0.8rem; padding-top:0%;padding-bottom:0%;" class="has-text-align-left wp-block-post-title"><a href="/2050-2/" target="_self">Exp&eacute;rimentations d&rsquo;impression : 1 &ndash; Photos d&rsquo;espaces, Pesquet</a></h3></div>
-</div>
-
-</li><li class="wp-block-post post-1989 post type-post status-publish format-standard has-post-thumbnail hentry category-review tag-book tag-du-droit-de-deambuler tag-photography tag-review tag-vanuxem">
-
-<div class="wp-block-columns are-vertically-aligned-center is-style-default is-layout-flex wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"><figure style="aspect-ratio:4/3;width:100%;height:100%; padding-bottom:0%;padding-right:0;padding-left:0%;padding-top:0%;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/du-droit-de-deambuler/" target="_self" style="height:100%"><img decoding="async" width="2560" height="1707" src="/wp-content/uploads/2025/06/DSCF0805.jpg" class="attachment-full size-full wp-post-image" alt="Du droit de d&eacute;ambuler" style="border-radius:0px;border-style:none;border-width:0px;width:100%;height:100%;object-fit:cover;"></a></figure>
-
-<h3 style="font-size:0.8rem; padding-top:0%;padding-bottom:0%;" class="has-text-align-left wp-block-post-title"><a href="/du-droit-de-deambuler/" target="_self">Du droit de d&eacute;ambuler</a></h3></div>
-</div>
-
-</li><li class="wp-block-post post-1886 post type-post status-publish format-standard has-post-thumbnail hentry category-review tag-mcba tag-review tag-sophie-thun tag-wet-rooms">
-
-<div class="wp-block-columns are-vertically-aligned-center is-style-default is-layout-flex wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"><figure style="aspect-ratio:4/3;width:100%;height:100%; padding-bottom:0%;padding-right:0;padding-left:0%;padding-top:0%;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/1886-2/" target="_self" style="height:100%"><img loading="lazy" decoding="async" width="2000" height="1333" src="/wp-content/uploads/2025/05/DSCF0461.jpg" class="attachment-full size-full wp-post-image" alt="Sophie Thune &ndash; Wet rooms" style="border-radius:0px;border-style:none;border-width:0px;width:100%;height:100%;object-fit:cover;"></a></figure>
-
-<h3 style="font-size:0.8rem; padding-top:0%;padding-bottom:0%;" class="has-text-align-left wp-block-post-title"><a href="/1886-2/" target="_self">Sophie Thune &ndash; Wet rooms</a></h3></div>
-</div>
-
-</li><li class="wp-block-post post-1863 post type-post status-publish format-standard has-post-thumbnail hentry category-review tag-a24 tag-dafoe tag-movie tag-movie-review tag-review">
-
-<div class="wp-block-columns are-vertically-aligned-center is-style-default is-layout-flex wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"><figure style="aspect-ratio:4/3;width:100%;height:100%; padding-bottom:0%;padding-right:0;padding-left:0%;padding-top:0%;margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;" class="wp-block-post-featured-image"><a href="/1863-2/" target="_self" style="height:100%"><img loading="lazy" decoding="async" width="864" height="720" src="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg" class="attachment-full size-full wp-post-image" alt="The Lighthouse" style="border-radius:0px;border-style:none;border-width:0px;width:100%;height:100%;object-fit:cover;"></a></figure>
-
-<h3 style="font-size:0.8rem; padding-top:0%;padding-bottom:0%;" class="has-text-align-left wp-block-post-title"><a href="/1863-2/" target="_self">The Lighthouse</a></h3></div>
-</div>
-
-</li></ul></div>
-</div>
-</div></div>
-
-<div class="wp-block-column uag-hide-tab uag-hide-mob is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:2%"></div>
-</div>
+<div class="moving-grid">
+<div class="grid-cell"><a href="/doisneau-instant-donnes-au-musee-maillol/"><img src="/wp-content/uploads/2025/08/IMG_20250625_115829-1.jpg" alt="Doisneau Instant donnés au musée Maillol"><span class="cell-title">Doisneau Instant donnés au musée Maillol</span></a></div>
+<div class="grid-cell"><a href="/2050-2/"><img src="/wp-content/uploads/2025/08/DSCF2875-DxO_DeepPRIME-XD3-X-Trans-beta-1.png" alt="Expérimentations d'impression"><span class="cell-title">Expérimentations d'impression : 1</span></a></div>
+<div class="grid-cell"><a href="/du-droit-de-deambuler/"><img src="/wp-content/uploads/2025/06/DSCF0805.jpg" alt="Du droit de déambuler"><span class="cell-title">Du droit de déambuler</span></a></div>
+<div class="grid-cell"><a href="/1886-2/"><img src="/wp-content/uploads/2025/05/DSCF0461.jpg" alt="Sophie Thune Wet rooms"><span class="cell-title">Sophie Thune — Wet rooms</span></a></div>
+<div class="grid-cell"><a href="/1863-2/"><img src="/wp-content/uploads/2025/05/The_Lighthouse_021.jpg" alt="The Lighthouse"><span class="cell-title">The Lighthouse</span></a></div>
 </div>
 </div>
 
