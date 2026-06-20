@@ -294,54 +294,126 @@ body::-webkit-scrollbar {
 </style>
 <style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}.uag-masonry.wp-block-gallery.has-nested-images{display: block;column-count: 3;column-gap: 1em;}.uag-masonry.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image){margin: 0;display: block;grid-template-rows: 1fr auto;break-inside: avoid;width: unset;}.uag-masonry.columns-default.wp-block-gallery.has-nested-images{column-count: 3;width: unset;}.uag-masonry.columns-1.wp-block-gallery.has-nested-images{column-count: 1;width: unset;}.uag-masonry.columns-2.wp-block-gallery.has-nested-images{column-count: 2;}.uag-masonry.columns-3.wp-block-gallery.has-nested-images{column-count: 3;width: unset;}.uag-masonry.columns-4.wp-block-gallery.has-nested-images{column-count: 4;width: unset;}.uag-masonry.columns-5.wp-block-gallery.has-nested-images{column-count: 5;width: unset;}.uag-masonry.columns-6.wp-block-gallery.has-nested-images{column-count: 6;width: unset;}.uag-masonry.columns-7.wp-block-gallery.has-nested-images{column-count: 7;width: unset;}.uag-masonry.columns-8.wp-block-gallery.has-nested-images{column-count: 8;width: unset;}.uag-masonry .blocks-gallery-grid .blocks-gallery-item{margin: 0;display: block;grid-template-rows: 1fr auto;margin-bottom: 1em;break-inside: avoid;width: unset;}.uag-masonry.wp-block-gallery .blocks-gallery-grid{column-gap: 1em;display: block;}.uag-masonry.columns-1 .blocks-gallery-grid{column-count: 1;}.uag-masonry.columns-2 .blocks-gallery-grid{column-count: 2;}.uag-masonry.columns-3 .blocks-gallery-grid{column-count: 3;}.uag-masonry.columns-4 .blocks-gallery-grid{column-count: 4;}.uag-masonry.columns-5 .blocks-gallery-grid{column-count: 5;}.uag-masonry.columns-6 .blocks-gallery-grid{column-count: 6;}.uag-masonry.columns-7 .blocks-gallery-grid{column-count: 7;}.uag-masonry.columns-8 .blocks-gallery-grid{column-count: 8;}@media only screen and (max-width: 767px) {.uag-masonry.wp-block-gallery[class*="columns-"].blocks-gallery-grid{column-count: 2;column-gap: 1em;display: unset;}.uag-masonry.wp-block-gallery.columns-1.blocks-gallery-grid{column-count: 1;}.uag-masonry.wp-block-gallery[class*="columns-"] .blocks-gallery-grid{column-count: 2;column-gap: 1em;display: unset;}.uag-masonry.wp-block-gallery.columns-1 .blocks-gallery-grid{column-count: 1;}}
 
-/* Moving grid — floating images animation */
-.moving-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 4px;
-  height: calc(100vh - 64px);
-  width: 100vw;
-  overflow: hidden;
-  padding: 4px;
-  box-sizing: border-box;
-}
-.moving-grid .grid-cell {
-  overflow: hidden;
+/* Free floating images */
+.free-float {
   position: relative;
-  border-radius: 2px;
+  width: 100vw;
+  height: calc(100vh - 64px);
+  overflow: hidden;
 }
-.moving-grid .grid-cell a {
+.float-cell {
+  position: absolute;
+  width: 220px;
+  height: 165px;
+  overflow: hidden;
+  border-radius: 3px;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: z-index 0s;
+}
+.float-cell a, .float-cell img {
   display: block;
-  width: 100%;
-  height: 100%;
-}
-.moving-grid .grid-cell img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
-  animation: floatImage 20s ease-in-out infinite;
 }
-.moving-grid .grid-cell:hover img {
+.float-cell:hover {
   animation-play-state: paused;
-  transform: scale(1.05);
+  z-index: 999 !important;
+}
+.float-cell:hover img {
+  transform: scale(1.08);
   transition: transform 0.5s ease;
 }
-@keyframes floatImage {
-  0%, 100% { transform: translateY(0px); }
-  25% { transform: translateY(-8px); }
-  50% { transform: translateY(4px); }
-  75% { transform: translateY(-4px); }
+.float-cell:nth-child(1) { top: 4%; left: 2%; animation: drift1 21s infinite alternate; z-index: 1; }
+.float-cell:nth-child(2) { top: 8%; right: 12%; animation: drift2 26s infinite alternate; z-index: 2; }
+.float-cell:nth-child(3) { bottom: 18%; left: 6%; animation: drift3 23s infinite alternate; z-index: 3; }
+.float-cell:nth-child(4) { top: 40%; right: 3%; animation: drift4 19s infinite alternate; z-index: 4; }
+.float-cell:nth-child(5) { bottom: 6%; left: 30%; animation: drift5 28s infinite alternate; z-index: 5; }
+.float-cell:nth-child(6) { top: 55%; left: 15%; animation: drift6 22s infinite alternate; z-index: 6; }
+.float-cell:nth-child(7) { top: 15%; left: 40%; animation: drift7 25s infinite alternate; z-index: 7; }
+.float-cell:nth-child(8) { bottom: 35%; right: 6%; animation: drift8 20s infinite alternate; z-index: 8; }
+.float-cell:nth-child(9) { bottom: 4%; right: 22%; animation: drift9 27s infinite alternate; z-index: 9; }
+.float-cell:nth-child(10) { top: 25%; right: 35%; animation: drift10 24s infinite alternate; z-index: 10; }
+.float-cell:nth-child(11) { top: 60%; left: 55%; animation: drift1 23s infinite alternate; z-index: 11; }
+
+@keyframes drift1 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(50px, -35px); }
+  50% { transform: translate(-25px, 25px); }
+  75% { transform: translate(35px, -15px); }
+  100% { transform: translate(-15px, 20px); }
 }
-.moving-grid .grid-cell:nth-child(2n) img { animation-duration: 22s; animation-delay: -3s; }
-.moving-grid .grid-cell:nth-child(3n) img { animation-duration: 18s; animation-delay: -7s; }
-.moving-grid .grid-cell:nth-child(4n) img { animation-duration: 25s; animation-delay: -1s; }
-.moving-grid .grid-cell:nth-child(5n) img { animation-duration: 16s; animation-delay: -11s; }
+@keyframes drift2 {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(-40px, 25px); }
+  66% { transform: translate(30px, -30px); }
+  100% { transform: translate(-20px, 10px); }
+}
+@keyframes drift3 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-30px, -40px); }
+  50% { transform: translate(35px, 15px); }
+  75% { transform: translate(-15px, -25px); }
+  100% { transform: translate(20px, 30px); }
+}
+@keyframes drift4 {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(45px, -20px); }
+  100% { transform: translate(-30px, 15px); }
+}
+@keyframes drift5 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(20px, 40px); }
+  50% { transform: translate(-40px, -15px); }
+  75% { transform: translate(25px, 20px); }
+  100% { transform: translate(-10px, -30px); }
+}
+@keyframes drift6 {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(-25px, -35px); }
+  66% { transform: translate(40px, 20px); }
+  100% { transform: translate(-30px, -10px); }
+}
+@keyframes drift7 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(35px, 20px); }
+  50% { transform: translate(-20px, -35px); }
+  75% { transform: translate(30px, 15px); }
+  100% { transform: translate(-25px, -5px); }
+}
+@keyframes drift8 {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(-35px, 30px); }
+  100% { transform: translate(25px, -20px); }
+}
+@keyframes drift9 {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(30px, -25px); }
+  66% { transform: translate(-20px, 35px); }
+  100% { transform: translate(15px, -15px); }
+}
+@keyframes drift10 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-35px, 15px); }
+  50% { transform: translate(25px, -25px); }
+  75% { transform: translate(-15px, 30px); }
+  100% { transform: translate(20px, -10px); }
+}
 @media (max-width: 600px) {
-  .moving-grid {
-    grid-template-columns: repeat(2, 1fr);
-    height: calc(100vh - 64px);
-  }
+  .float-cell { width: 140px; height: 105px; }
+  .float-cell:nth-child(1) { top: 2%; left: 2%; }
+  .float-cell:nth-child(2) { top: 4%; right: 2%; }
+  .float-cell:nth-child(3) { bottom: 26%; left: 2%; }
+  .float-cell:nth-child(4) { top: 40%; right: 2%; }
+  .float-cell:nth-child(5) { bottom: 8%; left: 2%; }
+  .float-cell:nth-child(6) { top: 50%; left: 40%; }
+  .float-cell:nth-child(7) { top: 14%; left: 30%; }
+  .float-cell:nth-child(8) { bottom: 40%; right: 2%; }
+  .float-cell:nth-child(9) { bottom: 2%; right: 2%; }
+  .float-cell:nth-child(10) { top: 24%; right: 20%; }
+  .float-cell:nth-child(11) { top: 55%; left: 20%; }
 }</style><link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
@@ -365,18 +437,18 @@ body::-webkit-scrollbar {
 </div>
 </div>
 
-<div class="moving-grid">
-<div class="grid-cell"><a href="/sona-internship-recap/"><img src="/wp-content/uploads/2024/07/archi-de-.png" alt="SONA Internship Recap"></a></div>
-<div class="grid-cell"><a href="/drum-and-bass-piano/"><img src="/wp-content/uploads/2024/07/pianothumbnail.png" alt="Drum and Bass Piano"></a></div>
-<div class="grid-cell"><a href="/post-endo-colonial-suggestion-renders/"><img src="/wp-content/uploads/2024/07/inteflou.jpg" alt="Post endo-colonial suggestion renders"></a></div>
-<div class="grid-cell"><a href="/pastoralism-renewal-come-mazin-pietri-et-camille-de-broissia/"><img src="/wp-content/uploads/2024/06/filature.png" alt="Pastoralism renewal"></a></div>
-<div class="grid-cell"><img src="/wp-content/uploads/2025/10/clairobscuritried.png" alt="Clair obscur"></div>
-<div class="grid-cell"><img src="/wp-content/uploads/2025/10/VillaCasaRendu2.png" alt="Villa Casa Rendu"></div>
-<div class="grid-cell"><a href="/tobato"><img src="/wp-content/uploads/2023/01/KeyART.png" alt="Tobato"></a></div>
-<div class="grid-cell"><img src="/wp-content/uploads/2025/10/louiskhan2.png" alt="Louis Khan"></div>
-<div class="grid-cell"><a href="/montage-sicile/"><img src="/wp-content/uploads/2025/10/frame-2-1.png" alt="Montage Sicile"></a></div>
-<div class="grid-cell"><img src="/wp-content/uploads/2025/10/semaine-2-tapis-1_2.png" alt="Semaine 2 tapis"></div>
-<div class="grid-cell"><a href="/study-of-the-gerrit-rietveld-academy-and-sandberg-institute/"><img src="/wp-content/uploads/2024/05/YesSirCestlafin.jpg" alt="Rietveld Academy Study"></a></div>
+<div class="free-float">
+<div class="float-cell"><a href="/sona-internship-recap/"><img src="/wp-content/uploads/2024/07/archi-de-.png" alt="SONA Internship Recap"></a></div>
+<div class="float-cell"><a href="/drum-and-bass-piano/"><img src="/wp-content/uploads/2024/07/pianothumbnail.png" alt="Drum and Bass Piano"></a></div>
+<div class="float-cell"><a href="/post-endo-colonial-suggestion-renders/"><img src="/wp-content/uploads/2024/07/inteflou.jpg" alt="Post endo-colonial suggestion renders"></a></div>
+<div class="float-cell"><a href="/pastoralism-renewal-come-mazin-pietri-et-camille-de-broissia/"><img src="/wp-content/uploads/2024/06/filature.png" alt="Pastoralism renewal"></a></div>
+<div class="float-cell"><img src="/wp-content/uploads/2025/10/clairobscuritried.png" alt="Clair obscur"></div>
+<div class="float-cell"><img src="/wp-content/uploads/2025/10/VillaCasaRendu2.png" alt="Villa Casa Rendu"></div>
+<div class="float-cell"><a href="/tobato"><img src="/wp-content/uploads/2023/01/KeyART.png" alt="Tobato"></a></div>
+<div class="float-cell"><img src="/wp-content/uploads/2025/10/louiskhan2.png" alt="Louis Khan"></div>
+<div class="float-cell"><a href="/montage-sicile/"><img src="/wp-content/uploads/2025/10/frame-2-1.png" alt="Montage Sicile"></a></div>
+<div class="float-cell"><img src="/wp-content/uploads/2025/10/semaine-2-tapis-1_2.png" alt="Semaine 2 tapis"></div>
+<div class="float-cell"><a href="/study-of-the-gerrit-rietveld-academy-and-sandberg-institute/"><img src="/wp-content/uploads/2024/05/YesSirCestlafin.jpg" alt="Rietveld Academy Study"></a></div>
 </div>
 </div>
 

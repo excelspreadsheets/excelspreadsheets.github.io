@@ -290,54 +290,130 @@ body::-webkit-scrollbar {
 </style>
 <style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}.uag-masonry.wp-block-gallery.has-nested-images{display: block;column-count: 3;column-gap: 1em;}.uag-masonry.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image){margin: 0;display: block;grid-template-rows: 1fr auto;break-inside: avoid;width: unset;}.uag-masonry.columns-default.wp-block-gallery.has-nested-images{column-count: 3;width: unset;}.uag-masonry.columns-1.wp-block-gallery.has-nested-images{column-count: 1;width: unset;}.uag-masonry.columns-2.wp-block-gallery.has-nested-images{column-count: 2;}.uag-masonry.columns-3.wp-block-gallery.has-nested-images{column-count: 3;width: unset;}.uag-masonry.columns-4.wp-block-gallery.has-nested-images{column-count: 4;width: unset;}.uag-masonry.columns-5.wp-block-gallery.has-nested-images{column-count: 5;width: unset;}.uag-masonry.columns-6.wp-block-gallery.has-nested-images{column-count: 6;width: unset;}.uag-masonry.columns-7.wp-block-gallery.has-nested-images{column-count: 7;width: unset;}.uag-masonry.columns-8.wp-block-gallery.has-nested-images{column-count: 8;width: unset;}.uag-masonry .blocks-gallery-grid .blocks-gallery-item{margin: 0;display: block;grid-template-rows: 1fr auto;margin-bottom: 1em;break-inside: avoid;width: unset;}.uag-masonry.wp-block-gallery .blocks-gallery-grid{column-gap: 1em;display: block;}.uag-masonry.columns-1 .blocks-gallery-grid{column-count: 1;}.uag-masonry.columns-2 .blocks-gallery-grid{column-count: 2;}.uag-masonry.columns-3 .blocks-gallery-grid{column-count: 3;}.uag-masonry.columns-4 .blocks-gallery-grid{column-count: 4;}.uag-masonry.columns-5 .blocks-gallery-grid{column-count: 5;}.uag-masonry.columns-6 .blocks-gallery-grid{column-count: 6;}.uag-masonry.columns-7 .blocks-gallery-grid{column-count: 7;}.uag-masonry.columns-8 .blocks-gallery-grid{column-count: 8;}@media only screen and (max-width: 767px) {.uag-masonry.wp-block-gallery[class*="columns-"].blocks-gallery-grid{column-count: 2;column-gap: 1em;display: unset;}.uag-masonry.wp-block-gallery.columns-1.blocks-gallery-grid{column-count: 1;}.uag-masonry.wp-block-gallery[class*="columns-"] .blocks-gallery-grid{column-count: 2;column-gap: 1em;display: unset;}.uag-masonry.wp-block-gallery.columns-1 .blocks-gallery-grid{column-count: 1;}}
 
-/* Moving grid — floating images animation */
-.moving-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 4px;
-  height: calc(100vh - 64px);
-  width: 100vw;
-  overflow: hidden;
-  padding: 4px;
-  box-sizing: border-box;
-}
-.moving-grid .grid-cell {
-  overflow: hidden;
+/* Free floating images */
+.free-float {
   position: relative;
-  border-radius: 2px;
+  width: 100vw;
+  height: calc(100vh - 64px);
+  overflow: hidden;
 }
-.moving-grid .grid-cell a {
+.float-cell {
+  position: absolute;
+  width: 220px;
+  height: 165px;
+  overflow: hidden;
+  border-radius: 3px;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: z-index 0s;
+}
+.float-cell a, .float-cell img {
   display: block;
-  width: 100%;
-  height: 100%;
-}
-.moving-grid .grid-cell img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
-  animation: floatImage 20s ease-in-out infinite;
 }
-.moving-grid .grid-cell:hover img {
+.float-cell:hover {
   animation-play-state: paused;
-  transform: scale(1.05);
+  z-index: 999 !important;
+}
+.float-cell:hover img {
+  transform: scale(1.08);
   transition: transform 0.5s ease;
 }
-@keyframes floatImage {
-  0%, 100% { transform: translateY(0px); }
-  25% { transform: translateY(-8px); }
-  50% { transform: translateY(4px); }
-  75% { transform: translateY(-4px); }
+.float-cell:nth-child(1) { top: 3%; left: 1%; animation: drift1 21s infinite alternate; z-index: 1; }
+.float-cell:nth-child(2) { top: 6%; right: 8%; animation: drift2 26s infinite alternate; z-index: 2; }
+.float-cell:nth-child(3) { bottom: 15%; left: 4%; animation: drift3 23s infinite alternate; z-index: 3; }
+.float-cell:nth-child(4) { top: 35%; right: 2%; animation: drift4 19s infinite alternate; z-index: 4; }
+.float-cell:nth-child(5) { bottom: 4%; left: 25%; animation: drift5 28s infinite alternate; z-index: 5; }
+.float-cell:nth-child(6) { top: 50%; left: 10%; animation: drift6 22s infinite alternate; z-index: 6; }
+.float-cell:nth-child(7) { top: 12%; left: 35%; animation: drift7 25s infinite alternate; z-index: 7; }
+.float-cell:nth-child(8) { bottom: 30%; right: 4%; animation: drift8 20s infinite alternate; z-index: 8; }
+.float-cell:nth-child(9) { bottom: 2%; right: 18%; animation: drift9 27s infinite alternate; z-index: 9; }
+.float-cell:nth-child(10) { top: 22%; right: 30%; animation: drift10 24s infinite alternate; z-index: 10; }
+.float-cell:nth-child(11) { top: 45%; left: 45%; animation: drift1 23s infinite alternate; z-index: 11; }
+.float-cell:nth-child(12) { bottom: 20%; left: 55%; animation: drift3 22s infinite alternate; z-index: 12; }
+.float-cell:nth-child(13) { top: 65%; right: 20%; animation: drift6 26s infinite alternate; z-index: 13; }
+
+@keyframes drift1 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(50px, -35px); }
+  50% { transform: translate(-25px, 25px); }
+  75% { transform: translate(35px, -15px); }
+  100% { transform: translate(-15px, 20px); }
 }
-.moving-grid .grid-cell:nth-child(2n) img { animation-duration: 22s; animation-delay: -3s; }
-.moving-grid .grid-cell:nth-child(3n) img { animation-duration: 18s; animation-delay: -7s; }
-.moving-grid .grid-cell:nth-child(4n) img { animation-duration: 25s; animation-delay: -1s; }
-.moving-grid .grid-cell:nth-child(5n) img { animation-duration: 16s; animation-delay: -11s; }
+@keyframes drift2 {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(-40px, 25px); }
+  66% { transform: translate(30px, -30px); }
+  100% { transform: translate(-20px, 10px); }
+}
+@keyframes drift3 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-30px, -40px); }
+  50% { transform: translate(35px, 15px); }
+  75% { transform: translate(-15px, -25px); }
+  100% { transform: translate(20px, 30px); }
+}
+@keyframes drift4 {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(45px, -20px); }
+  100% { transform: translate(-30px, 15px); }
+}
+@keyframes drift5 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(20px, 40px); }
+  50% { transform: translate(-40px, -15px); }
+  75% { transform: translate(25px, 20px); }
+  100% { transform: translate(-10px, -30px); }
+}
+@keyframes drift6 {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(-25px, -35px); }
+  66% { transform: translate(40px, 20px); }
+  100% { transform: translate(-30px, -10px); }
+}
+@keyframes drift7 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(35px, 20px); }
+  50% { transform: translate(-20px, -35px); }
+  75% { transform: translate(30px, 15px); }
+  100% { transform: translate(-25px, -5px); }
+}
+@keyframes drift8 {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(-35px, 30px); }
+  100% { transform: translate(25px, -20px); }
+}
+@keyframes drift9 {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(30px, -25px); }
+  66% { transform: translate(-20px, 35px); }
+  100% { transform: translate(15px, -15px); }
+}
+@keyframes drift10 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-35px, 15px); }
+  50% { transform: translate(25px, -25px); }
+  75% { transform: translate(-15px, 30px); }
+  100% { transform: translate(20px, -10px); }
+}
 @media (max-width: 600px) {
-  .moving-grid {
-    grid-template-columns: repeat(2, 1fr);
-    height: calc(100vh - 64px);
-  }
+  .float-cell { width: 130px; height: 98px; }
+  .float-cell:nth-child(1) { top: 2%; left: 1%; }
+  .float-cell:nth-child(2) { top: 3%; right: 2%; }
+  .float-cell:nth-child(3) { bottom: 22%; left: 2%; }
+  .float-cell:nth-child(4) { top: 35%; right: 2%; }
+  .float-cell:nth-child(5) { bottom: 6%; left: 2%; }
+  .float-cell:nth-child(6) { top: 45%; left: 35%; }
+  .float-cell:nth-child(7) { top: 12%; left: 28%; }
+  .float-cell:nth-child(8) { bottom: 35%; right: 2%; }
+  .float-cell:nth-child(9) { bottom: 1%; right: 2%; }
+  .float-cell:nth-child(10) { top: 20%; right: 15%; }
+  .float-cell:nth-child(11) { top: 50%; left: 10%; }
+  .float-cell:nth-child(12) { bottom: 15%; left: 35%; }
+  .float-cell:nth-child(13) { top: 60%; right: 10%; }
 }</style><link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
@@ -362,20 +438,20 @@ body::-webkit-scrollbar {
 </div>
 </div>
 
-<div class="moving-grid">
-<div class="grid-cell"><a href="/alsace-wildlife/"><img src="/wp-content/uploads/2025/05/DSCF8590.png" alt="Alsace Wildlife"></a></div>
-<div class="grid-cell"><a href="/a69-2024/"><img src="/wp-content/uploads/2025/05/DSCF3787-1.png" alt="A69 2024"></a></div>
-<div class="grid-cell"><a href="/baie-du-mont-saint-michel-2025/"><img src="/wp-content/uploads/2025/05/DSCF8286.jpg" alt="Baie du Mont Saint-Michel 2025"></a></div>
-<div class="grid-cell"><a href="/bassin-minier/"><img src="/wp-content/uploads/2024/07/export1-6150.jpg" alt="Bassin minier"></a></div>
-<div class="grid-cell"><a href="/bassin-minier-du-nord-pas-de-calais-panoramas-2024/"><img src="/wp-content/uploads/2024/07/1_02.jpg" alt="Bassin minier panoramas"></a></div>
-<div class="grid-cell"><a href="/kherostin-2022/"><img src="/wp-content/uploads/2024/06/le-magicien-rose.jpg" alt="Kherostin 2022"></a></div>
-<div class="grid-cell"><a href="/londre-2023-cars/"><img src="/wp-content/uploads/2024/06/VoitureOldShcool.jpg" alt="London 2023 Cars"></a></div>
-<div class="grid-cell"><a href="/sicile-2023/"><img src="/wp-content/uploads/2024/06/IMG_9558.png" alt="Sicile 2023"></a></div>
-<div class="grid-cell"><a href="/preparateur-porsche-pontarlier/"><img src="/wp-content/uploads/2024/06/IMG_7518.jpg" alt="Porsche Pontarlier"></a></div>
-<div class="grid-cell"><a href="/pixel-sorting-2022/"><img src="/wp-content/uploads/2024/06/essai1.jpg" alt="Pixel Sorting 2022"></a></div>
-<div class="grid-cell"><a href="/londres-2022/"><img src="/wp-content/uploads/2024/06/Lecollage.webp" alt="Londres 2022"></a></div>
-<div class="grid-cell"><a href="/toulouse-noel-2023/"><img src="/wp-content/uploads/2024/06/IMG_0084.png" alt="Toulouse Noel 2023"></a></div>
-<div class="grid-cell"><a href="/haute-saone-2024/"><img src="/wp-content/uploads/2024/06/DSCF3650-Pano.jpg" alt="Haute Saone 2024"></a></div>
+<div class="free-float">
+<div class="float-cell"><a href="/alsace-wildlife/"><img src="/wp-content/uploads/2025/05/DSCF8590.png" alt="Alsace Wildlife"></a></div>
+<div class="float-cell"><a href="/a69-2024/"><img src="/wp-content/uploads/2025/05/DSCF3787-1.png" alt="A69 2024"></a></div>
+<div class="float-cell"><a href="/baie-du-mont-saint-michel-2025/"><img src="/wp-content/uploads/2025/05/DSCF8286.jpg" alt="Baie du Mont Saint-Michel 2025"></a></div>
+<div class="float-cell"><a href="/bassin-minier/"><img src="/wp-content/uploads/2024/07/export1-6150.jpg" alt="Bassin minier"></a></div>
+<div class="float-cell"><a href="/bassin-minier-du-nord-pas-de-calais-panoramas-2024/"><img src="/wp-content/uploads/2024/07/1_02.jpg" alt="Bassin minier panoramas"></a></div>
+<div class="float-cell"><a href="/kherostin-2022/"><img src="/wp-content/uploads/2024/06/le-magicien-rose.jpg" alt="Kherostin 2022"></a></div>
+<div class="float-cell"><a href="/londre-2023-cars/"><img src="/wp-content/uploads/2024/06/VoitureOldShcool.jpg" alt="London 2023 Cars"></a></div>
+<div class="float-cell"><a href="/sicile-2023/"><img src="/wp-content/uploads/2024/06/IMG_9558.png" alt="Sicile 2023"></a></div>
+<div class="float-cell"><a href="/preparateur-porsche-pontarlier/"><img src="/wp-content/uploads/2024/06/IMG_7518.jpg" alt="Porsche Pontarlier"></a></div>
+<div class="float-cell"><a href="/pixel-sorting-2022/"><img src="/wp-content/uploads/2024/06/essai1.jpg" alt="Pixel Sorting 2022"></a></div>
+<div class="float-cell"><a href="/londres-2022/"><img src="/wp-content/uploads/2024/06/Lecollage.webp" alt="Londres 2022"></a></div>
+<div class="float-cell"><a href="/toulouse-noel-2023/"><img src="/wp-content/uploads/2024/06/IMG_0084.png" alt="Toulouse Noel 2023"></a></div>
+<div class="float-cell"><a href="/haute-saone-2024/"><img src="/wp-content/uploads/2024/06/DSCF3650-Pano.jpg" alt="Haute Saone 2024"></a></div>
 </div>
 </div>
 </div>
