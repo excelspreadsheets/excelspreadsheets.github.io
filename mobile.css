@@ -46,11 +46,6 @@
     width: 100% !important;
   }
   
-  /* Re-show other hidden-on-mobile elements that should be visible */
-  body .uag-hide-tab.uag-hide-mob.wp-block-column[style*="flex-basis"] {
-    display: block !important;
-  }
-  
   /* Fix wp-block-gallery for mobile */
   .wp-block-gallery {
     display: flex !important;
@@ -237,5 +232,13 @@
   .wp-lightbox-overlay .lightbox-image-container img {
     max-width: 95vw !important;
     max-height: 80vh !important;
+  }
+}
+
+/* === LANDING PAGES (free-float bounce galleries) === */
+@media (max-width: 768px) {
+  body .free-float {
+    height: calc(100vh - 64px) !important;
+    overflow: hidden !important;
   }
 }

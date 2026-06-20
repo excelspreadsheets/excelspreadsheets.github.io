@@ -319,11 +319,11 @@ body::-webkit-scrollbar {
   transform: scale(1.08);
   transition: transform 0.5s ease;
 }
-.float-cell:nth-child(1) { animation: hBounce1 51s linear -12s infinite alternate, vBounce1 39s linear -5s infinite alternate; z-index: 1; }
-.float-cell:nth-child(2) { animation: hBounce2 44s linear -3s infinite alternate, vBounce1 56s linear -18s infinite alternate; z-index: 2; }
-.float-cell:nth-child(3) { animation: hBounce1 38s linear -25s infinite alternate, vBounce2 47s linear -9s infinite alternate; z-index: 3; }
-.float-cell:nth-child(4) { animation: hBounce2 53s linear -17s infinite alternate, vBounce2 41s linear -2s infinite alternate; z-index: 4; }
-.float-cell:nth-child(5) { animation: hBounce1 47s linear -6s infinite alternate, vBounce1 33s linear -22s infinite alternate; z-index: 5; }
+.float-cell:nth-child(1) { animation: hBounce1 51s linear -12s infinite alternate, vBounce1 39s linear -8s infinite alternate; z-index: 1; }
+.float-cell:nth-child(2) { animation: hBounce2 44s linear -60s infinite alternate, vBounce1 56s linear -85s infinite alternate; z-index: 2; }
+.float-cell:nth-child(3) { animation: hBounce1 38s linear -28s infinite alternate, vBounce2 47s linear -65s infinite alternate; z-index: 3; }
+.float-cell:nth-child(4) { animation: hBounce2 53s linear -85s infinite alternate, vBounce2 41s linear -30s infinite alternate; z-index: 4; }
+.float-cell:nth-child(5) { animation: hBounce1 47s linear -75s infinite alternate, vBounce1 33s linear -55s infinite alternate; z-index: 5; }
 
 /* Blog title overlays */
 .float-cell .cell-title {
@@ -361,6 +361,11 @@ body::-webkit-scrollbar {
 <link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2024/07/iconedemalade.png">
+<style>
+@media (max-width: 768px) {
+  body { overflow: hidden !important; }
+}
+</style>
 </head>
 
 <body class="wp-singular page-template page-template-wp-custom-template-whatevr page page-id-1881 wp-embed-responsive wp-theme-twentytwentyfour">
