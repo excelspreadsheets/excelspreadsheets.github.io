@@ -280,7 +280,7 @@ body::-webkit-scrollbar {
   height: 12vw;
   overflow: hidden;
   border-radius: 3px;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   transition: z-index 0s;
@@ -299,92 +299,68 @@ body::-webkit-scrollbar {
   transform: scale(1.08);
   transition: transform 0.5s ease;
 }
-.float-cell:nth-child(1) { top: 4%; left: 2%; animation: drift1 21s infinite alternate; z-index: 1; }
-.float-cell:nth-child(2) { top: 8%; right: 10%; animation: drift2 26s infinite alternate; z-index: 2; }
-.float-cell:nth-child(3) { bottom: 18%; left: 5%; animation: drift3 23s infinite alternate; z-index: 3; }
-.float-cell:nth-child(4) { top: 38%; right: 2%; animation: drift4 19s infinite alternate; z-index: 4; }
-.float-cell:nth-child(5) { bottom: 6%; left: 28%; animation: drift5 28s infinite alternate; z-index: 5; }
-.float-cell:nth-child(6) { top: 52%; left: 12%; animation: drift6 22s infinite alternate; z-index: 6; }
-.float-cell:nth-child(7) { top: 12%; left: 38%; animation: drift7 25s infinite alternate; z-index: 7; }
-.float-cell:nth-child(8) { bottom: 32%; right: 4%; animation: drift8 20s infinite alternate; z-index: 8; }
-.float-cell:nth-child(9) { bottom: 3%; right: 20%; animation: drift9 27s infinite alternate; z-index: 9; }
-.float-cell:nth-child(10) { top: 22%; right: 32%; animation: drift10 24s infinite alternate; z-index: 10; }
+.float-cell:nth-child(1) { animation: roam1 26s infinite alternate; z-index: 1; }
+.float-cell:nth-child(2) { animation: roam2 22s infinite alternate; z-index: 2; }
+.float-cell:nth-child(3) { animation: roam3 30s infinite alternate; z-index: 3; }
+.float-cell:nth-child(4) { animation: roam4 24s infinite alternate; z-index: 4; }
+.float-cell:nth-child(5) { animation: roam5 28s infinite alternate; z-index: 5; }
+.float-cell:nth-child(6) { animation: roam6 20s infinite alternate; z-index: 6; }
+.float-cell:nth-child(7) { animation: roam7 32s infinite alternate; z-index: 7; }
+.float-cell:nth-child(8) { animation: roam8 25s infinite alternate; z-index: 8; }
+.float-cell:nth-child(9) { animation: roam9 27s infinite alternate; z-index: 9; }
+.float-cell:nth-child(10) { animation: roam10 23s infinite alternate; z-index: 10; }
 
-@keyframes drift1 {
-  0% { transform: translate(0, 0); }
-  25% { transform: translate(50px, -35px); }
-  50% { transform: translate(-25px, 25px); }
-  75% { transform: translate(35px, -15px); }
-  100% { transform: translate(-15px, 20px); }
+@keyframes roam1 {
+  0% { left: -10%; top: 5%; }
+  50% { left: 82%; top: 60%; }
+  100% { left: -10%; top: 15%; }
 }
-@keyframes drift2 {
-  0% { transform: translate(0, 0); }
-  33% { transform: translate(-40px, 25px); }
-  66% { transform: translate(30px, -30px); }
-  100% { transform: translate(-20px, 10px); }
+@keyframes roam2 {
+  0% { left: 80%; top: -8%; }
+  50% { left: -8%; top: 75%; }
+  100% { left: 80%; top: 10%; }
 }
-@keyframes drift3 {
-  0% { transform: translate(0, 0); }
-  25% { transform: translate(-30px, -40px); }
-  50% { transform: translate(35px, 15px); }
-  75% { transform: translate(-15px, -25px); }
-  100% { transform: translate(20px, 30px); }
+@keyframes roam3 {
+  0% { left: 40%; top: -10%; }
+  50% { left: 5%; top: 78%; }
+  100% { left: 70%; top: -10%; }
 }
-@keyframes drift4 {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(45px, -20px); }
-  100% { transform: translate(-30px, 15px); }
+@keyframes roam4 {
+  0% { left: -8%; top: 40%; }
+  50% { left: 82%; top: 10%; }
+  100% { left: -8%; top: 65%; }
 }
-@keyframes drift5 {
-  0% { transform: translate(0, 0); }
-  25% { transform: translate(20px, 40px); }
-  50% { transform: translate(-40px, -15px); }
-  75% { transform: translate(25px, 20px); }
-  100% { transform: translate(-10px, -30px); }
+@keyframes roam5 {
+  0% { left: 82%; top: 30%; }
+  50% { left: -10%; top: 5%; }
+  100% { left: 82%; top: 55%; }
 }
-@keyframes drift6 {
-  0% { transform: translate(0, 0); }
-  33% { transform: translate(-25px, -35px); }
-  66% { transform: translate(40px, 20px); }
-  100% { transform: translate(-30px, -10px); }
+@keyframes roam6 {
+  0% { left: -8%; top: -8%; }
+  50% { left: 82%; top: 72%; }
+  100% { left: -8%; top: 30%; }
 }
-@keyframes drift7 {
-  0% { transform: translate(0, 0); }
-  25% { transform: translate(35px, 20px); }
-  50% { transform: translate(-20px, -35px); }
-  75% { transform: translate(30px, 15px); }
-  100% { transform: translate(-25px, -5px); }
+@keyframes roam7 {
+  0% { left: 20%; top: 75%; }
+  50% { left: 78%; top: -8%; }
+  100% { left: 5%; top: 75%; }
 }
-@keyframes drift8 {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(-35px, 30px); }
-  100% { transform: translate(25px, -20px); }
+@keyframes roam8 {
+  0% { left: 82%; top: 65%; }
+  100% { left: -10%; top: 5%; }
 }
-@keyframes drift9 {
-  0% { transform: translate(0, 0); }
-  33% { transform: translate(30px, -25px); }
-  66% { transform: translate(-20px, 35px); }
-  100% { transform: translate(15px, -15px); }
+@keyframes roam9 {
+  0% { left: -10%; top: 70%; }
+  50% { left: 80%; top: 40%; }
+  100% { left: -10%; top: 10%; }
 }
-@keyframes drift10 {
-  0% { transform: translate(0, 0); }
-  25% { transform: translate(-35px, 15px); }
-  50% { transform: translate(25px, -25px); }
-  75% { transform: translate(-15px, 30px); }
-  100% { transform: translate(20px, -10px); }
+@keyframes roam10 {
+  0% { left: 60%; top: -10%; }
+  50% { left: -8%; top: 40%; }
+  100% { left: 75%; top: 78%; }
 }
 @media (max-width: 600px) {
   .float-cell { width: 38vw; height: 28.5vw; }
-  .float-cell:nth-child(1) { top: 2%; left: 2%; }
-  .float-cell:nth-child(2) { top: 4%; right: 2%; }
-  .float-cell:nth-child(3) { bottom: 26%; left: 2%; }
-  .float-cell:nth-child(4) { top: 38%; right: 2%; }
-  .float-cell:nth-child(5) { bottom: 8%; left: 2%; }
-  .float-cell:nth-child(6) { top: 48%; left: 35%; }
-  .float-cell:nth-child(7) { top: 12%; left: 28%; }
-  .float-cell:nth-child(8) { bottom: 38%; right: 2%; }
-  .float-cell:nth-child(9) { bottom: 1%; right: 2%; }
-  .float-cell:nth-child(10) { top: 22%; right: 18%; }
 }
 </style>
 
