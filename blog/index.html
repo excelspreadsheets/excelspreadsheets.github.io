@@ -300,7 +300,6 @@ body::-webkit-scrollbar {
 .float-cell {
   position: absolute;
   width: 20%;
-  aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 3px;
   cursor: grab;
@@ -381,37 +380,93 @@ body::-webkit-scrollbar {
   var dragOffX = 0, dragOffY = 0;
   var lastMX = 0, lastMY = 0;
   var dragVX = 0, dragVY = 0;
+  var dragWasMoved = false;
+
+  // Get image natural aspect ratio, returns ratio w/h
+  function getAspect(img){
+    if (img && img.complete && img.naturalWidth > 0)
+      return img.naturalWidth / img.naturalHeight;
+    return 4/3; // fallback
+  }
+
+  function setCellHeight(i, h){
+    cells[i].style.height = h + 'px';
+    if (st[i]) st[i].h = h;
+  }
 
   function init(){
     w = cells[0].offsetWidth;
-    h = cells[0].offsetHeight;
     var cw = c.offsetWidth, ch = c.offsetHeight;
     var rows = Math.ceil(n / cols);
     var gw = cols * (w + gap) - gap;
-    var gh = rows * (h + gap) - gap;
+    var gh = rows * (h || 1 + gap) - gap;
     var ox = Math.max(0, (cw - gw) / 2);
     var oy = Math.max(0, (ch - gh) / 2);
     for (var i = 0; i < n; i++) {
       var col = i % cols, row = Math.floor(i / cols);
-      var x = ox + col * (w + gap);
-      var y = oy + row * (h + gap);
+      var colw = w + gap, rowh = (st[i] ? st[i].h : w * 0.75) + gap;
+      var x = ox + col * colw;
+      var y = oy + row * rowh;
       cells[i].style.left = x + 'px';
       cells[i].style.top = y + 'px';
       cells[i].style.margin = '0';
       cells[i].style.zIndex = (n - i);
-      st[i] = {
-        x: x, y: y, w: w, h: h,
-        vx: (Math.random() - 0.5) * 0.6,
-        vy: (Math.random() - 0.5) * 0.6
-      };
+      if (!st[i]) {
+        var img = cells[i].querySelector('img');
+        var aspect = getAspect(img);
+        var h = w / aspect;
+        cells[i].style.height = h + 'px';
+        st[i] = {
+          x: x, y: y, w: w, h: h,
+          vx: (Math.random() - 0.5) * 0.6,
+          vy: (Math.random() - 0.5) * 0.6
+        };
+      } else {
+        st[i].x = x; st[i].y = y;
+        st[i].w = w;
+      }
     }
   }
   init();
-  window.addEventListener('resize', function(){
+
+  // Deferred aspect ratio: check if any image not yet loaded, fix when it does
+  function fixAspects(){
+    var changed = false;
     for (var i = 0; i < n; i++) {
-      st[i].w = cells[0].offsetWidth;
-      st[i].h = cells[0].offsetHeight;
+      if (st[i]._fixed) continue;
+      var img = cells[i].querySelector('img');
+      if (img && img.complete && img.naturalWidth > 0) {
+        var h = w / (img.naturalWidth / img.naturalHeight);
+        if (Math.abs(st[i].h - h) > 0.5) {
+          st[i].h = h;
+          cells[i].style.height = h + 'px';
+          changed = true;
+        }
+        st[i]._fixed = true;
+      }
     }
+    if (changed) init(); // re-layout grid
+  }
+  fixAspects();
+  // Keep checking for images that load late
+  var aspectInterval = setInterval(function(){
+    var allFixed = true;
+    for (var i = 0; i < n; i++) if (!st[i]._fixed) { allFixed = false; break; }
+    if (allFixed) { clearInterval(aspectInterval); return; }
+    fixAspects();
+  }, 100);
+
+  window.addEventListener('resize', function(){
+    w = cells[0].offsetWidth;
+    for (var i = 0; i < n; i++) {
+      st[i].w = w;
+      var img = cells[i].querySelector('img');
+      if (img && img.complete && img.naturalWidth > 0) {
+        st[i].h = w / (img.naturalWidth / img.naturalHeight);
+        cells[i].style.height = st[i].h + 'px';
+      }
+    }
+    // on resize we just update dims, keep current positions
   });
 
   // Drag handlers
@@ -421,17 +476,18 @@ body::-webkit-scrollbar {
     dragOffY = my - st[i].y;
     lastMX = mx; lastMY = my;
     dragVX = 0; dragVY = 0;
+    dragWasMoved = false;
     cells[i].style.zIndex = 999;
   }
   function moveDrag(mx, my){
     if (dragIdx < 0) return;
-    var s = st[dragIdx];
-    dragVX = mx - lastMX;
-    dragVY = my - lastMY;
+    var dx = mx - lastMX, dy = my - lastMY;
+    if (!dragWasMoved && (Math.abs(dx) > 3 || Math.abs(dy) > 3)) dragWasMoved = true;
+    dragVX = dx; dragVY = dy;
     lastMX = mx; lastMY = my;
+    var s = st[dragIdx];
     s.x = mx - dragOffX;
     s.y = my - dragOffY;
-    // Clamp to container
     var cw = c.offsetWidth, ch = c.offsetHeight;
     if (s.x < 0) s.x = 0;
     if (s.x + s.w > cw) s.x = cw - s.w;
@@ -442,7 +498,6 @@ body::-webkit-scrollbar {
   }
   function endDrag(){
     if (dragIdx >= 0) {
-      // Transfer last drag velocity to the cell
       st[dragIdx].vx = dragVX * 0.3;
       st[dragIdx].vy = dragVY * 0.3;
       dragIdx = -1;
@@ -460,6 +515,13 @@ body::-webkit-scrollbar {
         var t = e.touches[0];
         startDrag(idx, t.clientX, t.clientY);
       }, {passive: true});
+      // Prevent link click after drag
+      var link = el.querySelector('a');
+      if (link) {
+        link.addEventListener('click', function(e){
+          if (dragWasMoved) { e.preventDefault(); e.stopPropagation(); }
+        });
+      }
     })(i);
   }
   document.addEventListener('mousemove', function(e){
