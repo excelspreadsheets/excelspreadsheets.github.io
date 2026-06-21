@@ -292,6 +292,19 @@ body::-webkit-scrollbar {
   z-index: 999 !important;
 }
 .float-cell:active { cursor: grabbing; }
+
+/* Title overlays */
+.float-cell .cell-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.85));
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 18px 6px 5px;
+  pointer-events: none;
+}
 @media (max-width: 768px) {
   .float-cell { width: 42%; }
 }
@@ -350,6 +363,7 @@ body::-webkit-scrollbar {
 <div class="float-cell"><a href="/clairvaux-faire-converger-clairvaux-to-converge-and-align/"><img src="/wp-content/uploads/2024/05/Plan-satellite-axe_page_1_half.webp" alt="Clairvaux"></a></div>
 <div class="float-cell"><a href="/dreux-kunsthall/"><img src="/wp-content/uploads/2024/06/detail-petit_half.webp" alt="Dreux Kunsthall"></a></div>
 <div class="float-cell"><a href="/tobato/"><img src="/wp-content/uploads/2023/01/KeyART_half.webp" alt="Tobato"></a></div>
+<div class="float-cell"><a href="/carte-de-mantes-la-jolie/"><img src="/wp-content/uploads/2026/02/A1-Flux-1-2048x1446_half.webp" alt="Cartographie de Mantes-la-Jolie"><span class="cell-title">Cartographie de Mantes-la-Jolie</span></a></div>
 </div>
 </div>
 
