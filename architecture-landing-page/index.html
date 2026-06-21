@@ -276,8 +276,8 @@ body::-webkit-scrollbar {
 }
 .float-cell {
   position: absolute;
-  width: 16vw;
-  height: 12vw;
+  width: 28vw;
+  height: 21vw;
   overflow: hidden;
   border-radius: 3px;
 }
@@ -293,6 +293,9 @@ body::-webkit-scrollbar {
 .float-cell:hover img {
   transform: scale(1.08);
   transition: transform 0.5s ease;
+}
+@media (max-width: 768px) {
+  .float-cell { width: 48vw; height: 36vw; }
 }
 
 </style>
@@ -318,10 +321,6 @@ body::-webkit-scrollbar {
 <link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2024/07/iconedemalade.png">
-<style>
-@media (max-width: 768px) {
-  body { overflow: hidden !important; }
-}
 </style>
 </head>
 

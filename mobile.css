@@ -35,7 +35,7 @@
   }
   
   /* Remove spacer columns on mobile */
-  .uag-hide-desktop, .uag-hide-tab, .uag-hide-mob {
+  .uag-hide-tab, .uag-hide-mob {
     display: none !important;
   }
   
@@ -240,5 +240,8 @@
   body .free-float {
     height: calc(100vh - 64px) !important;
     overflow: hidden !important;
+  }
+  body .free-float + * {
+    display: none !important;
   }
 }
