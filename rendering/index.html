@@ -307,7 +307,6 @@ body::-webkit-scrollbar {
   height: 11.25vw;
   overflow: hidden;
   border-radius: 3px;
-  transition: z-index 0s;
 }
 .float-cell a, .float-cell img {
   display: block;
@@ -316,44 +315,13 @@ body::-webkit-scrollbar {
   object-fit: cover;
 }
 .float-cell:hover {
-  animation-play-state: paused;
   z-index: 999 !important;
 }
 .float-cell:hover img {
   transform: scale(1.08);
   transition: transform 0.5s ease;
 }
-.float-cell:nth-child(1) { animation: hBounce1 51s linear -12s infinite alternate, vBounce1 39s linear -8s infinite alternate; z-index: 1; }
-.float-cell:nth-child(2) { animation: hBounce2 44s linear -60s infinite alternate, vBounce1 56s linear -85s infinite alternate; z-index: 2; }
-.float-cell:nth-child(3) { animation: hBounce1 38s linear -28s infinite alternate, vBounce2 47s linear -65s infinite alternate; z-index: 3; }
-.float-cell:nth-child(4) { animation: hBounce2 53s linear -85s infinite alternate, vBounce2 41s linear -30s infinite alternate; z-index: 4; }
-.float-cell:nth-child(5) { animation: hBounce1 47s linear -75s infinite alternate, vBounce1 33s linear -55s infinite alternate; z-index: 5; }
-.float-cell:nth-child(6) { animation: hBounce2 36s linear -55s infinite alternate, vBounce2 52s linear -45s infinite alternate; z-index: 6; }
-.float-cell:nth-child(7) { animation: hBounce1 55s linear -35s infinite alternate, vBounce2 43s linear -20s infinite alternate; z-index: 7; }
-.float-cell:nth-child(8) { animation: hBounce2 48s linear -15s infinite alternate, vBounce1 38s linear -60s infinite alternate; z-index: 8; }
-.float-cell:nth-child(9) { animation: hBounce1 42s linear -40s infinite alternate, vBounce2 58s linear -100s infinite alternate; z-index: 9; }
-.float-cell:nth-child(10) { animation: hBounce2 57s linear -100s infinite alternate, vBounce1 45s linear -70s infinite alternate; z-index: 10; }
-.float-cell:nth-child(11) { animation: hBounce1 49s linear -50s infinite alternate, vBounce2 35s linear -10s infinite alternate; z-index: 11; }
-
-@keyframes hBounce1 {
-  0% { left: -10%; }
-  100% { left: 84%; }
-}
-@keyframes hBounce2 {
-  0% { left: 5%; }
-  100% { left: 72%; }
-}
-@keyframes vBounce1 {
-  0% { top: -10%; }
-  100% { top: 80%; }
-}
-@keyframes vBounce2 {
-  0% { top: 5%; }
-  100% { top: 62%; }
-}
-@media (max-width: 600px) {
-  .float-cell { width: 36vw; height: 27vw; }
-}</style><link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
+</style><link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2024/07/iconedemalade.png">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2024/07/iconedemalade.png">
@@ -398,5 +366,90 @@ body::-webkit-scrollbar {
 
 
 		
+<script>
+(function(){
+  var c = document.querySelector('.free-float');
+  if (!c) return;
+  var cells = c.querySelectorAll('.float-cell');
+  if (!cells.length) return;
+  var n = cells.length;
+  var cols = Math.ceil(Math.sqrt(n));
+  var gap = 6;
+  var st = [], w, h;
+  function init(){
+    w = cells[0].offsetWidth;
+    h = cells[0].offsetHeight;
+    var cw = c.offsetWidth, ch = c.offsetHeight;
+    var rows = Math.ceil(n / cols);
+    var gw = cols * (w + gap) - gap;
+    var gh = rows * (h + gap) - gap;
+    var ox = Math.max(0, (cw - gw) / 2);
+    var oy = Math.max(0, (ch - gh) / 2);
+    for (var i = 0; i < n; i++) {
+      var col = i % cols, row = Math.floor(i / cols);
+      var x = ox + col * (w + gap);
+      var y = oy + row * (h + gap);
+      cells[i].style.left = x + 'px';
+      cells[i].style.top = y + 'px';
+      cells[i].style.margin = '0';
+      cells[i].style.zIndex = (n - i);
+      st[i] = {
+        x: x, y: y, w: w, h: h,
+        vx: (Math.random() - 0.5) * 0.6,
+        vy: (Math.random() - 0.5) * 0.6
+      };
+    }
+  }
+  init();
+  window.addEventListener('resize', function(){
+    for (var i = 0; i < n; i++) {
+      st[i].w = cells[0].offsetWidth;
+      st[i].h = cells[0].offsetHeight;
+    }
+  });
+  function animate(){
+    var cw = c.offsetWidth, ch = c.offsetHeight;
+    for (var i = 0; i < n; i++) {
+      var s = st[i];
+      s.x += s.vx;
+      s.y += s.vy;
+      if (s.x < 0) { s.x = 0; s.vx = -s.vx; }
+      if (s.x + s.w > cw) { s.x = cw - s.w; s.vx = -s.vx; }
+      if (s.y < 0) { s.y = 0; s.vy = -s.vy; }
+      if (s.y + s.h > ch) { s.y = ch - s.h; s.vy = -s.vy; }
+      for (var j = i + 1; j < n; j++) {
+        var t = st[j];
+        if (s.x < t.x + t.w && s.x + s.w > t.x && s.y < t.y + t.h && s.y + s.h > t.y) {
+          var cx = (s.x + s.w/2) - (t.x + t.w/2);
+          var cy = (s.y + s.h/2) - (t.y + t.h/2);
+          var dist = Math.sqrt(cx*cx + cy*cy) || 1;
+          var nx = cx / dist, ny = cy / dist;
+          var dvx = s.vx - t.vx, dvy = s.vy - t.vy;
+          var dot = dvx * nx + dvy * ny;
+          if (dot < 0) {
+            s.vx -= dot * nx;
+            s.vy -= dot * ny;
+            t.vx += dot * nx;
+            t.vy += dot * ny;
+          }
+          var overlap = (s.w + t.w) * 0.4 - dist;
+          if (overlap > 0) {
+            s.x += nx * overlap / 2;
+            s.y += ny * overlap / 2;
+            t.x -= nx * overlap / 2;
+            t.y -= ny * overlap / 2;
+          }
+        }
+      }
+    }
+    for (var i = 0; i < n; i++) {
+      cells[i].style.left = st[i].x + 'px';
+      cells[i].style.top = st[i].y + 'px';
+    }
+    requestAnimationFrame(animate);
+  }
+  requestAnimationFrame(animate);
+})();
+</script>
 </body>
 </html>
