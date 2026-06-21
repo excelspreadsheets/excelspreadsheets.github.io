@@ -245,3 +245,74 @@
     display: none !important;
   }
 }
+
+/* === LIGHTBOX === */
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.92);
+  cursor: zoom-out;
+  justify-content: center;
+  align-items: center;
+}
+.lightbox-overlay.active { display: flex; }
+.lightbox-overlay img {
+  max-width: 95vw;
+  max-height: 95vh;
+  object-fit: contain;
+  border-radius: 2px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.lightbox-overlay .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  line-height: 1;
+  opacity: 0.7;
+  font-family: sans-serif;
+  z-index: 1;
+}
+.lightbox-overlay .close-btn:hover { opacity: 1; }
+
+/* === CENTER IMAGES ALONE IN A COLUMN === */
+.wp-block-column:has(img:only-child) {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+/* === BLOG/PROJECT PAGE HARMONIZATION === */
+/* Ensure text content is constrained to readable width */
+body.page .wp-site-blocks > .wp-block-group > .alignfull.has-global-padding > *,
+body.post .wp-site-blocks > .wp-block-group > .alignfull.has-global-padding > *,
+body.single .wp-site-blocks > .wp-block-group > .alignfull.has-global-padding > * {
+  max-width: 620px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Images in text: consistent sizing */
+.wp-block-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Consistent paragraph spacing on text pages */
+body.page p, body.post p, body.single p {
+  margin-block: 1rem;
+  line-height: 1.7;
+}
+
+body.page h2, body.post h2, body.single h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+body.page h3, body.post h3, body.single h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
