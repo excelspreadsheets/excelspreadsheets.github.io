@@ -303,20 +303,19 @@ body::-webkit-scrollbar {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 3px;
+  cursor: grab;
+  background: rgba(0,0,0,0.06);
 }
 .float-cell a, .float-cell img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .float-cell:hover {
   z-index: 999 !important;
 }
-.float-cell:hover img {
-  transform: scale(1.08);
-  transition: transform 0.5s ease;
-}
+.float-cell:active { cursor: grabbing; }
 @media (max-width: 768px) {
   .float-cell { width: 38%; }
 }
@@ -346,19 +345,19 @@ body::-webkit-scrollbar {
 </div>
 
 <div class="free-float">
-<div class="float-cell"><a href="/alsace-wildlife/"><img src="/wp-content/uploads/2025/05/DSCF8590.png" alt="Alsace Wildlife"></a></div>
-<div class="float-cell"><a href="/a69-2024/"><img src="/wp-content/uploads/2025/05/DSCF3787-1.png" alt="A69 2024"></a></div>
-<div class="float-cell"><a href="/baie-du-mont-saint-michel-2025/"><img src="/wp-content/uploads/2025/05/DSCF8286.jpg" alt="Baie du Mont Saint-Michel 2025"></a></div>
-<div class="float-cell"><a href="/bassin-minier/"><img src="/wp-content/uploads/2024/07/export1-6150.jpg" alt="Bassin minier"></a></div>
-<div class="float-cell"><a href="/bassin-minier-du-nord-pas-de-calais-panoramas-2024/"><img src="/wp-content/uploads/2024/07/1_02.jpg" alt="Bassin minier panoramas"></a></div>
-<div class="float-cell"><a href="/kherostin-2022/"><img src="/wp-content/uploads/2024/06/le-magicien-rose.jpg" alt="Kherostin 2022"></a></div>
-<div class="float-cell"><a href="/londre-2023-cars/"><img src="/wp-content/uploads/2024/06/VoitureOldShcool.jpg" alt="London 2023 Cars"></a></div>
-<div class="float-cell"><a href="/sicile-2023/"><img src="/wp-content/uploads/2024/06/IMG_9558.png" alt="Sicile 2023"></a></div>
-<div class="float-cell"><a href="/preparateur-porsche-pontarlier/"><img src="/wp-content/uploads/2024/06/IMG_7518.jpg" alt="Porsche Pontarlier"></a></div>
-<div class="float-cell"><a href="/pixel-sorting-2022/"><img src="/wp-content/uploads/2024/06/essai1.jpg" alt="Pixel Sorting 2022"></a></div>
-<div class="float-cell"><a href="/londres-2022/"><img src="/wp-content/uploads/2024/06/Lecollage.webp" alt="Londres 2022"></a></div>
-<div class="float-cell"><a href="/toulouse-noel-2023/"><img src="/wp-content/uploads/2024/06/IMG_0084.png" alt="Toulouse Noel 2023"></a></div>
-<div class="float-cell"><a href="/haute-saone-2024/"><img src="/wp-content/uploads/2024/06/DSCF3650-Pano.jpg" alt="Haute Saone 2024"></a></div>
+<div class="float-cell"><a href="/alsace-wildlife/"><img src="/wp-content/uploads/2025/05/DSCF8590_half.webp" alt="Alsace Wildlife"></a></div>
+<div class="float-cell"><a href="/a69-2024/"><img src="/wp-content/uploads/2025/05/DSCF3787-1_half.webp" alt="A69 2024"></a></div>
+<div class="float-cell"><a href="/baie-du-mont-saint-michel-2025/"><img src="/wp-content/uploads/2025/05/DSCF8286_half.webp" alt="Baie du Mont Saint-Michel 2025"></a></div>
+<div class="float-cell"><a href="/bassin-minier/"><img src="/wp-content/uploads/2024/07/export1-6150_half.webp" alt="Bassin minier"></a></div>
+<div class="float-cell"><a href="/bassin-minier-du-nord-pas-de-calais-panoramas-2024/"><img src="/wp-content/uploads/2024/07/1_02_half.webp" alt="Bassin minier panoramas"></a></div>
+<div class="float-cell"><a href="/kherostin-2022/"><img src="/wp-content/uploads/2024/06/le-magicien-rose_half.webp" alt="Kherostin 2022"></a></div>
+<div class="float-cell"><a href="/londre-2023-cars/"><img src="/wp-content/uploads/2024/06/VoitureOldShcool_half.webp" alt="London 2023 Cars"></a></div>
+<div class="float-cell"><a href="/sicile-2023/"><img src="/wp-content/uploads/2024/06/IMG_9558_half.webp" alt="Sicile 2023"></a></div>
+<div class="float-cell"><a href="/preparateur-porsche-pontarlier/"><img src="/wp-content/uploads/2024/06/IMG_7518_half.webp" alt="Porsche Pontarlier"></a></div>
+<div class="float-cell"><a href="/pixel-sorting-2022/"><img src="/wp-content/uploads/2024/06/essai1_half.webp" alt="Pixel Sorting 2022"></a></div>
+<div class="float-cell"><a href="/londres-2022/"><img src="/wp-content/uploads/2024/05/Lecollage_half.webp" alt="Londres 2022"></a></div>
+<div class="float-cell"><a href="/toulouse-noel-2023/"><img src="/wp-content/uploads/2024/06/IMG_0084_half.webp" alt="Toulouse Noel 2023"></a></div>
+<div class="float-cell"><a href="/haute-saone-2024/"><img src="/wp-content/uploads/2024/06/DSCF3650-Pano_half.webp" alt="Haute Saone 2024"></a></div>
 </div>
 </div>
 </div>
@@ -373,6 +372,13 @@ body::-webkit-scrollbar {
   var cols = Math.ceil(Math.sqrt(n));
   var gap = 6;
   var st = [], w, h;
+
+  // Drag state
+  var dragIdx = -1;
+  var dragOffX = 0, dragOffY = 0;
+  var lastMX = 0, lastMY = 0;
+  var dragVX = 0, dragVY = 0;
+
   function init(){
     w = cells[0].offsetWidth;
     h = cells[0].offsetHeight;
@@ -404,9 +410,70 @@ body::-webkit-scrollbar {
       st[i].h = cells[0].offsetHeight;
     }
   });
+
+  // Drag handlers
+  function startDrag(i, mx, my){
+    dragIdx = i;
+    dragOffX = mx - st[i].x;
+    dragOffY = my - st[i].y;
+    lastMX = mx; lastMY = my;
+    dragVX = 0; dragVY = 0;
+    cells[i].style.zIndex = 999;
+  }
+  function moveDrag(mx, my){
+    if (dragIdx < 0) return;
+    var s = st[dragIdx];
+    dragVX = mx - lastMX;
+    dragVY = my - lastMY;
+    lastMX = mx; lastMY = my;
+    s.x = mx - dragOffX;
+    s.y = my - dragOffY;
+    // Clamp to container
+    var cw = c.offsetWidth, ch = c.offsetHeight;
+    if (s.x < 0) s.x = 0;
+    if (s.x + s.w > cw) s.x = cw - s.w;
+    if (s.y < 0) s.y = 0;
+    if (s.y + s.h > ch) s.y = ch - s.h;
+    cells[dragIdx].style.left = s.x + 'px';
+    cells[dragIdx].style.top = s.y + 'px';
+  }
+  function endDrag(){
+    if (dragIdx >= 0) {
+      // Transfer last drag velocity to the cell
+      st[dragIdx].vx = dragVX * 0.3;
+      st[dragIdx].vy = dragVY * 0.3;
+      dragIdx = -1;
+    }
+  }
+
+  for (var i = 0; i < n; i++) {
+    (function(idx){
+      var el = cells[idx];
+      el.addEventListener('mousedown', function(e){
+        e.preventDefault();
+        startDrag(idx, e.clientX, e.clientY);
+      });
+      el.addEventListener('touchstart', function(e){
+        var t = e.touches[0];
+        startDrag(idx, t.clientX, t.clientY);
+      }, {passive: true});
+    })(i);
+  }
+  document.addEventListener('mousemove', function(e){
+    moveDrag(e.clientX, e.clientY);
+  });
+  document.addEventListener('touchmove', function(e){
+    var t = e.touches[0];
+    moveDrag(t.clientX, t.clientY);
+  }, {passive: true});
+  document.addEventListener('mouseup', endDrag);
+  document.addEventListener('touchend', endDrag);
+
   function animate(){
     var cw = c.offsetWidth, ch = c.offsetHeight;
     for (var i = 0; i < n; i++) {
+      // Skip physics on the dragged cell
+      if (i === dragIdx) continue;
       var s = st[i];
       s.x += s.vx;
       s.y += s.vy;
@@ -415,6 +482,7 @@ body::-webkit-scrollbar {
       if (s.y < 0) { s.y = 0; s.vy = -s.vy; }
       if (s.y + s.h > ch) { s.y = ch - s.h; s.vy = -s.vy; }
       for (var j = i + 1; j < n; j++) {
+        if (j === dragIdx) continue;
         var t = st[j];
         if (s.x < t.x + t.w && s.x + s.w > t.x && s.y < t.y + t.h && s.y + s.h > t.y) {
           var cx = (s.x + s.w/2) - (t.x + t.w/2);
@@ -440,6 +508,7 @@ body::-webkit-scrollbar {
       }
     }
     for (var i = 0; i < n; i++) {
+      if (i === dragIdx) continue;
       cells[i].style.left = st[i].x + 'px';
       cells[i].style.top = st[i].y + 'px';
     }

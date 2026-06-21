@@ -280,20 +280,19 @@ body::-webkit-scrollbar {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 3px;
+  cursor: grab;
+  background: rgba(0,0,0,0.06);
 }
 .float-cell a, .float-cell img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .float-cell:hover {
   z-index: 999 !important;
 }
-.float-cell:hover img {
-  transform: scale(1.08);
-  transition: transform 0.5s ease;
-}
+.float-cell:active { cursor: grabbing; }
 @media (max-width: 768px) {
   .float-cell { width: 42%; }
 }
@@ -342,16 +341,16 @@ body::-webkit-scrollbar {
 </div>
 
 <div class="free-float">
-<div class="float-cell"><a href="/pfe/"><img src="/wp-content/uploads/2025/02/HD-PLACENTI-PROJET-2025-02-05-DSC_4646.jpg" alt="Un foncier parisien possible"></a></div>
-<div class="float-cell"><a href="/cardboard-shelter-studio/"><img src="/wp-content/uploads/2024/05/SP11_whole-view-1.webp" alt="Cardboard shelter studio"></a></div>
-<div class="float-cell"><a href="/388/"><img src="/wp-content/uploads/2024/05/IMG_3082.webp" alt="Float architecture studio"></a></div>
-<div class="float-cell"><a href="/sona-internship-recap/"><img src="/wp-content/uploads/2024/07/archi-de-.png" alt="SONA Internship Recap"></a></div>
-<div class="float-cell"><a href="/chatenay-malabry-dwell-in-the-ruins-of-the-abundance-age/"><img src="/wp-content/uploads/2024/06/coupecell.jpg" alt="Chatenay Malabry"></a></div>
-<div class="float-cell"><a href="/study-of-the-gerrit-rietveld-academy-and-sandberg-institute/"><img src="/wp-content/uploads/2024/05/YesSirCestlafin.jpg" alt="Rietveld Academy Study"></a></div>
-<div class="float-cell"><a href="/desert-observatory/"><img src="/wp-content/uploads/2024/05/Fini.jpg" alt="Desert Observatory"></a></div>
-<div class="float-cell"><a href="/clairvaux-faire-converger-clairvaux-to-converge-and-align/"><img src="/wp-content/uploads/2024/05/Plan-satellite-axe_page_1.webp" alt="Clairvaux"></a></div>
-<div class="float-cell"><a href="/dreux-kunsthall/"><img src="/wp-content/uploads/2024/06/detail-petit.jpg" alt="Dreux Kunsthall"></a></div>
-<div class="float-cell"><a href="/tobato/"><img src="/wp-content/uploads/2023/01/KeyART.png" alt="Tobato"></a></div>
+<div class="float-cell"><a href="/pfe/"><img src="/wp-content/uploads/2025/02/HD-PLACENTI-PROJET-2025-02-05-DSC_4646_half.webp" alt="Un foncier parisien possible"></a></div>
+<div class="float-cell"><a href="/cardboard-shelter-studio/"><img src="/wp-content/uploads/2024/05/SP11_whole-view-1_half.webp" alt="Cardboard shelter studio"></a></div>
+<div class="float-cell"><a href="/388/"><img src="/wp-content/uploads/2024/05/IMG_3082_half.webp" alt="Float architecture studio"></a></div>
+<div class="float-cell"><a href="/sona-internship-recap/"><img src="/wp-content/uploads/2024/07/archi-de-_half.webp" alt="SONA Internship Recap"></a></div>
+<div class="float-cell"><a href="/chatenay-malabry-dwell-in-the-ruins-of-the-abundance-age/"><img src="/wp-content/uploads/2024/06/coupecell_half.webp" alt="Chatenay Malabry"></a></div>
+<div class="float-cell"><a href="/study-of-the-gerrit-rietveld-academy-and-sandberg-institute/"><img src="/wp-content/uploads/2024/05/YesSirCestlafin_half.webp" alt="Rietveld Academy Study"></a></div>
+<div class="float-cell"><a href="/desert-observatory/"><img src="/wp-content/uploads/2024/05/Fini_half.webp" alt="Desert Observatory"></a></div>
+<div class="float-cell"><a href="/clairvaux-faire-converger-clairvaux-to-converge-and-align/"><img src="/wp-content/uploads/2024/05/Plan-satellite-axe_page_1_half.webp" alt="Clairvaux"></a></div>
+<div class="float-cell"><a href="/dreux-kunsthall/"><img src="/wp-content/uploads/2024/06/detail-petit_half.webp" alt="Dreux Kunsthall"></a></div>
+<div class="float-cell"><a href="/tobato/"><img src="/wp-content/uploads/2023/01/KeyART_half.webp" alt="Tobato"></a></div>
 </div>
 </div>
 
@@ -365,6 +364,13 @@ body::-webkit-scrollbar {
   var cols = Math.ceil(Math.sqrt(n));
   var gap = 6;
   var st = [], w, h;
+
+  // Drag state
+  var dragIdx = -1;
+  var dragOffX = 0, dragOffY = 0;
+  var lastMX = 0, lastMY = 0;
+  var dragVX = 0, dragVY = 0;
+
   function init(){
     w = cells[0].offsetWidth;
     h = cells[0].offsetHeight;
@@ -396,9 +402,70 @@ body::-webkit-scrollbar {
       st[i].h = cells[0].offsetHeight;
     }
   });
+
+  // Drag handlers
+  function startDrag(i, mx, my){
+    dragIdx = i;
+    dragOffX = mx - st[i].x;
+    dragOffY = my - st[i].y;
+    lastMX = mx; lastMY = my;
+    dragVX = 0; dragVY = 0;
+    cells[i].style.zIndex = 999;
+  }
+  function moveDrag(mx, my){
+    if (dragIdx < 0) return;
+    var s = st[dragIdx];
+    dragVX = mx - lastMX;
+    dragVY = my - lastMY;
+    lastMX = mx; lastMY = my;
+    s.x = mx - dragOffX;
+    s.y = my - dragOffY;
+    // Clamp to container
+    var cw = c.offsetWidth, ch = c.offsetHeight;
+    if (s.x < 0) s.x = 0;
+    if (s.x + s.w > cw) s.x = cw - s.w;
+    if (s.y < 0) s.y = 0;
+    if (s.y + s.h > ch) s.y = ch - s.h;
+    cells[dragIdx].style.left = s.x + 'px';
+    cells[dragIdx].style.top = s.y + 'px';
+  }
+  function endDrag(){
+    if (dragIdx >= 0) {
+      // Transfer last drag velocity to the cell
+      st[dragIdx].vx = dragVX * 0.3;
+      st[dragIdx].vy = dragVY * 0.3;
+      dragIdx = -1;
+    }
+  }
+
+  for (var i = 0; i < n; i++) {
+    (function(idx){
+      var el = cells[idx];
+      el.addEventListener('mousedown', function(e){
+        e.preventDefault();
+        startDrag(idx, e.clientX, e.clientY);
+      });
+      el.addEventListener('touchstart', function(e){
+        var t = e.touches[0];
+        startDrag(idx, t.clientX, t.clientY);
+      }, {passive: true});
+    })(i);
+  }
+  document.addEventListener('mousemove', function(e){
+    moveDrag(e.clientX, e.clientY);
+  });
+  document.addEventListener('touchmove', function(e){
+    var t = e.touches[0];
+    moveDrag(t.clientX, t.clientY);
+  }, {passive: true});
+  document.addEventListener('mouseup', endDrag);
+  document.addEventListener('touchend', endDrag);
+
   function animate(){
     var cw = c.offsetWidth, ch = c.offsetHeight;
     for (var i = 0; i < n; i++) {
+      // Skip physics on the dragged cell
+      if (i === dragIdx) continue;
       var s = st[i];
       s.x += s.vx;
       s.y += s.vy;
@@ -407,6 +474,7 @@ body::-webkit-scrollbar {
       if (s.y < 0) { s.y = 0; s.vy = -s.vy; }
       if (s.y + s.h > ch) { s.y = ch - s.h; s.vy = -s.vy; }
       for (var j = i + 1; j < n; j++) {
+        if (j === dragIdx) continue;
         var t = st[j];
         if (s.x < t.x + t.w && s.x + s.w > t.x && s.y < t.y + t.h && s.y + s.h > t.y) {
           var cx = (s.x + s.w/2) - (t.x + t.w/2);
@@ -432,6 +500,7 @@ body::-webkit-scrollbar {
       }
     }
     for (var i = 0; i < n; i++) {
+      if (i === dragIdx) continue;
       cells[i].style.left = st[i].x + 'px';
       cells[i].style.top = st[i].y + 'px';
     }
