@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Documentaire réalisé par Louis-Guilhem Placenti">
+<title>Nos Mort·e·s</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <h1 class="title">Nos Mort·e·s</h1>
+
+  <div id="video-container">
+    <video class="video-player" id="v0" src="https://s3.eu-west-3.amazonaws.com/lgplacenti.videos/ecran1.webm" preload="auto"></video>
+    <video class="video-player" id="v1" src="https://s3.eu-west-3.amazonaws.com/lgplacenti.videos/ecran2.webm" preload="auto"></video>
+    <video class="video-player" id="v2" src="https://s3.eu-west-3.amazonaws.com/lgplacenti.videos/ecran3.webm" preload="auto"></video>
+  </div>
+
+  <div id="controls">
+    <div id="mixers">
+      <div class="mixer-group">
+        <span class="mixer-label">1</span>
+        <input type="range" class="mixer" min="0" max="1" step="0.01" value="1" data-video="0">
+      </div>
+      <div class="mixer-group">
+        <span class="mixer-label">2</span>
+        <input type="range" class="mixer" min="0" max="1" step="0.01" value="1" data-video="1">
+      </div>
+      <div class="mixer-group">
+        <span class="mixer-label">3</span>
+        <input type="range" class="mixer" min="0" max="1" step="0.01" value="1" data-video="2">
+      </div>
+    </div>
+
+    <div id="playbar">
+      <button id="play-btn" aria-label="Lecture/Pause">
+        <svg id="play-icon" width="48" height="48" viewBox="0 0 24 24" fill="white">
+          <polygon points="6,4 20,12 6,20"/>
+        </svg>
+        <svg id="pause-icon" width="48" height="48" viewBox="0 0 24 24" fill="white" style="display:none">
+          <rect x="6" y="4" width="4" height="16"/>
+          <rect x="14" y="4" width="4" height="16"/>
+        </svg>
+      </button>
+      <input type="range" id="seek-slider" min="0" max="1000" value="0">
+    </div>
+  </div>
+
+  <div id="info">
+    <p>Le travail que j'ai mené pendant une année de mémoire vise à comprendre comment il est possible d'appréhender la dimension mémorielle des luttes de celleux qui se battent pour la justice sociale. J'ai donc soupesé la mémoire institutionnelle pour comprendre comment elle s'est imposée jusqu'à devenir un socle sociétal commun. Le documentaire et la partie écrite du mémoire interrogent ensuite la part institutionnelle des luttes pour appréhender le rapport ambigu que la revendication entretient avec l'institutionnalisation des mémoires qui sont, sauf quelques exceptions comme les mémoires militaires, toutes passées par la revendication. De plus, j'ai essayé de pousser le médium filmique et documentaire pour créer à mon tour un monument à visée mémorielle, qui vise au synoptisme (terme emprunté à la météorologie), c'est-à-dire l'étude de plusieurs phénomènes simultanés afin de les percevoir en un même ensemble. J'ai essayé de mettre en lien, sans les mettre en concurrence ni les traiter comme des phénomènes isolés, la mémoire des victimes de violences systémiques.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
