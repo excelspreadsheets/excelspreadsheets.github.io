@@ -1,0 +1,9 @@
+{
+  "name": "Nos Mort·e·s",
+  "short_name": "Nos Morts",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "start_url": "index.html",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
