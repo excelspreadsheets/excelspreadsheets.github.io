@@ -5,16 +5,32 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Documentaire réalisé par Louis-Guilhem Placenti">
 <title>Nos Mort·e·s</title>
+<!-- Force landscape on mobile: iOS Safari reads this -->
+<meta name="screen-orientation" content="landscape">
+<meta name="x5-orientation" content="landscape">
+<meta name="x5-page-mode" content="app">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- Rotate prompt (shown on portrait mobile) -->
+<div id="rotate-overlay">
+  <div class="rotate-message">
+    <svg width="64" height="64" viewBox="0 0 24 24" fill="white">
+      <path d="M15.55 5.55L11 1v3.07C7.06 4.56 4 7.92 4 12s3.06 7.44 7 7.93v-2.02c-2.84-.48-5-2.94-5-5.91s2.16-5.43 5-5.91V1l4.55 4.55z"/>
+      <path d="M19.93 11a7.906 7.906 0 0 0-1.62-3.89l-1.42 1.42c.54.75.88 1.6 1.02 2.47h2.02zM13 17.93v2.02c1.39-.17 2.68-.64 3.82-1.35l-1.42-1.42c-.75.54-1.6.88-2.4 1.02zM16.89 15.46l1.42 1.42a7.91 7.91 0 0 0 1.62-3.89h-2.02c-.14.87-.48 1.72-1.02 2.47z"/>
+    </svg>
+    <p>Pivotez votre écran</p>
+    <span>Tournez votre téléphone en mode paysage pour profiter de l'expérience</span>
+  </div>
+</div>
+
 <div id="app">
   <h1 class="title">Nos Mort·e·s</h1>
 
   <div id="video-container">
-    <video class="video-player" id="v0" src="https://s3.eu-west-3.amazonaws.com/lgplacenti.videos/ecran1.webm" preload="auto"></video>
-    <video class="video-player" id="v1" src="https://s3.eu-west-3.amazonaws.com/lgplacenti.videos/ecran2.webm" preload="auto"></video>
-    <video class="video-player" id="v2" src="https://s3.eu-west-3.amazonaws.com/lgplacenti.videos/ecran3.webm" preload="auto"></video>
+    <video class="video-player" id="v0" src="https://s3.eu-west-3.amazonaws.com/lgplacenti.videos/ecran1.webm" preload="auto" controlslist="nodownload noremoteplayback" disablepictureinpicture oncontextmenu="return false;"></video>
+    <video class="video-player" id="v1" src="https://s3.eu-west-3.amazonaws.com/lgplacenti.videos/ecran2.webm" preload="auto" controlslist="nodownload noremoteplayback" disablepictureinpicture oncontextmenu="return false;"></video>
+    <video class="video-player" id="v2" src="https://s3.eu-west-3.amazonaws.com/lgplacenti.videos/ecran3.webm" preload="auto" controlslist="nodownload noremoteplayback" disablepictureinpicture oncontextmenu="return false;"></video>
   </div>
 
   <div id="controls">

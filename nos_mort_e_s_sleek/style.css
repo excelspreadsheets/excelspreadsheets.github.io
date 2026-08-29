@@ -219,6 +219,66 @@ body {
 
 #info::-webkit-scrollbar { display: none; }
 
+/* ── Rotate overlay (portrait mobile) ── */
+#rotate-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.rotate-message svg {
+  margin-bottom: 1.5rem;
+  animation: rotate-phone 2s ease-in-out infinite;
+}
+
+.rotate-message p {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.rotate-message span {
+  font-size: 0.95rem;
+  opacity: 0.6;
+  display: block;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+@keyframes rotate-phone {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(90deg); }
+  50% { transform: rotate(90deg); }
+  75% { transform: rotate(0deg); }
+}
+
+/* Show overlay on portrait mobile (screen <= 768px AND height > width) */
+@media (pointer: coarse) and (orientation: portrait) {
+  #rotate-overlay { display: flex; }
+  #app { display: none; }
+}
+
+@media (pointer: coarse) and (orientation: landscape) {
+  #rotate-overlay { display: none !important; }
+  #app { display: flex; }
+}
+
+/* On non-touch or wide screens, hide overlay and show app */
+@media (pointer: fine) {
+  #rotate-overlay { display: none !important; }
+  #app { display: flex; }
+}
+
+/* Safety: always show app if overlay hidden via display none */
+#rotate-overlay:not([style*="display: flex"]) ~ #app {
+  display: flex;
+}
+
 /* ── Responsive ── */
 @media (max-aspect-ratio: 1/1) {
   #v0, #v1, #v2 {
