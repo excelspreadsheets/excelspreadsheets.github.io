@@ -13,10 +13,7 @@ function enterFullscreen() {
   const req = el.requestFullscreen || el.webkitRequestFullscreen
     || el.mozRequestFullScreen || el.msRequestFullscreen;
   if (!req) return;
-  try {
-    const p = req.call(el);
-    if (p && p.catch) p.catch(() => {});
-  } catch (_) {}
+  try { const p = req.call(el); if (p && p.catch) p.catch(() => {}); } catch (_) {}
 }
 
 // ══════════════════════════════════════════════
@@ -34,30 +31,25 @@ function enterFullscreen() {
 // ══════════════════════════════════════════════
 //  DOM REFS
 // ══════════════════════════════════════════════
-const MASTER_IDX = 0;
 const videos = [0, 1, 2].map(i => document.getElementById('v' + i));
-const master = videos[MASTER_IDX];
 const playBtn = document.getElementById('play-btn');
 const playIcon = document.getElementById('play-icon');
 const pauseIcon = document.getElementById('pause-icon');
 const seek = document.getElementById('seek-slider');
 const mixers = document.querySelectorAll('.mixer');
 
-// ── State ──
+// ══════════════════════════════════════════════
+//  SYNC ENGINE — programmatic timekeeper
+//  No master/slave. JS owns the clock.
+//  All videos are corrected to the same logical time.
+// ══════════════════════════════════════════════
+
+let logicalTime = 0;          // the "true" time according to our clock
+let playStartWall = 0;        // performance.now() at last play()
+let playStartLogical = 0;     // logicalTime at last play()
 let isPlaying = false;
-let buffering = false;      // true while we paused because a video was waiting
-let seekGrace = 0;          // timeupdate-driven UI suppressed until this
-let enlargedIndex = -1;
-let waitTimer = null;       // debounce for buffer-pause
-let resumeGuard = 0;        // cooldown for auto-resume (prevents thrash loops)
-let startupGuard = 0;       // ignore waiting right after play (initial load)
 
-const SYNC_TOLERANCE = 0.5; // seconds — only correct when drift exceeds this
-
-// ══════════════════════════════════════════════
-//  HELPERS
-// ══════════════════════════════════════════════
-
+// ── Get the max duration across loaded videos ──
 function getDuration() {
   let max = 0;
   for (const v of videos) {
@@ -66,33 +58,54 @@ function getDuration() {
   return max;
 }
 
-function getCurrentTime() {
-  if (master.duration) return master.currentTime;
+// ── Current logical time (real-time computed from clock) ──
+function nowPlaying() {
+  if (!isPlaying || !playStartWall) return logicalTime;
+  return playStartLogical + (performance.now() - playStartWall) / 1000;
+}
+
+// ── How far a given video lags behind logicalTime ──
+function drift(v) {
+  const target = nowPlaying();
+  if (!v.duration) return 0;
+  return target - v.currentTime;
+}
+
+// ── Write logicalTime to ALL videos ──
+function setAllCurrentTime(t) {
   for (const v of videos) {
-    if (v.duration) return v.currentTime;
-  }
-  return 0;
-}
-
-// Player can actually decode/paint right now?
-function isReady(v) {
-  return v.readyState >= 2 && !v.seeking;
-}
-
-function updatePlayIcon() {
-  playIcon.style.display = isPlaying ? 'none' : 'block';
-  pauseIcon.style.display = isPlaying ? 'block' : 'none';
-}
-
-function updateSeekDisplay() {
-  const dur = getDuration();
-  const ct = getCurrentTime();
-  if (dur) {
-    const pct = Math.min(ct / dur, 1);
-    seek.value = pct * 1000;
-    seek.style.setProperty('--seek', (pct * 100) + '%');
+    if (!v.duration) continue;  // not loaded yet
+    v.currentTime = t;
   }
 }
+
+// ══════════════════════════════════════════════
+//  SYNC LOOP
+//  Runs at ~4 Hz during playback.
+//  Corrects every video whose drift exceeds 0.3s.
+// ══════════════════════════════════════════════
+
+const SYNC_INTERVAL = 250;  // ms between corrections
+const DRIFT_TOL = 0.3;       // seconds — drift must exceed this to trigger a snap
+let lastSync = 0;
+
+function syncLoop(ts) {
+  if (isPlaying && ts - lastSync >= SYNC_INTERVAL) {
+    lastSync = ts;
+    const target = nowPlaying();
+    for (const v of videos) {
+      if (!v.duration || v.seeking) continue;
+      const d = Math.abs(target - v.currentTime);
+      if (d > DRIFT_TOL) {
+        v.currentTime = target;
+      }
+    }
+  }
+  // Always update slider at ~60 fps for smoothness
+  updateSeekDisplay();
+  requestAnimationFrame(syncLoop);
+}
+requestAnimationFrame(syncLoop);
 
 // ══════════════════════════════════════════════
 //  PLAY / PAUSE
@@ -103,14 +116,19 @@ async function syncPlay() {
 
   // If everything ended, restart from zero
   if (videos.every(v => v.ended)) {
+    logicalTime = 0;
     for (const v of videos) v.currentTime = 0;
   }
 
-  // Clamp slaves to master before starting
-  const mt = master.currentTime;
-  for (let i = 1; i < videos.length; i++) {
-    if (videos[i].duration) videos[i].currentTime = mt;
+  // Sync all videos to the logical clock before starting
+  const t = nowPlaying();
+  for (const v of videos) {
+    if (v.duration) v.currentTime = t;
   }
+
+  // Start the clock
+  playStartWall = performance.now();
+  playStartLogical = nowPlaying();
 
   startupGuard = Date.now() + 800;
 
@@ -119,14 +137,14 @@ async function syncPlay() {
     await Promise.all(promises);
     isPlaying = true;
     updatePlayIcon();
-  } catch (_) {
-    // autoplay blocked — user must interact first
-  }
+  } catch (_) {}
 }
 
 function syncPause() {
   if (!isPlaying) return;
   clearTimeout(waitTimer);
+  // Freeze logical time to current clock value
+  logicalTime = nowPlaying();
   for (const v of videos) v.pause();
   isPlaying = false;
   updatePlayIcon();
@@ -137,95 +155,8 @@ function togglePlay() {
 }
 
 // ══════════════════════════════════════════════
-//  SUPERVISOR — drift correction at ~8 Hz via rAF
-//  (independent of timeupdate, which Firefox throttles)
-// ══════════════════════════════════════════════
-
-let lastCheck = 0;
-
-function checkSync() {
-  if (buffering || !isPlaying) return;
-  const mt = master.currentTime;
-  for (let i = 1; i < videos.length; i++) {
-    const v = videos[i];
-    if (!isReady(v)) continue;              // don't fight its loading state
-    if (Math.abs(v.currentTime - mt) > SYNC_TOLERANCE) {
-      v.currentTime = mt;                  // hard snap
-    }
-  }
-}
-
-function supervisor(ts) {
-  if (isPlaying && ts - lastCheck > 125) {
-    lastCheck = ts;
-    checkSync();
-  }
-  requestAnimationFrame(supervisor);
-}
-requestAnimationFrame(supervisor);
-
-// ══════════════════════════════════════════════
-//  UI HEARTBEAT — master timeupdate only drives the slider
-// ══════════════════════════════════════════════
-
-master.addEventListener('timeupdate', () => {
-  if (Date.now() < seekGrace) return;
-  updateSeekDisplay();
-});
-
-// ══════════════════════════════════════════════
-//  BUFFERING — pause all (debounced), resume once ready (cooldowned)
-// ══════════════════════════════════════════════
-
-for (const v of videos) {
-  v.addEventListener('waiting', () => {
-    if (!isPlaying) return;
-    if (Date.now() < startupGuard) return;      // let playback start-up
-    clearTimeout(waitTimer);
-    waitTimer = setTimeout(() => {
-      if (!isPlaying) return;
-      buffering = true;
-      for (const vv of videos) vv.pause();
-      isPlaying = false;
-      updatePlayIcon();
-    }, 350);                                     // tolerate brief hitches
-  });
-
-  v.addEventListener('canplay', () => {
-    if (!buffering) return;
-    clearTimeout(waitTimer);
-    buffering = false;
-    // Cooldown so a burst of canplay events can't re-trigger play repeatedly
-    if (Date.now() < resumeGuard) return;
-    resumeGuard = Date.now() + 1200;
-    syncPlay();
-  });
-}
-
-// ══════════════════════════════════════════════
-//  PAUSE / ENDED detection (not buffer-induced)
-// ══════════════════════════════════════════════
-
-for (const v of videos) {
-  v.addEventListener('pause', () => {
-    if (buffering) return;
-    if (!isPlaying) return;
-    if (videos.every(vv => vv.paused || vv.ended)) {
-      isPlaying = false;
-      updatePlayIcon();
-    }
-  });
-
-  v.addEventListener('ended', () => {
-    if (videos.every(vv => vv.ended)) {
-      isPlaying = false;
-      updatePlayIcon();
-    }
-  });
-}
-
-// ══════════════════════════════════════════════
-//  SEEK — visual on drag, commit on release
+//  SEEK
+//  Resets the logical clock to the target time.
 // ══════════════════════════════════════════════
 
 seek.addEventListener('input', () => {
@@ -242,10 +173,23 @@ function commitSeek() {
   const ratio = parseFloat(seek.value) / 1000;
   const target = ratio * dur;
 
-  seekGrace = Date.now() + 500; // suppress UI thrash during seek
+  // Reset the logical clock
+  logicalTime = target;
+  // If currently playing, restart the wall clock from here
+  if (isPlaying) {
+    playStartWall = performance.now();
+    playStartLogical = target;
+  } else {
+    playStartWall = 0;  // will be set on next play()
+  }
 
-  for (const v of videos) v.currentTime = target;
+  // Seek all videos (even if paused, so user sees the new frame)
+  setAllCurrentTime(target);
 
+  // Suppress UI thrash during seek
+  seekGrace = Date.now() + 500;
+
+  // Re-enable once all seeked
   let seekedCount = 0;
   function onSeeked() {
     seekedCount++;
@@ -259,14 +203,92 @@ function commitSeek() {
 }
 
 // ══════════════════════════════════════════════
+//  UI
+// ══════════════════════════════════════════════
+
+let seekGrace = 0;    // slider UI suppressed until this timestamp
+
+function updatePlayIcon() {
+  playIcon.style.display = isPlaying ? 'none' : 'block';
+  pauseIcon.style.display = isPlaying ? 'block' : 'none';
+}
+
+function updateSeekDisplay() {
+  if (Date.now() < seekGrace) return;
+  const dur = getDuration();
+  const ct = nowPlaying();
+  if (dur) {
+    const pct = Math.min(ct / dur, 1);
+    seek.value = pct * 1000;
+    seek.style.setProperty('--seek', (pct * 100) + '%');
+  }
+}
+
+// ══════════════════════════════════════════════
+//  BUFFERING
+//  Pause all on sustained waiting. Resume on canplay.
+// ══════════════════════════════════════════════
+
+let buffering = false;
+let waitTimer = null;
+let startupGuard = 0;
+let resumeGuard = 0;
+
+for (const v of videos) {
+  v.addEventListener('waiting', () => {
+    if (!isPlaying) return;
+    if (Date.now() < startupGuard) return;
+    clearTimeout(waitTimer);
+    waitTimer = setTimeout(() => {
+      if (!isPlaying) return;
+      buffering = true;
+      logicalTime = nowPlaying();   // freeze clock
+      for (const vv of videos) vv.pause();
+      isPlaying = false;
+      updatePlayIcon();
+    }, 350);
+  });
+
+  v.addEventListener('canplay', () => {
+    if (!buffering) return;
+    clearTimeout(waitTimer);
+    buffering = false;
+    if (Date.now() < resumeGuard) return;
+    resumeGuard = Date.now() + 1200;
+    syncPlay();
+  });
+}
+
+// ══════════════════════════════════════════════
+//  PAUSE / ENDED detection (not buffer-related)
+// ══════════════════════════════════════════════
+
+for (const v of videos) {
+  v.addEventListener('pause', () => {
+    if (buffering) return;
+    if (!isPlaying) return;
+    if (videos.every(vv => vv.paused || vv.ended)) {
+      logicalTime = nowPlaying();  // freeze clock
+      isPlaying = false;
+      updatePlayIcon();
+    }
+  });
+
+  v.addEventListener('ended', () => {
+    if (videos.every(vv => vv.ended)) {
+      logicalTime = nowPlaying();
+      isPlaying = false;
+      updatePlayIcon();
+    }
+  });
+}
+
+// ══════════════════════════════════════════════
 //  LOADED METADATA
 // ══════════════════════════════════════════════
 
 for (const v of videos) {
-  v.addEventListener('loadedmetadata', () => {
-    seek.max = 1000;
-    updateSeekDisplay();
-  });
+  v.addEventListener('loadedmetadata', () => { seek.max = 1000; });
 }
 
 // ══════════════════════════════════════════════
@@ -316,6 +338,8 @@ for (const v of videos) {
 // ══════════════════════════════════════════════
 //  CLICK ENLARGE (locked toggle)
 // ══════════════════════════════════════════════
+
+let enlargedIndex = -1;
 
 for (const v of videos) {
   v.addEventListener('click', (e) => {
