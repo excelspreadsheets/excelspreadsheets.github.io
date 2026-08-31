@@ -2148,3 +2148,58 @@
 [2026-08-30 23:08:02 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/bassin-minier-du-nord-pas-de-calais-panoramas-2024/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
 [2026-08-30 23:08:02 : INFO] - Cache for next post (with URL: https://localhost/wordpress/frise-de-droit-compare/) adjacent to post with id: 1487 has been purged, triggered by action: save_post 
 [2026-08-30 23:08:02 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2026-08-31 02:25:06 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2026-08-31 02:43:03 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2026-08-31 02:43:56 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2026-08-31 02:45:28 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2026-08-31 02:47:15 : INFO] - Cache for URL: https://localhost/wordpress/architecture-landing-page/ has been purged, triggered by action: save_post 
+[2026-08-31 02:52:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2026-08-31 02:52:20 : INFO] - Cache for URL: https://localhost/wordpress/axis-a-4/ has been purged, triggered by action: save_post 
+[2026-08-31 02:52:20 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 810 has been purged, triggered by action: save_post 
+[2026-08-31 02:52:20 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-b/) adjacent to post with id: 810 has been purged, triggered by action: save_post 
+[2026-08-31 02:52:20 : INFO] - Cache for all archives page associated with post_type: post and Title: "Axis A" have been purged, triggered by action: save_post 
+[2026-08-31 02:52:39 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2026-08-31 02:52:39 : INFO] - Cache for URL: https://localhost/wordpress/axis-a-4/ has been purged, triggered by action: save_post 
+[2026-08-31 02:52:39 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 810 has been purged, triggered by action: save_post 
+[2026-08-31 02:52:39 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-b/) adjacent to post with id: 810 has been purged, triggered by action: save_post 
+[2026-08-31 02:52:39 : INFO] - Cache for all archives page associated with post_type: post and Title: "Axis A" have been purged, triggered by action: save_post 
+[2026-08-31 02:52:58 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2026-08-31 02:52:58 : INFO] - Cache for URL: https://localhost/wordpress/axis-a-4/ has been purged, triggered by action: save_post 
+[2026-08-31 02:52:58 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/clairvaux-faire-converger-clairvaux-to-converge-and-align/) adjacent to post with id: 810 has been purged, triggered by action: save_post 
+[2026-08-31 02:52:58 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-b/) adjacent to post with id: 810 has been purged, triggered by action: save_post 
+[2026-08-31 02:52:58 : INFO] - Cache for all archives page associated with post_type: post and Title: "Axis A" have been purged, triggered by action: save_post 
+[2026-08-31 02:53:47 : INFO] - Cache for URL: https://localhost/wordpress/?p=607 has been purged, triggered by action: wp_trash_post 
+[2026-08-31 02:53:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2026-08-31 02:53:47 : INFO] - Cache for URL: https://localhost/wordpress/?p=607 has been purged, triggered by action: save_post 
+[2026-08-31 02:53:47 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/sicile-2023/) adjacent to post with id: 607 has been purged, triggered by action: save_post 
+[2026-08-31 02:53:47 : INFO] - Cache for next post (with URL: https://localhost/wordpress/haute-saone-2024/) adjacent to post with id: 607 has been purged, triggered by action: save_post 
+[2026-08-31 02:53:47 : INFO] - Cache for all archives page associated with post_type: post and Title: "Axis A 3 &#8211; Energie" have been purged, triggered by action: save_post 
+[2026-08-31 02:53:49 : INFO] - Cache for URL: https://localhost/wordpress/?p=990 has been purged, triggered by action: wp_trash_post 
+[2026-08-31 02:53:49 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2026-08-31 02:53:49 : INFO] - Cache for URL: https://localhost/wordpress/?p=990 has been purged, triggered by action: save_post 
+[2026-08-31 02:53:49 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/carte-de-mantes-la-jolie/) adjacent to post with id: 990 has been purged, triggered by action: save_post 
+[2026-08-31 02:53:49 : INFO] - Cache for all archives page associated with post_type: post and Title: "Drum&#8217;n Bass Piano" have been purged, triggered by action: save_post 
+[2026-08-31 02:54:36 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2026-08-31 02:54:36 : INFO] - Cache for URL: https://localhost/wordpress/axis-b/ has been purged, triggered by action: save_post 
+[2026-08-31 02:54:36 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/axis-a-4/) adjacent to post with id: 914 has been purged, triggered by action: save_post 
+[2026-08-31 02:54:36 : INFO] - Cache for next post (with URL: https://localhost/wordpress/axis-c/) adjacent to post with id: 914 has been purged, triggered by action: save_post 
+[2026-08-31 02:54:36 : INFO] - Cache for all archives page associated with post_type: post and Title: "Axis B" have been purged, triggered by action: save_post 
+[2026-08-31 02:55:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2026-08-31 02:55:20 : INFO] - Cache for URL: https://localhost/wordpress/axis-c/ has been purged, triggered by action: save_post 
+[2026-08-31 02:55:20 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/axis-b/) adjacent to post with id: 917 has been purged, triggered by action: save_post 
+[2026-08-31 02:55:20 : INFO] - Cache for next post (with URL: https://localhost/wordpress/pastoralism-renewal-come-mazin-pietri-et-camille-de-broissia/) adjacent to post with id: 917 has been purged, triggered by action: save_post 
+[2026-08-31 02:55:20 : INFO] - Cache for all archives page associated with post_type: post and Title: "Axis C" have been purged, triggered by action: save_post 
+[2026-08-31 03:23:52 : INFO] - Cache for URL: https://localhost/wordpress/?p=2089 has been purged, triggered by action: wp_trash_post 
+[2026-08-31 03:23:52 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2026-08-31 03:23:52 : INFO] - Cache for URL: https://localhost/wordpress/?p=2089 has been purged, triggered by action: save_post 
+[2026-08-31 03:23:52 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/carte-de-mantes-la-jolie/) adjacent to post with id: 2089 has been purged, triggered by action: save_post 
+[2026-08-31 03:23:52 : INFO] - Cache for all archives page associated with post_type: post and Title: "Un foncier parisien possible" have been purged, triggered by action: save_post 
+[2026-08-31 03:29:07 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2026-08-31 03:29:07 : INFO] - Cache for URL: https://localhost/wordpress/1886-2/ has been purged, triggered by action: save_post 
+[2026-08-31 03:29:07 : INFO] - Cache for previous post (with URL: https://localhost/wordpress/1863-2/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2026-08-31 03:29:07 : INFO] - Cache for next post (with URL: https://localhost/wordpress/baie-du-mont-saint-michel-2025/) adjacent to post with id: 1886 has been purged, triggered by action: save_post 
+[2026-08-31 03:29:07 : INFO] - Cache for all archives page associated with post_type: post and Title: "Sophie Thune &#8211; Wet rooms" have been purged, triggered by action: save_post 
+[2026-08-31 03:30:34 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2026-08-31 03:33:35 : INFO] - Cache for URL: https://localhost/wordpress/photography/ has been purged, triggered by action: save_post 
+[2026-08-31 04:01:22 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
+[2026-08-31 04:03:09 : INFO] - Cache for URL: https://localhost/wordpress/ has been purged, triggered by action: save_post 
