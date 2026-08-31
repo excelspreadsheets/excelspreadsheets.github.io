@@ -221,7 +221,14 @@ add_action(
 		if (t.indexOf('Louis') !== -1 && t.indexOf('Placenti') !== -1) {
 			var flicker = h.querySelector('.flicker-text2');
 			h.innerHTML = '';
-			if (flicker) { h.appendChild(flicker.cloneNode(true)); }
+			if (flicker) {
+				h.appendChild(flicker.cloneNode(true));
+				/* Strip the blinking underscore from the link text so it isn't duplicated */
+				var flText = (flicker.textContent || '').trim();
+				if (flText && t.indexOf(flText) === 0) {
+					t = t.slice(flText.length).trim();
+				}
+			}
 			var a = document.createElement('a');
 			a.href = CV_LINK;
 			a.target = '_blank';
